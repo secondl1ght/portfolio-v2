@@ -1,6 +1,18 @@
 <script>
   import Tech from "./Tech.svelte";
   import { contact } from "../lib/store";
+  const favoriteTechStack = [
+    { tech: "html5", icon: "/icons/html.svg" },
+    { tech: "css3", icon: "/icons/css.svg" },
+    { tech: "javascript", icon: "/icons/js.svg" },
+    { tech: "sveltekit", icon: "/icons/svelte.svg" },
+    { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
+    { tech: "graphql", icon: "/icons/graphql.svg" },
+    { tech: "yarn", icon: "/icons/yarn.svg" },
+    { tech: "docker", icon: "/icons/docker.svg" },
+    { tech: "linux", icon: "/icons/linux.svg" },
+    { tech: "bitcoin", icon: "/icons/bitcoin.svg" },
+  ];
 </script>
 
 <div
@@ -34,76 +46,10 @@
   </p>
   <div>
     <h4 class="text-white text-lg md:text-xl mb-5">favorite tech stack</h4>
-    <div class="block md:flex flex-wrap lg:w-[70vw]">
-      <Tech
-        tech="html5"
-        icon="/icons/html.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
-
-      <Tech
-        tech="css3"
-        icon="/icons/css.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
-
-      <Tech
-        tech="javascript"
-        icon="/icons/js.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
-
-      <Tech
-        tech="sveltekit"
-        icon="/icons/svelte.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
-
-      <Tech
-        tech="tailwindcss"
-        icon="/icons/tailwind.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
-
-      <Tech
-        tech="graphql"
-        icon="/icons/graphql.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
-
-      <Tech
-        tech="yarn"
-        icon="/icons/yarn.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
-
-      <Tech
-        tech="docker"
-        icon="/icons/docker.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
-
-      <Tech
-        tech="linux"
-        icon="/icons/linux.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
-
-      <Tech
-        tech="bitcoin"
-        icon="/icons/bitcoin.svg"
-        margin="mr-10 mb-5"
-        hover={"hover:shadow-lg"}
-      />
+    <div class="block md:flex flex-wrap lg:w-[70vw] xl:w-[55vw]">
+      {#each favoriteTechStack as tech}
+        <Tech tech={tech.tech} icon={tech.icon} />
+      {/each}
     </div>
   </div>
   <div bind:this={$contact} />

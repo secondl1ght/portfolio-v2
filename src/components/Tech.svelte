@@ -1,14 +1,12 @@
 <script>
   export let tech;
   export let icon;
-  export let margin = "";
-  export let hover;
 </script>
 
 <div
-  class="w-auto md:w-[210px] lg:w-[235px] flex items-center space-x-5 {margin}"
+  class="w-auto md:w-[210px] lg:w-[235px] flex items-center space-x-5 mr-10 mb-5"
 >
-  <div class="p-4 bg-shadow {hover}">
+  <div class="p-4 bg-shadow hover:shadow-lg">
     <img
       src={icon}
       alt={tech}

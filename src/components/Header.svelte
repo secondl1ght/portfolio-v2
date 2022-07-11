@@ -1,6 +1,7 @@
 <script>
   import { contributions, background, contact, support } from "../lib/store";
   import { scroll } from "../lib/utils";
+
   let showMenu = false;
 </script>
 
@@ -8,7 +9,7 @@
 <header
   class="hidden md:flex h-20 sticky top-0 z-10 bg-primary/90 justify-center lg:justify-start lg:pl-[25vw] items-center"
 >
-  <nav class="text-lg text-white space-x-16">
+  <nav class="text-xl xl:text-2xl text-white space-x-16">
     <a
       href="https://github.com/secondl1ght"
       target="_blank"

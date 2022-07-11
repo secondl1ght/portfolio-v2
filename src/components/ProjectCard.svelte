@@ -13,7 +13,7 @@
 </script>
 
 <div
-  class="w-[80vw] md:w-[75vw] lg:w-[60vw] {marginTop} bg-gradient-to-r {gradients}"
+  class="w-[80vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] {marginTop} bg-gradient-to-r {gradients}"
 >
   <img
     src={image}
@@ -52,12 +52,7 @@
     <h4 class="text-white text-lg mb-5 md:text-xl lg:text-2xl">tech stack</h4>
     <div>
       {#each tech as tech}
-        <Tech
-          tech={tech.tech}
-          icon={tech.icon}
-          hover="hover:shadow-md"
-          margin="mb-5"
-        />
+        <Tech tech={tech.tech} icon={tech.icon} />
       {/each}
     </div>
   </div>
