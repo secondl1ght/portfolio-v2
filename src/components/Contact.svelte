@@ -3,15 +3,19 @@
   import { support } from "../lib/store";
 </script>
 
-<div class="w-2/3 lg:w-1/2 mx-auto space-y-10 relative my-40">
-  <div class="w-2 h-16 bg-[#956CF7] absolute -top-2.5 -left-10" />
-  <h2 class="text-white mb-5 text-4xl">contact</h2>
-  <p class="text-secondary w-full lg:w-2/3">
+<div class="w-3/4 lg:w-1/2 mx-auto space-y-10 relative my-40">
+  <div
+    class="w-2 h-16 bg-[#956CF7] absolute -top-2.5 md:-top-1 lg:top-1 -left-6 md:-left-10"
+  />
+  <h2 class="text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">contact</h2>
+  <p
+    class="text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
+  >
     while i am not currently looking for work, i am always open to chatting with
     interesting people who share my values and work on projects that align with
     our mission. here are the best ways to get a hold of me:
   </p>
-  <div class="flex flex-wrap">
+  <div class="block md:flex flex-wrap">
     <ContactCard
       method="email"
       icon="/icons/email.svg"

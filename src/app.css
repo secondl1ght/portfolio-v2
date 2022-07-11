@@ -13,7 +13,8 @@
     format("truetype");
 }
 
-body {
+body,
+.ibm {
   font-family: IBMPlexMono, sans-serif;
 }
 

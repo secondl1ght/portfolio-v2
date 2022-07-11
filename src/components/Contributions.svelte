@@ -5,9 +5,13 @@
   import { background } from "../lib/store";
 </script>
 
-<div class="w-2/3 lg:w-1/2 mx-auto mt-40 relative">
-  <div class="w-2 h-16 bg-[#AF7CD5] absolute -top-2.5 -left-10" />
-  <h2 class="text-white mb-10 text-4xl">contributions</h2>
+<div class="w-3/4 lg:w-1/2 mx-auto mt-40 relative">
+  <div
+    class="w-2 h-16 bg-[#AF7CD5] absolute -top-2.5 md:-top-0.5 lg:top-1 -left-6 md:-left-10"
+  />
+  <h2 class="text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
+    contributions
+  </h2>
 
   <ProjectCard
     marginTop="mt-0"
@@ -21,14 +25,14 @@
     duration="nov 2021 - present"
     tech={[
       { tech: "vue.js", icon: "/icons/vue.svg" },
-      { tech: "sveltekit", icon: "/icons/svelte.svg" },
+      { tech: "javascript", icon: "/icons/js.svg" },
       { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
     ]}
   />
 
   <ProjectCard
     gradients="from-[#A1C4FD] to-[#C2E9FB]"
-    image="/images/rare.svg"
+    image="/images/rare.png"
     url="https://raretoshi.com/"
     title="raretoshi"
     description="mint, collect, and transact rare digital & physical bitcoin art on the liquid network."
@@ -46,7 +50,7 @@
 
   <ProjectCard
     gradients="from-[#B1F5EE] to-[#A6C1EE]"
-    image="/images/geyser.svg"
+    image="/images/geyser.png"
     url="https://geyser.fund/"
     title="geyser"
     description="global and user-friendly crowdfunding, grants, and other engaging use-cases on the bitcoin lightning network."
@@ -63,7 +67,7 @@
 
   <ProjectCard
     gradients="from-[#F6D365] to-[#FDA085]"
-    image="/images/alby.svg"
+    image="/images/alby.png"
     url="https://getalby.com/"
     title="alby"
     description="a versatile lightning browser extension bringing bitcoin payments and
@@ -78,10 +82,14 @@ authentication to the web."
     ]}
   />
 
-  <div class="relative mt-40">
-    <div class="w-2 h-16 bg-[#A3C6FD] absolute -top-2.5 -left-10" />
-    <h2 class="text-white mb-5 text-4xl">other contributions</h2>
-    <div class="flex flex-wrap justify-center md:justify-start">
+  <div class="relative mt-40 w-auto lg:w-[70vw]">
+    <div
+      class="w-2 h-16 bg-[#A3C6FD] absolute top-3 md:top-6 lg:top-9 -left-6 md:-left-10"
+    />
+    <h2 class="text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
+      other<br /> contributions
+    </h2>
+    <div class="flex flex-wrap">
       <ProjectMiniCard
         project="jam"
         url="https://github.com/joinmarket-webui/joinmarket-webui"

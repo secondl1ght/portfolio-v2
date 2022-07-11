@@ -5,19 +5,29 @@
   export let description;
 </script>
 
-<a
-  href={url}
-  target="_blank"
-  rel="noreferrer"
-  class="text-white hover:text-hover mb-10 md:mb-0 m-5 hover:shadow-xl"
+<div
+  class="mb-10 m-5 w-full md:w-auto block md:flex items-center md:space-x-10"
 >
-  <div class="block md:flex items-center md:space-x-10">
-    <div class="p-5 bg-shadow">
-      <img src={icon} alt={project} class="mx-auto w-24 h-24" />
+  <a href={url} target="_blank" rel="noreferrer">
+    <div class="p-5 bg-shadow hover:shadow-xl">
+      <img
+        src={icon}
+        alt={project}
+        class="mx-auto w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
+      />
     </div>
-    <div class="mt-2 md:mt-0 w-full md:w-64">
-      <span class="jakarta text-lg">{project}</span>
-      <p class="text-sm text-secondary mt-2">{description}</p>
-    </div>
+  </a>
+  <div class="mt-4 md:mt-0 w-full md:w-64 lg:w-80">
+    <a
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+      class="jakarta text-xl md:text-2xl lg:text-3xl text-white hover:text-hover"
+    >
+      {project}</a
+    >
+    <p class="md:text-lg lg:text-xl text-secondary mt-4 !leading-normal">
+      {description}
+    </p>
   </div>
-</a>
+</div>

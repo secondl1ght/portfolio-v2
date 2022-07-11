@@ -6,10 +6,14 @@
 </script>
 
 <div
-  class="cursor-default w-auto md:w-[175px] block md:flex items-center md:space-x-5 {margin} {hover}"
+  class="w-auto md:w-[210px] lg:w-[235px] flex items-center space-x-5 {margin}"
 >
-  <div class="p-2 bg-shadow">
-    <img src={icon} alt={tech} class="w-8 h-8" />
+  <div class="p-4 bg-shadow {hover}">
+    <img
+      src={icon}
+      alt={tech}
+      class="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12"
+    />
   </div>
-  <p class="hidden md:block text-secondary">{tech}</p>
+  <p class="text-secondary md:text-lg lg:text-xl">{tech}</p>
 </div>

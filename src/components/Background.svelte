@@ -4,23 +4,27 @@
 </script>
 
 <div
-  class="w-2/3 lg:w-1/2 mx-auto space-y-10 relative mt-[7.5rem] md:mt-[8.75rem] mb-40"
+  class="w-3/4 lg:w-1/2 mx-auto space-y-10 relative mt-[7.5rem] md:mt-[8.75rem] mb-40"
 >
-  <div class="w-2 h-16 bg-[#C2E9FB] absolute -top-3 -left-10" />
-  <h2 class="text-white mb-5 text-4xl">background</h2>
-  <p class="text-sm md:text-md text-secondary">
+  <div
+    class="w-2 h-16 bg-[#C2E9FB] absolute -top-3 md:-top-1.5 lg:top-0 -left-6 md:-left-10"
+  />
+  <h2 class="text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">background</h2>
+  <p
+    class="md:text-lg lg:text-xl !leading-normal text-secondary w-full md:w-3/4"
+  >
     during the summer of 2020 i discovered bitcoin and it completely changed my
     life in so many ways. one of which is that it prompted me to give coding a
     try. after discovering how much i enjoy coding, i began working hard at
-    teaching myself the fundamentals of web development. my goal was to become a
-    bitcoin developer so that i could focus all of my resources towards what i
-    believe is the most important project of our time. i am now happy to say
-    that i contribute to open-source projects and work as a bitcoin dev
-    full-time! all of my code is open source, please feel free to review my code
-    on github. this is my proof of work. <br /><br /> i'd like to thank everyone
-    who has helped me along this incredible journey so far, i've met many kind
-    and generous people along the way. for anyone interested in learning how to
-    code, i wrote a blog
+    teaching myself the fundamentals of web development.<br /><br /> my goal was
+    to become a bitcoin developer so that i could focus all of my resources
+    towards what i believe is the most important project of our time. i am now
+    happy to say that i contribute to open-source projects and work as a bitcoin
+    dev full-time! <br /><br /> all of my code is open source, please feel free
+    to review my code on github. this is my proof of work. <br /><br /> i'd like
+    to thank everyone who has helped me along this incredible journey so far,
+    i've met many kind and generous people along the way. for anyone interested
+    in learning how to code, i wrote a blog
     <a
       href="https://dev.to/secondl1ght/how-to-teach-yourself-to-code-and-start-a-new-career-or-at-least-how-i-did-it-2cfn"
       target="_blank"
@@ -29,8 +33,8 @@
     > detailing how i was able to accomplish this.
   </p>
   <div>
-    <h4 class="text-white text-lg mb-2">favorite tech stack</h4>
-    <div class="flex flex-wrap">
+    <h4 class="text-white text-lg md:text-xl mb-5">favorite tech stack</h4>
+    <div class="block md:flex flex-wrap lg:w-[70vw]">
       <Tech
         tech="html5"
         icon="/icons/html.svg"
