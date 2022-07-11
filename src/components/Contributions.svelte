@@ -14,7 +14,7 @@
       description:
         "bitcoin web wallet since 2012 and point-of-sale application, supports both liquid and lightning integration.",
       contribution:
-        "implement a donation and fee system to help monetize the platform, add support functionality, maintain and refactor website and more.",
+        "implement a donation and fee system to help monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
       role: "web developer",
       duration: "nov 2021 - present",
       tech: [
@@ -31,7 +31,7 @@
       description:
         "mint, collect, and transact rare digital & physical bitcoin art on the liquid network.",
       contribution:
-        "ship end to end encrypted messaging, add tipping support, support sat unit conversion, add commenting on artworks, audio file format compatibility and more.",
+        "ship end to end encrypted messaging, add tipping support, support sat unit conversion, add commenting on artworks to increase platform engagement, upload audio file format compatibility & more.",
       role: "open source contributor",
       duration: "nov 2021 - present",
       tech: [
@@ -50,7 +50,7 @@
       description:
         "global and user-friendly crowdfunding, grants, and other engaging use-cases on the bitcoin lightning network.",
       contribution:
-        "launch geyser grants feature, integrate gif support, develop crowdfunding leaderboard and more.",
+        "launch geyser grants feature, integrate gif support, develop crowdfunding leaderboard to boost interactivity & more.",
       role: "web developer",
       duration: "mar 2022 - present",
       tech: [
@@ -68,7 +68,7 @@
       description:
         "a versitile lightning browser extension bringing bitcoin payments and authentication to the web.",
       contribution:
-        "add lightning node connection options, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages and more.",
+        "add lightning node connection options, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
       role: "web developer",
       duration: "oct 2021 - present",
       tech: [
