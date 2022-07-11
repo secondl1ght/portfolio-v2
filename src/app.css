@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: IBMPlexMono, sans-serif;
+}
+
+nav,
+h1,
+h2,
+h3,
+h4,
+.jakarta {
+  font-family: PlusJakartaSans, sans-serif;
+}
+
+::selection {
+  color: white;
+  background: #af7cd5;
+}
