@@ -16,7 +16,7 @@
   <img
     src={image}
     alt={title}
-    class="w-full p-2 lg:p-10 hover:scale-105 transition-transform duration-500"
+    class="w-full p-5 lg:p-10 hover:scale-105 transition-transform duration-500"
   />
 </div>
 <div class="mt-10 block lg:flex justify-between">
