@@ -158,7 +158,7 @@
       tech={project.tech}
     />
   {/each}
-  <div class="relative mt-40 w-auto lg:w-[70vw]">
+  <div class="relative mt-40 w-auto lg:w-[70vw] 3xl:w-[55vw]">
     <div
       class="w-2 h-16 bg-[#A3C6FD] absolute top-3 md:top-6 lg:top-9 -left-6 md:-left-10"
     />

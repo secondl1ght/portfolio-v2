@@ -46,7 +46,7 @@
   </p>
   <div>
     <h4 class="text-white text-lg md:text-xl mb-5">favorite tech stack</h4>
-    <div class="block md:flex flex-wrap lg:w-[70vw] xl:w-[55vw]">
+    <div class="block md:flex flex-wrap lg:w-[70vw] 3xl:w-[55vw]">
       {#each favoriteTechStack as tech}
         <Tech tech={tech.tech} icon={tech.icon} />
       {/each}

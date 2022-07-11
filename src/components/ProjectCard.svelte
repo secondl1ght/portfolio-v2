@@ -13,7 +13,7 @@
 </script>
 
 <div
-  class="w-[80vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] {marginTop} bg-gradient-to-r {gradients}"
+  class="w-[80vw] md:w-[75vw] lg:w-[60vw] 3xl:w-[55vw] {marginTop} bg-gradient-to-r {gradients}"
 >
   <img
     src={image}
