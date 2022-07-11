@@ -56,7 +56,7 @@
           tech={tech.tech}
           icon={tech.icon}
           hover="hover:shadow-md"
-          margin="mr-3 mb-3"
+          margin="mb-5"
         />
       {/each}
     </div>
