@@ -20,7 +20,7 @@
     <h1 class="leading-tight">kindness.</h1>
   </div>
   <h3
-    class="ibm text-2xl md:text-3xl lg:text-4xl w-full lg:w-2/3 text-secondary !leading-normal"
+    class="ibm text-2xl md:text-3xl lg:text-4xl w-full lg:w-3/4 text-secondary !leading-normal"
   >
     an anonymous developer’s mission to make the world a better place.
   </h3>

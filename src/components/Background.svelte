@@ -21,7 +21,9 @@
   <div
     class="w-2 h-16 bg-[#C2E9FB] absolute -top-3 md:-top-1.5 lg:top-0 -left-6 md:-left-10"
   />
-  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">background</h2>
+  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">
+    background
+  </h2>
   <p
     class="ibm md:text-lg lg:text-xl !leading-normal text-secondary w-full md:w-3/4"
   >
@@ -45,7 +47,9 @@
     > detailing how i was able to accomplish this.
   </p>
   <div>
-    <h4 class="jakarta text-white text-lg md:text-xl mb-5">favorite tech stack</h4>
+    <h4 class="jakarta text-white text-lg md:text-xl lg:text-2xl mb-5">
+      favorite tech stack
+    </h4>
     <div class="block md:flex flex-wrap lg:w-[70vw] 3xl:w-[55vw]">
       {#each favoriteTechStack as tech}
         <Tech tech={tech.tech} icon={tech.icon} />

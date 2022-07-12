@@ -37,7 +37,9 @@
     >
       {description}
     </p>
-    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">contribution</h4>
+    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
+      contribution
+    </h4>
     <p
       class="ibm text-secondary w-full lg:w-3/4 md:text-lg lg:text-xl !leading-normal"
     >
@@ -47,9 +49,13 @@
   <div class="mt-10 lg:mt-0 w-full lg:w-1/3">
     <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">role</h4>
     <p class="ibm text-secondary mb-10 md:text-lg lg:text-xl">{role}</p>
-    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">duration</h4>
+    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
+      duration
+    </h4>
     <p class="ibm text-secondary mb-10 md:text-lg lg:text-xl">{duration}</p>
-    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">tech stack</h4>
+    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
+      tech stack
+    </h4>
     <div>
       {#each tech as tech}
         <Tech tech={tech.tech} icon={tech.icon} />

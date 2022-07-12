@@ -9,7 +9,9 @@
   <div
     class="w-2 h-16 bg-[#CD90AC] absolute -top-2.5 md:-top-0.5 lg:top-1 -left-6 md:-left-10"
   />
-  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">support</h2>
+  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">
+    support
+  </h2>
   <p
     class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
   >

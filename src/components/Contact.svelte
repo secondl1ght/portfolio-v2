@@ -30,7 +30,9 @@
   <div
     class="w-2 h-16 bg-[#956CF7] absolute -top-2.5 md:-top-1 lg:top-1 -left-6 md:-left-10"
   />
-  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">contact</h2>
+  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">
+    contact
+  </h2>
   <p
     class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
   >
