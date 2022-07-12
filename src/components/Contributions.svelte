@@ -137,7 +137,7 @@
   ];
 </script>
 
-<div class="w-3/4 lg:w-1/2 mx-auto mt-40 relative">
+<div class="w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2 mx-auto mt-40 relative">
   <div
     class="w-2 h-16 bg-[#AF7CD5] absolute -top-2.5 md:-top-0.5 lg:top-1 -left-6 md:-left-10"
   />

@@ -16,7 +16,7 @@
 </script>
 
 <div
-  class="w-3/4 lg:w-1/2 mx-auto space-y-10 relative mt-[7.5rem] md:mt-[8.75rem] mb-40"
+  class="w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2 mx-auto space-y-10 relative mt-[7.5rem] md:mt-[8.75rem] mb-40"
 >
   <div
     class="w-2 h-16 bg-[#C2E9FB] absolute -top-3 md:-top-1.5 lg:top-0 -left-6 md:-left-10"

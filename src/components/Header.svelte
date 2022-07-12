@@ -7,9 +7,9 @@
 
 <!-- desktop header -->
 <header
-  class="jakarta hidden md:flex h-20 sticky top-0 z-10 bg-primary/90 justify-center lg:justify-start lg:pl-[25vw] items-center"
+  class="w-full jakarta hidden md:flex h-20 sticky top-0 z-10 bg-primary/90 justify-center lg:justify-start lg:pl-[16.65vw] xl:pl-[20.75vw] 2xl:pl-[24.9vw] items-center"
 >
-  <nav class="text-xl xl:text-2xl text-white space-x-16">
+  <nav class="text-xl lg:text-2xl text-white space-x-16">
     <a
       href="https://github.com/secondl1ght"
       target="_blank"
@@ -32,7 +32,9 @@
 </header>
 
 <!-- mobile header -->
-<header class="jakarta block md:hidden h-20 sticky top-0 z-10 bg-primary/90">
+<header
+  class="w-full jakarta block md:hidden h-20 sticky top-0 z-10 bg-primary/90"
+>
   <button
     ><img
       src={!showMenu ? "/icons/mobile-open.svg" : "/icons/mobile-close.svg"}

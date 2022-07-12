@@ -1,4 +1,6 @@
-<div class="w-3/4 lg:w-1/2 mx-auto space-y-10 relative mt-40 mb-[88px]">
+<div
+  class="w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2 mx-auto space-y-10 relative mt-40 mb-[88px]"
+>
   <div
     class="w-2 h-16 bg-[#CD90AC] absolute -top-2.5 md:-top-0.5 lg:top-1 -left-6 md:-left-10"
   />
