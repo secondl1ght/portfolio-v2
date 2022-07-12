@@ -12,9 +12,7 @@
   export let tech;
 </script>
 
-<div
-  class="w-full {marginTop} bg-gradient-to-r {gradients}"
->
+<div class="w-full {marginTop} bg-gradient-to-r {gradients}">
   <img
     src={image}
     alt={title}

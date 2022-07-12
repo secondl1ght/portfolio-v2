@@ -2,9 +2,7 @@
   import { contributions } from "../lib/store";
 </script>
 
-<div
-  class="w-3/4 lg:w-1/2 mx-auto space-y-10 mt-10 md:mt-20"
->
+<div class="w-3/4 lg:w-1/2 mx-auto space-y-10 mt-10 md:mt-20">
   <h4 class="ibm text-xl text-secondary mb-4 md:text-2xl lg:text-3xl">
     secondl1ght
   </h4>
