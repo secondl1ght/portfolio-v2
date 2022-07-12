@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="flex items-center md:text-lg lg:text-xl md:w-[180px] lg:w-[195px] md:mr-10 mb-5"
+  class="flex items-center md:w-[180px] lg:w-[195px] md:mr-10 mb-5"
 >
   <a href={url} target="_blank" rel="noreferrer">
     <div class="p-4 bg-shadow mr-5 hover:shadow-lg">
@@ -21,7 +21,7 @@
     href={url}
     target="_blank"
     rel="noreferrer"
-    class="ibm text-white hover:text-hover"
+    class="ibm text-white hover:text-hover md:text-lg lg:text-xl"
   >
     {method}
   </a>
