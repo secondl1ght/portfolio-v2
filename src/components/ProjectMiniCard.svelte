@@ -26,7 +26,7 @@
     >
       {project}</a
     >
-    <p class="md:text-lg lg:text-xl text-secondary mt-4 !leading-normal">
+    <p class="ibm md:text-lg lg:text-xl text-secondary mt-4 !leading-normal">
       {description}
     </p>
   </div>

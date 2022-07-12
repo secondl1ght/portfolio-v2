@@ -7,7 +7,7 @@
 
 <!-- desktop header -->
 <header
-  class="hidden md:flex h-20 sticky top-0 z-10 bg-primary/90 justify-center lg:justify-start lg:pl-[25vw] items-center"
+  class="jakarta hidden md:flex h-20 sticky top-0 z-10 bg-primary/90 justify-center lg:justify-start lg:pl-[25vw] items-center"
 >
   <nav class="text-xl xl:text-2xl text-white space-x-16">
     <a
@@ -32,7 +32,7 @@
 </header>
 
 <!-- mobile header -->
-<header class="block md:hidden h-20 sticky top-0 z-10 bg-primary/90">
+<header class="jakarta block md:hidden h-20 sticky top-0 z-10 bg-primary/90">
   <button
     ><img
       src={!showMenu ? "/icons/mobile-open.svg" : "/icons/mobile-close.svg"}

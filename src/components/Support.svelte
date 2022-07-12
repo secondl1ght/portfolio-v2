@@ -9,9 +9,9 @@
   <div
     class="w-2 h-16 bg-[#CD90AC] absolute -top-2.5 md:-top-0.5 lg:top-1 -left-6 md:-left-10"
   />
-  <h2 class="text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">support</h2>
+  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">support</h2>
   <p
-    class="text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
+    class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
   >
     if you beleive in the the potential for powerful positive change that
     bitcoin can bring to the world and would like to support development on the
@@ -22,11 +22,11 @@
     href="https://coinos.io/secondl1ght"
     target="_blank"
     rel="noreferrer"
-    class="w-full md:w-1/2 md:text-lg lg:text-xl h-12 md:h-16 lg:h-20 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white"
+    class="ibm w-full md:w-1/2 md:text-lg lg:text-xl h-12 md:h-16 lg:h-20 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white"
   >
     support my work
   </a>
-  <p class="text-secondary md:text-lg lg:text-xl !leading-normal">
+  <p class="ibm text-secondary md:text-lg lg:text-xl !leading-normal">
     support other bitcoin developers at <a
       href="https://bitcoindevlist.com/"
       target="_blank"

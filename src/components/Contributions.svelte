@@ -141,7 +141,7 @@
   <div
     class="w-2 h-16 bg-[#AF7CD5] absolute -top-2.5 md:-top-0.5 lg:top-1 -left-6 md:-left-10"
   />
-  <h2 class="text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
+  <h2 class="jakarta text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
     contributions
   </h2>
   {#each mainProjects as project}
@@ -162,7 +162,7 @@
     <div
       class="w-2 h-16 bg-[#A3C6FD] absolute top-3 md:top-6 lg:top-9 -left-6 md:-left-10"
     />
-    <h2 class="text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
+    <h2 class="jakarta text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
       other<br /> contributions
     </h2>
     <div class="flex flex-wrap">

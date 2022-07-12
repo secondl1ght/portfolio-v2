@@ -20,7 +20,7 @@
     href={url}
     target="_blank"
     rel="noreferrer"
-    class="text-white hover:text-hover"
+    class="ibm text-white hover:text-hover"
   >
     {method}
   </a>

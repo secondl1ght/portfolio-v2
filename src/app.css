@@ -13,16 +13,10 @@
     format("truetype");
 }
 
-body,
 .ibm {
   font-family: IBMPlexMono, sans-serif;
 }
 
-nav,
-h1,
-h2,
-h3,
-h4,
 .jakarta {
   font-family: PlusJakartaSans, sans-serif;
 }

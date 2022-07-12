@@ -28,28 +28,28 @@
         href={url}
         target="_blank"
         rel="noreferrer"
-        class="text-white hover:text-hover text-4xl md:text-5xl lg:text-6xl"
+        class="jakarta text-white hover:text-hover text-4xl md:text-5xl lg:text-6xl"
         >{title}</a
       >
     </h3>
     <p
-      class="text-secondary w-full md:text-lg lg:text-xl lg:w-3/4 mt-5 mb-10 !leading-normal"
+      class="ibm text-secondary w-full md:text-lg lg:text-xl lg:w-3/4 mt-5 mb-10 !leading-normal"
     >
       {description}
     </p>
-    <h4 class="text-white text-lg mb-5 md:text-xl lg:text-2xl">contribution</h4>
+    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">contribution</h4>
     <p
-      class="text-secondary w-full lg:w-3/4 md:text-lg lg:text-xl !leading-normal"
+      class="ibm text-secondary w-full lg:w-3/4 md:text-lg lg:text-xl !leading-normal"
     >
       {contribution}
     </p>
   </div>
   <div class="mt-10 lg:mt-0 w-full lg:w-1/3">
-    <h4 class="text-white text-lg mb-5 md:text-xl lg:text-2xl">role</h4>
-    <p class="text-secondary mb-10 md:text-lg lg:text-xl">{role}</p>
-    <h4 class="text-white text-lg mb-5 md:text-xl lg:text-2xl">duration</h4>
-    <p class="text-secondary mb-10 md:text-lg lg:text-xl">{duration}</p>
-    <h4 class="text-white text-lg mb-5 md:text-xl lg:text-2xl">tech stack</h4>
+    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">role</h4>
+    <p class="ibm text-secondary mb-10 md:text-lg lg:text-xl">{role}</p>
+    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">duration</h4>
+    <p class="ibm text-secondary mb-10 md:text-lg lg:text-xl">{duration}</p>
+    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">tech stack</h4>
     <div>
       {#each tech as tech}
         <Tech tech={tech.tech} icon={tech.icon} />
