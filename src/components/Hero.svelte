@@ -1,14 +1,9 @@
 <script>
   import { contributions } from "../lib/store";
-
-  let fadeIn = false;
-  setTimeout(() => (fadeIn = true), 0);
 </script>
 
 <div
-  class="w-3/4 lg:w-1/2 mx-auto space-y-10 mt-10 md:mt-20 {fadeIn
-    ? 'opacity-100'
-    : 'opacity-0'} transition-opacity duration-1000"
+  class="w-3/4 lg:w-1/2 mx-auto space-y-10 mt-10 md:mt-20"
 >
   <h4 class="ibm text-xl text-secondary mb-4 md:text-2xl lg:text-3xl">
     secondl1ght
