@@ -4,7 +4,7 @@
 </script>
 
 <div
-  class="w-auto md:w-[210px] lg:w-[235px] flex items-center space-x-5 mr-10 mb-5"
+  class="w-auto md:w-[210px] lg:w-[235px] flex items-center space-x-5 md:mr-10 mb-5"
 >
   <div class="p-4 bg-shadow hover:shadow-lg">
     <img
