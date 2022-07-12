@@ -50,7 +50,7 @@
     <h4 class="jakarta text-white text-lg md:text-xl lg:text-2xl mb-5">
       favorite tech stack
     </h4>
-    <div class="block md:flex flex-wrap lg:w-[70vw] 3xl:w-[55vw]">
+    <div class="block md:flex flex-wrap w-full">
       {#each favoriteTechStack as tech}
         <Tech tech={tech.tech} icon={tech.icon} />
       {/each}
