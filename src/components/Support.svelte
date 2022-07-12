@@ -8,7 +8,7 @@
   <p
     class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
   >
-    if you beleive in the the potential for powerful positive change that
+    if you believe in the the potential for powerful positive change that
     bitcoin can bring to the world and would like to support development on the
     application layer, you can choose to support my work. your contribution to
     the bitcoin ecosystem is greatly appreciated!

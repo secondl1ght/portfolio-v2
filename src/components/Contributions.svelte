@@ -66,7 +66,7 @@
       url: "https://getalby.com/",
       title: "alby",
       description:
-        "a versitile lightning browser extension bringing bitcoin payments and authentication to the web.",
+        "a versatile lightning browser extension bringing bitcoin payments and authentication to the web.",
       contribution:
         "add lightning node connection options, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
       role: "web developer",
