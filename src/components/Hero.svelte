@@ -18,7 +18,7 @@
     </h1>
   </div>
   <h3
-    class="ibm text-2xl md:text-3xl lg:text-4xl w-full text-secondary !leading-normal"
+    class="ibm text-2xl md:text-3xl lg:text-4xl w-full lg:w-10/12 text-secondary !leading-normal"
   >
     an anonymous developer’s mission to make the world a better place.
   </h3>
