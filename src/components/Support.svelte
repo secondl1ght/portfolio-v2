@@ -1,11 +1,4 @@
-<script>
-  import { support } from "../lib/store";
-</script>
-
-<div
-  class="w-3/4 lg:w-1/2 mx-auto space-y-10 relative my-40"
-  bind:this={$support}
->
+<div class="w-3/4 lg:w-1/2 mx-auto space-y-10 relative my-40">
   <div
     class="w-2 h-16 bg-[#CD90AC] absolute -top-2.5 md:-top-0.5 lg:top-1 -left-6 md:-left-10"
   />
