@@ -13,14 +13,12 @@
     <div
       class="w-2 h-16 bg-[#9A6FF1] absolute top-1.5 md:top-[30px] lg:top-[51px] -left-6 md:-left-10"
     />
-    <h1 class="leading-tight">privacy. freedom.</h1>
-    <h1 class="leading-tight">community. ideas.</h1>
-    <h1 class="leading-tight">human spirit.</h1>
-    <h1 class="leading-tight">innovation.</h1>
-    <h1 class="leading-tight">kindness.</h1>
+    <h1 class="leading-tight">
+      privacy. freedom. community. ideas. human spirit. innovation. kindness.
+    </h1>
   </div>
   <h3
-    class="ibm text-2xl md:text-3xl lg:text-4xl w-full lg:w-3/4 text-secondary !leading-normal"
+    class="ibm text-2xl md:text-3xl lg:text-4xl w-full text-secondary !leading-normal"
   >
     an anonymous developer’s mission to make the world a better place.
   </h3>
