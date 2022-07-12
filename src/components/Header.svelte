@@ -37,6 +37,7 @@
     ><img
       src={!showMenu ? "/icons/mobile-open.svg" : "/icons/mobile-close.svg"}
       alt="toggle-menu"
+      loading="lazy"
       class="absolute top-4 right-5 z-20"
       on:click={() => (showMenu = !showMenu)}
     /></button

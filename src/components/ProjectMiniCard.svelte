@@ -13,6 +13,7 @@
       <img
         src={icon}
         alt={project}
+        loading="lazy"
         class="mx-auto w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
       />
     </div>

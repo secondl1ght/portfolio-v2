@@ -18,6 +18,7 @@
   <img
     src={image}
     alt={title}
+    loading="lazy"
     class="w-full p-4 md:p-12 lg:p-16 hover:scale-105 transition-transform duration-500"
   />
 </div>
