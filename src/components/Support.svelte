@@ -32,7 +32,7 @@
       href="https://bitcoindevlist.com/"
       target="_blank"
       rel="noreferrer"
-      class="text-white underline">bitcoindevlist.com</a
+      class="text-white underline hover:text-hover">bitcoindevlist.com</a
     >
   </p>
 </div>

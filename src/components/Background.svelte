@@ -43,7 +43,7 @@
       href="https://dev.to/secondl1ght/how-to-teach-yourself-to-code-and-start-a-new-career-or-at-least-how-i-did-it-2cfn"
       target="_blank"
       rel="noreferrer"
-      class="text-white underline">post</a
+      class="text-white underline hover:text-hover">post</a
     > detailing how i was able to accomplish this.
   </p>
   <div>
