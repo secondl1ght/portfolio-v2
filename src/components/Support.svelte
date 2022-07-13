@@ -19,8 +19,12 @@
     href="https://coinos.io/secondl1ght"
     target="_blank"
     rel="noreferrer"
-    class="ibm w-full md:w-1/2 md:text-lg lg:text-xl h-12 md:h-16 lg:h-20 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white"
+    class="relative ibm w-full md:w-1/2 md:text-lg lg:text-xl h-12 md:h-16 lg:h-20 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white"
   >
+    <span
+      class="opacity-0 hover:opacity-100 transition-opacity duration-500 absolute top-0 left-0 w-full h-full bg-gradient-to-l from-[#9068FE] to-[#FEB068] ibm md:text-lg lg:text-xl flex justify-center items-center text-white"
+      >support my work</span
+    >
     support my work
   </a>
   <p class="ibm text-secondary md:text-lg lg:text-xl !leading-normal">
