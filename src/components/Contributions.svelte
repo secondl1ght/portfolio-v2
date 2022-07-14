@@ -62,7 +62,7 @@
     },
     {
       gradients: "from-[#F6D365] to-[#FDA085]",
-      image: "/images/alby.png",
+      image: "/images/alby.svg",
       url: "https://getalby.com/",
       title: "alby",
       description:
