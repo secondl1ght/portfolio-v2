@@ -17,7 +17,7 @@
     src={image}
     alt={title}
     loading="lazy"
-    class="w-full p-4 md:p-12 lg:p-16 hover:scale-105 transition-transform duration-500"
+    class="drop-shadow-xl w-full p-4 md:p-12 lg:p-16 hover:scale-105 transition-transform duration-500"
   />
 </div>
 <div class="mt-10 block lg:flex justify-between">
