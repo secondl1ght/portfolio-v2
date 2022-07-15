@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="mb-10 mr-5 w-full md:w-auto block md:flex items-center md:space-x-10"
+  class="mb-16 mr-10 w-full md:w-auto block md:flex items-center md:space-x-10"
 >
   <a href={url} target="_blank" rel="noreferrer">
     <div class="p-5 bg-shadow hover:shadow-xl">
