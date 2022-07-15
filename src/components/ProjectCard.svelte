@@ -1,6 +1,6 @@
 <script>
   import Tech from "./Tech.svelte";
-  export let marginTop = "mt-40";
+  export let marginTop = "mt-[8.75rem]";
   export let gradients;
   export let image;
   export let url;
