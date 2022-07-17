@@ -14,11 +14,12 @@
       description:
         "bitcoin web wallet since 2012 and point-of-sale application, supports both liquid and lightning integration.",
       contribution:
-        "implement a donation and fee system to help monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
+        "rewrite entire app from vue.js to sveltekit, refresh UI with new design and features, help implement a donation and fee system to monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
       role: "web developer",
       duration: "nov 2021 - present",
       tech: [
         { tech: "vue.js", icon: "/icons/vue.svg" },
+        { tech: "sveltekit", icon: "/icons/svelte.svg" },
         { tech: "javascript", icon: "/icons/js.svg" },
         { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
       ],
@@ -50,7 +51,7 @@
       description:
         "global and user-friendly crowdfunding, grants, and other engaging use-cases on the bitcoin lightning network.",
       contribution:
-        "launch geyser grants feature, integrate gif support, develop crowdfunding leaderboard to boost interactivity & more.",
+        "launch geyser grants feature, integrate gif support, develop crowdfunding leaderboard to boost interactivity, help with lightning address embeds for campaigns & more.",
       role: "web developer",
       duration: "mar 2022 - present",
       tech: [

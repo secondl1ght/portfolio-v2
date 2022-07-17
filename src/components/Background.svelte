@@ -33,7 +33,7 @@
     teaching myself the fundamentals of web development.<br /><br /> my goal was
     to become a bitcoin developer so that i could focus all of my resources
     towards what i believe is the most important project of our time. i am now
-    happy to say that i contribute to open-source projects and work as a bitcoin
+    happy to say that i contribute to open source projects and work as a bitcoin
     dev full-time! <br /><br /> all of my code is open source, please feel free
     to review my code on github. this is my proof of work. <br /><br /> i'd like
     to thank everyone who has helped me along this incredible journey so far,
