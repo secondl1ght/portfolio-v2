@@ -14,7 +14,7 @@
       description:
         "bitcoin web wallet since 2012 and point-of-sale application, supports both liquid and lightning integration.",
       contribution:
-        "rewrite entire app from vue.js to sveltekit, refresh UI with new design and features, help implement a donation and fee system to monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
+        "rewrite app from vue.js to sveltekit, refresh UI with new design and features, help implement a donation and fee system to monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
       role: "web developer",
       duration: "nov 2021 - present",
       tech: [
