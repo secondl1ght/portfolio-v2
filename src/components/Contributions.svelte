@@ -108,7 +108,7 @@
       description:
         "zeus is a mobile bitcoin/lightning node manager and wallet app for lnd, core lightning, and eclair.",
     },
-    {
+    /* {
       project: "start9",
       url: "https://github.com/Start9Labs",
       icon: "/icons/s9.svg",
@@ -134,7 +134,7 @@
       icon: "/icons/bisq.svg",
       description:
         "buy and sell bitcoin for fiat privately and securely using bisq's peer-to-peer network.",
-    },
+    }, */
   ];
 </script>
 
