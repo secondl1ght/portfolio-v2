@@ -14,7 +14,7 @@
       description:
         "bitcoin web wallet since 2012 and point-of-sale application, supports both liquid and lightning integration.",
       contribution:
-        "rewrite app from vue.js to sveltekit, refresh UI with new design and features, help implement a donation and fee system to monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
+        "rewrite app from vue.js to sveltekit, refresh UI with new design and features focused on expanding POS, help implement a donation and fee system to monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
       role: "web developer",
       duration: "nov 2021 - present",
       tech: [
@@ -32,7 +32,7 @@
       description:
         "mint, collect, and transact rare digital & physical bitcoin art on the liquid network.",
       contribution:
-        "ship end to end encrypted messaging, add tipping support, support sat unit conversion, add commenting on artworks to increase platform engagement, upload audio file format compatibility & more.",
+        "ship end to end encrypted messaging, add artist tipping, support sat unit conversion, add commenting on artworks to increase platform engagement, audio file format upload compatibility, send assets to any liquid address & more.",
       role: "open source contributor",
       duration: "nov 2021 - present",
       tech: [
@@ -51,7 +51,7 @@
       description:
         "global and user-friendly crowdfunding, grants, and other engaging use-cases on the bitcoin lightning network.",
       contribution:
-        "launch geyser grants feature, integrate gif support, develop crowdfunding leaderboard to boost interactivity, help with lightning address embeds for campaigns & more.",
+        "launch geyser grants feature, integrate gifs in messages, develop crowdfunding leaderboard to boost interactivity, help with lightning address embeds for campaigns, responsiveness improvements & more.",
       role: "web developer",
       duration: "mar 2022 - present",
       tech: [
@@ -69,7 +69,7 @@
       description:
         "a versatile lightning browser extension bringing bitcoin payments and authentication to the web.",
       contribution:
-        "add lightning node connection options, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
+        "add lightning node connection options, manage some dependency upgrades, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
       role: "web developer",
       duration: "oct 2021 - present",
       tech: [
