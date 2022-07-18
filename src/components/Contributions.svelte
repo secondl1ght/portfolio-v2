@@ -32,7 +32,7 @@
       description:
         "mint, collect, and transact rare digital & physical bitcoin art on the liquid network.",
       contribution:
-        "ship end to end encrypted messaging, add artist tipping, support sat unit conversion, add commenting on artworks to increase platform engagement, audio file format upload compatibility, send assets to any liquid address & more.",
+        "ship end to end encrypted messaging, add artist tipping, support sat unit conversion, add commenting on artworks to increase platform engagement, audio file format upload compatibility, wallet revamp & more.",
       role: "open source contributor",
       duration: "nov 2021 - present",
       tech: [
