@@ -69,7 +69,7 @@
       description:
         "a versatile lightning browser extension bringing bitcoin payments and authentication to the web.",
       contribution:
-        "add lightning node connection options, manage some dependency upgrades, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
+        "add lightning node connection options, manage some dependency upgrades to ensure there are no breaking changes, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
       role: "web developer",
       duration: "oct 2021 - present",
       tech: [
