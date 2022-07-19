@@ -23,7 +23,7 @@
         { tech: "javascript", icon: "/icons/js.svg" },
         { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
         { tech: "node.js", icon: "/icons/node.svg" },
-        { tech: "postgresql", icon: "/icons/postgres.svg" },
+        { tech: "mariadb", icon: "/icons/maria.svg" },
       ],
     },
     {
