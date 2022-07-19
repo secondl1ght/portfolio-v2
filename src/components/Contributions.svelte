@@ -44,9 +44,9 @@
         { tech: "graphql", icon: "/icons/graphql.svg" },
         { tech: "hasura", icon: "/icons/hasura.svg" },
         { tech: "postgresql", icon: "/icons/postgres.svg" },
-        { tech: "node.js", icon: "/icons/node.svg" },
-        { tech: "fastify", icon: "/icons/fast.svg" },
         { tech: "ipfs", icon: "/icons/ipfs.svg" },
+        { tech: "fastify", icon: "/icons/fast.svg" },
+        { tech: "node.js", icon: "/icons/node.svg" },
       ],
     },
     {
