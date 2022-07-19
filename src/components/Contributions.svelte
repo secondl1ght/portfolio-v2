@@ -45,6 +45,7 @@
         { tech: "hasura", icon: "/icons/hasura.svg" },
         { tech: "node.js", icon: "/icons/node.svg" },
         { tech: "postgresql", icon: "/icons/postgres.svg" },
+        { tech: "ipfs", icon: "/icons/ipfs.svg" },
       ],
     },
     {
@@ -83,6 +84,9 @@
         { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
         { tech: "ruby", icon: "/icons/ruby.svg" },
         { tech: "rubyonrails", icon: "/icons/rails.svg" },
+        { tech: "node.js", icon: "/icons/node.svg" },
+        { tech: "postgresql", icon: "/icons/postgres.svg" },
+        { tech: "redis", icon: "/icons/redis.svg" },
       ],
     },
   ];
