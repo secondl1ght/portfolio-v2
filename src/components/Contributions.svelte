@@ -22,6 +22,8 @@
         { tech: "sveltekit", icon: "/icons/svelte.svg" },
         { tech: "javascript", icon: "/icons/js.svg" },
         { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
+        { tech: "node.js", icon: "/icons/node.svg" },
+        { tech: "postgresql", icon: "/icons/postgres.svg" },
       ],
     },
     {
@@ -41,6 +43,8 @@
         { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
         { tech: "graphql", icon: "/icons/graphql.svg" },
         { tech: "hasura", icon: "/icons/hasura.svg" },
+        { tech: "node.js", icon: "/icons/node.svg" },
+        { tech: "postgresql", icon: "/icons/postgres.svg" },
       ],
     },
     {
@@ -75,7 +79,10 @@
       tech: [
         { tech: "react", icon: "/icons/react.svg" },
         { tech: "typescript", icon: "/icons/ts.svg" },
+        { tech: "javascript", icon: "/icons/js.svg" },
         { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
+        { tech: "ruby", icon: "/icons/ruby.svg" },
+        { tech: "rubyonrails", icon: "/icons/rails.svg" },
       ],
     },
   ];

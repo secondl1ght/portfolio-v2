@@ -12,6 +12,8 @@
     { tech: "docker", icon: "/icons/docker.svg" },
     { tech: "linux", icon: "/icons/linux.svg" },
     { tech: "bitcoin", icon: "/icons/bitcoin.svg" },
+    { tech: "lightning", icon: "/icons/cln.svg" },
+    { tech: "liquid", icon: "/icons/liquid.svg" },
   ];
 </script>
 

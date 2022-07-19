@@ -17,7 +17,7 @@
     src={image}
     alt={title}
     loading="lazy"
-    class="drop-shadow-xl w-full p-4 md:p-12 lg:p-16 hover:scale-105 transition-transform duration-500"
+    class="drop-shadow-xl w-full p-4 md:p-12 lg:p-16 2xl:p-20 hover:scale-105 transition-transform duration-500"
   />
 </div>
 <div class="mt-10 block lg:flex justify-between">
@@ -55,9 +55,9 @@
     <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
       tech stack
     </h4>
-    <div>
+    <div class="flex flex-wrap">
       {#each tech as tech}
-        <Tech tech={tech.tech} icon={tech.icon} />
+        <Tech tech={tech.tech} icon={tech.icon} iconOnly={true} />
       {/each}
     </div>
   </div>
