@@ -10,6 +10,7 @@
     { tech: "graphql", icon: "/icons/graphql.svg" },
     { tech: "yarn", icon: "/icons/yarn.svg" },
     { tech: "docker", icon: "/icons/docker.svg" },
+    { tech: "node.js", icon: "/icons/node.svg" },
     { tech: "linux", icon: "/icons/linux.svg" },
     { tech: "bitcoin", icon: "/icons/bitcoin.svg" },
     { tech: "lightning", icon: "/icons/cln.svg" },
