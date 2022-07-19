@@ -22,8 +22,8 @@
         { tech: "sveltekit", icon: "/icons/svelte.svg" },
         { tech: "javascript", icon: "/icons/js.svg" },
         { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
-        { tech: "node.js", icon: "/icons/node.svg" },
         { tech: "mariadb", icon: "/icons/maria.svg" },
+        { tech: "node.js", icon: "/icons/node.svg" },
       ],
     },
     {
