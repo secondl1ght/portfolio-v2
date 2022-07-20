@@ -181,7 +181,7 @@
     <h2 class="jakarta text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
       other<br /> contributions
     </h2>
-    <div class="flex flex-wrap">
+    <div class="flex justify-between flex-wrap">
       {#each miniProjects as project}
         <ProjectMiniCard
           project={project.project}

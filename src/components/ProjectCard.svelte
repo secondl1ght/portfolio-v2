@@ -32,7 +32,7 @@
       >
     </h3>
     <p
-      class="ibm text-secondary w-full md:text-lg lg:text-xl lg:w-3/4 mt-5 mb-10 !leading-normal"
+      class="ibm text-secondary w-full md:text-lg lg:text-xl lg:w-3/4 mt-8 mb-10 !leading-normal"
     >
       {description}
     </p>
