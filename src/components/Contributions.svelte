@@ -8,7 +8,7 @@
     {
       marginTop: "mt-0",
       gradients: "from-[#DDD6F3] to-[#FAACA8]",
-      image: "/images/coinos.svg",
+      image: "/images/coinos.png",
       url: "https://coinos.io/",
       title: "coinos",
       description:
