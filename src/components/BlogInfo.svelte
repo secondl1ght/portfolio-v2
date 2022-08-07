@@ -53,6 +53,7 @@
     method="POST"
     netlify
     bind:this={form}
+    on:submit|preventDefault={handleSubmit}
     class="space-y-3"
   >
     <input type="hidden" name="form-name" value="subscribe" />
