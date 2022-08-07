@@ -1,10 +1,9 @@
 <script>
   let form;
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
     let formData = new FormData(form);
-    fetch("/", {
+    return fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
@@ -52,11 +51,13 @@
     name="subscribe"
     method="POST"
     netlify
+    netlify-honeypot="bot-field"
     bind:this={form}
     on:submit|preventDefault={handleSubmit}
     class="space-y-3"
   >
     <input type="hidden" name="form-name" value="subscribe" />
+    <input name="bot-field" class="hidden" />
     <input
       type="email"
       required
