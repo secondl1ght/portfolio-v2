@@ -1,6 +1,6 @@
 <script>
   import "../app.css";
-  import { Header, Footer } from "$comp";
+  import { Header } from "$comp";
 
   let fadeIn = false;
   setTimeout(() => (fadeIn = true), 0);
@@ -13,5 +13,4 @@
 >
   <Header />
   <slot />
-  <Footer />
 </div>

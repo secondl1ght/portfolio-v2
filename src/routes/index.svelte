@@ -1,5 +1,12 @@
 <script>
-  import { Hero, Contributions, Background, Contact, Support } from "$comp";
+  import {
+    Hero,
+    Contributions,
+    Background,
+    Contact,
+    Support,
+    Footer,
+  } from "$comp";
 </script>
 
 <Hero />
@@ -7,3 +14,4 @@
 <Background />
 <Contact />
 <Support />
+<Footer />

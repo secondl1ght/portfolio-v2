@@ -13,16 +13,19 @@
     <p class="jakarta text-white text-sm md:text-base lg:text-lg font-semibold">
       secondl1ght
     </p>
-    <div class="flex space-x-5 mt-4">
+    <div class="flex items-center space-x-5 mt-4">
       <a href="https://github.com/secondl1ght" target="_blank" rel="noreferrer"
         ><img src="/icons/github.svg" class="w-8" alt="github" />
       </a>
       <a href="https://twitter.com/secondl1ght" target="_blank" rel="noreferrer"
         ><img src="/icons/twitter-white.svg" class="w-8" alt="twitter" />
       </a>
-      <!-- <a href="https://makers.bolt.fun/profile/34/secondl1ght" target="_blank" rel="noreferrer"
-       ><img src="/icons/bolt.svg" class="w-8" alt="bolt.fun" />
-     </a> -->
+      <a
+        href="https://makers.bolt.fun/profile/34/secondl1ght"
+        target="_blank"
+        rel="noreferrer"
+        ><img src="/icons/makers.svg" class="w-8" alt="bolt.fun" />
+      </a>
       <a href="https://dev.to/secondl1ght" target="_blank" rel="noreferrer"
         ><img src="/icons/dev.svg" class="w-8" alt="dev" />
       </a>

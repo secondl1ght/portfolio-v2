@@ -1,11 +1,13 @@
 <script>
+  import { Footer } from "$comp";
+
   export let title;
   export let image;
   export let description;
   export let date;
 </script>
 
-<div class="my-10 md:my-20 w-3/4 mx-auto">
+<div class="my-10 md:my-20 w-3/4 mx-auto max-w-7xl">
   <p class="ibm !leading-normal text-secondary mb-8">
     Blog <span class="text-secondary/50 text-sm">/ {title}</span>
   </p>
@@ -37,3 +39,5 @@
   </div>
   <slot />
 </div>
+
+<Footer />

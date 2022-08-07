@@ -1,0 +1,49 @@
+#blog-content a {
+  text-decoration: underline;
+  color: white;
+}
+
+#blog-content a:hover {
+  color: #af7cd5;
+}
+
+#blog-content h2 {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  color: white;
+  font-weight: 600;
+  font-family: PlusJakartaSans;
+}
+
+#blog-content h3 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  color: white;
+  font-weight: 600;
+  font-family: PlusJakartaSans;
+}
+
+#blog-content code {
+  color: white;
+  background-color: #1e1f2b;
+  font-family: Inconsolata;
+  padding: 0.25rem; /* 4px */
+}
+
+#blog-content ul {
+  padding-left: 1.25rem; /* 20px */
+  list-style-type: disc;
+}
+
+#blog-content pre {
+  color: white;
+  background-color: #1e1f2b;
+  font-family: Inconsolata;
+  padding: 1.25rem; /* 20px */
+  overflow: auto;
+}
+
+#blog-content img {
+  margin-left: auto;
+  margin-right: auto;
+}

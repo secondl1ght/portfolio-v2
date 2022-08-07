@@ -1,5 +1,5 @@
 <script>
-  import { BlogInfo, BlogCard } from "$comp";
+  import { BlogInfo, BlogCard, Footer } from "$comp";
   const posts = [
     {
       image: "tips",
@@ -37,3 +37,4 @@
     {/each}
   </div>
 </div>
+<Footer />
