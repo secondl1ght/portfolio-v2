@@ -16,14 +16,6 @@
     <p>👨‍💻👩‍💻</p>
 
     <p>
-      Over the past 9 or so months I have taught myself how to code and started
-      a new career as a <strong>Web Developer</strong>. I thought I would make a
-      blog post about my <strong>self-taught journey</strong> so that others may
-      find some inspiration and/or useful information from it. So here it is - my
-      tips and advice to those considering or starting their own coding journey!
-    </p>
-
-    <p>
       I will structure this post into the main steps that I took along my path
       and at the end I will include some general tips and tricks that I have
       learned along the way.
