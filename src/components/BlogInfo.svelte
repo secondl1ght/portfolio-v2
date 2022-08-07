@@ -1,6 +1,17 @@
 <script>
-  let submit;
-  let email;
+  let form;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    let formData = new FormData(form);
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => console.log("Form successfully submitted"))
+      .catch((error) => alert(error));
+  };
 </script>
 
 <div class="space-y-5 w-3/4 md:w-[350px] mx-auto xl:mx-0">
@@ -37,13 +48,19 @@
     An anonymous developer’s mission to make the world a better place.
   </p>
 
-  <form on:submit|preventDefault={submit} class="space-y-3">
+  <form
+    name="subscribe"
+    method="POST"
+    netlify
+    on:submit|preventDefault={handleSubmit}
+    bind:this={form}
+    class="space-y-3"
+  >
     <input
       type="email"
       required
       class="placeholder:text-secondary px-8 text-secondary border border-[#2F3143] bg-transparent h-12 md:h-16 lg:h-18 ibm md:text-lg lg:text-xl w-full font-semibold"
       placeholder="Email"
-      bind:value={email}
     />
     <button
       class="relative ibm w-full md:text-lg lg:text-xl h-12 md:h-16 lg:h-18 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white font-semibold"
