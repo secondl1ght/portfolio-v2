@@ -1,7 +1,7 @@
 <script>
   let form;
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     let formData = new FormData(form);
     return fetch("/", {
       method: "POST",
