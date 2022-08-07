@@ -1,5 +1,6 @@
 <script>
   let form;
+  let email;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -52,7 +53,7 @@
     name="subscribe"
     method="POST"
     netlify
-    on:submit|preventDefault={handleSubmit}
+
     bind:this={form}
     class="space-y-3"
   >
@@ -63,8 +64,10 @@
       name="email"
       class="placeholder:text-secondary px-8 text-secondary border border-[#2F3143] bg-transparent h-12 md:h-16 lg:h-18 ibm md:text-lg lg:text-xl w-full font-semibold"
       placeholder="Email"
+      bind:value={email}
     />
-    <button type='submit'
+    <button
+      type="submit"
       class="relative ibm w-full md:text-lg lg:text-xl h-12 md:h-16 lg:h-18 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white font-semibold"
     >
       <span
