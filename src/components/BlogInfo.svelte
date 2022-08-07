@@ -56,6 +56,7 @@
     bind:this={form}
     class="space-y-3"
   >
+    <input type="hidden" name="form-name" value="subscribe" />
     <input
       type="email"
       required
