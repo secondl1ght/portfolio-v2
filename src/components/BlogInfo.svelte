@@ -1,7 +1,6 @@
 <script>
-  let form;
-
-  const handleSubmit = (e) => {
+  const handleSubmit = () => {
+    let form = document.getElementById("subscribe");
     let formData = new FormData(form);
     return fetch("/", {
       method: "POST",
@@ -48,11 +47,11 @@
   </p>
 
   <form
+    id="subscribe"
     name="subscribe"
     method="POST"
     netlify
     netlify-honeypot="bot-field"
-    bind:this={form}
     on:submit|preventDefault={handleSubmit}
     class="space-y-3"
   >
