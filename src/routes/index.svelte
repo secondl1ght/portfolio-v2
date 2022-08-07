@@ -1,19 +1,9 @@
 <script>
-  import {
-    Header,
-    Hero,
-    Contributions,
-    Background,
-    Contact,
-    Support,
-    Footer,
-  } from "../components";
+  import { Hero, Contributions, Background, Contact, Support } from "$comp";
 </script>
 
-<Header />
 <Hero />
 <Contributions />
 <Background />
 <Contact />
 <Support />
-<Footer />

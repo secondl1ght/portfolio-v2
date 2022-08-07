@@ -51,5 +51,5 @@
       />
     {/each}
   </div>
-  <div bind:this={$support} />
+  <div bind:this={$support} id="support" />
 </div>

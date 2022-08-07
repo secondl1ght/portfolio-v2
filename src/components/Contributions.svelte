@@ -192,5 +192,5 @@
       {/each}
     </div>
   </div>
-  <div bind:this={$background} />
+  <div bind:this={$background} id="background" />
 </div>

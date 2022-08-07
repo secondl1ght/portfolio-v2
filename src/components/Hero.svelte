@@ -24,5 +24,5 @@
   >
     an anonymous developer’s mission to make the world a better place.
   </h3>
-  <div bind:this={$contributions} />
+  <div bind:this={$contributions} id="contributions" />
 </div>
