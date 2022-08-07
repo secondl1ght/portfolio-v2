@@ -22,7 +22,7 @@
 </script>
 
 <div
-  class="xl:flex justify-center space-y-16 xl:space-y-0 xl:space-x-16 my-10 md:my-20"
+  class="xl:flex justify-center space-y-32 xl:space-y-0 xl:space-x-16 my-10 md:my-20"
 >
   <BlogInfo />
   <div class="space-y-32">

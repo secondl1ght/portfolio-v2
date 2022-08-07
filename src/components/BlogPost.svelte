@@ -9,16 +9,17 @@
 
 <div class="my-10 md:my-20 w-3/4 mx-auto max-w-7xl">
   <p class="ibm !leading-normal text-secondary mb-8">
-    Blog <span class="text-secondary/50 text-sm">/ {title}</span>
+    <a href="/blog">Blog</a>
+    <span class="text-secondary/50 text-sm">/ {title}</span>
   </p>
   <img src="/images/{image}.png" alt={image} class="w-full" />
   <h1
-    class="jakarta !leading-normal w-full md:w-10/12 mx-auto text-center mt-10 text-white text-4xl md:text-5xl lg:text-6xl font-semibold"
+    class="jakarta !leading-normal w-full md:w-10/12 mx-auto text-center mt-5 md:mt-10 text-white text-3xl md:text-5xl lg:text-6xl font-semibold"
   >
     {title}
   </h1>
   <p
-    class="ibm text-secondary w-full md:w-2/3 mx-auto text-center mt-8 mb-6 !leading-normal md:text-lg lg:text-xl"
+    class="ibm text-secondary w-full md:w-2/3 mx-auto text-center mt-6 md:mt-8 mb-6 !leading-normal text-xl"
   >
     {description}
   </p>
@@ -29,10 +30,8 @@
       alt="avatar"
     />
     <div>
-      <p class="jakarta text-white text-sm md:text-base lg:text-lg">
-        secondl1ght
-      </p>
-      <p class="ibm text-secondary/50 text-sm md:text-base lg:text-lg">
+      <p class="jakarta text-white">secondl1ght</p>
+      <p class="ibm text-secondary/50">
         {date}
       </p>
     </div>

@@ -141,10 +141,12 @@
     </p>
 
     <div>
-      <pre><code
-          >&lt;meta name="lightning" content="lnurlp:secondl1ght@getalby.com"&gt;
+      <pre>
+<code>
+&lt;meta name="lightning" content="lnurlp:secondl1ght@getalby.com"&gt;
 &lt;meta property="alby:image" content="/images/avatar.png"&gt;
-</code></pre>
+</code>
+</pre>
     </div>
 
     <p>
@@ -235,10 +237,12 @@
     </p>
 
     <div>
-      <pre><code
-          >&lt;lightning-widget name="" accent="#20c997" to="reneaaron@getalby.com" image="https://secure.gravatar.com/avatar/07e22939e7672b38c56615068c4c715f?size=200&amp;default=mm&amp;rating=g" /&gt;
+      <pre>
+<code>
+&lt;lightning-widget name="" accent="#20c997" to="reneaaron@getalby.com" image="https://secure.gravatar.com/avatar/07e22939e7672b38c56615068c4c715f?size=200&amp;default=mm&amp;rating=g" /&gt;
 &lt;script src="https://embed.twentyuno.net/js/app.js"&gt;&lt;/script&gt;
-</code></pre>
+</code>
+</pre>
     </div>
 
     <h2>STEP 3 - Watch the sats stream in! 🥳</h2>
