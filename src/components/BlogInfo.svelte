@@ -60,6 +60,7 @@
     <input
       type="email"
       required
+      name="email"
       class="placeholder:text-secondary px-8 text-secondary border border-[#2F3143] bg-transparent h-12 md:h-16 lg:h-18 ibm md:text-lg lg:text-xl w-full font-semibold"
       placeholder="Email"
     />
