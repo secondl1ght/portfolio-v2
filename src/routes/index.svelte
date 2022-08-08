@@ -17,7 +17,7 @@
   };
 
   if ($page.url.hash) {
-    setTimeout(() => clearHash(), 1000);
+    setTimeout(() => clearHash(), 210);
   }
 </script>
 
