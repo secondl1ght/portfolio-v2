@@ -14,7 +14,7 @@
   </a>
   <a href="/blog/{url}" class="block">
     <h2
-      class="!leading-normal jakarta text-white hover:text-hover text-2xl md:text-3xl lg:text-4xl font-semibold"
+      class="!leading-normal jakarta text-white hover:text-hover text-2xl md:text-3xl lg:text-4xl"
     >
       {title}
     </h2>

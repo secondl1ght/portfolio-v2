@@ -14,7 +14,7 @@
   </p>
   <img src="/images/{image}.png" alt={image} class="w-full" />
   <h1
-    class="jakarta !leading-normal w-full md:w-10/12 mx-auto text-center mt-5 md:mt-10 text-white text-3xl md:text-5xl lg:text-6xl font-semibold"
+    class="jakarta !leading-normal w-full md:w-10/12 mx-auto text-center mt-5 md:mt-10 text-white text-3xl md:text-5xl lg:text-6xl"
   >
     {title}
   </h1>
