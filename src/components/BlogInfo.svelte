@@ -1,14 +1,19 @@
 <script>
+  import { page } from "$app/stores";
   let form;
-
+  let formComplete;
+  $: subscribe = !$page.url.pathname.includes("unsubscribe");
   const handleSubmit = () => {
     let formData = new FormData(form);
-    fetch("/blog", {
+    fetch(subscribe ? "/blog" : "/blog/unsubscribe", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => console.log("Form successfully submitted"))
+      .then(() => {
+        formComplete = true;
+        console.log("Form successfully submitted");
+      })
       .catch((error) => alert(error));
   };
 </script>
@@ -44,34 +49,43 @@
   <p class="ibm text-secondary !leading-normal md:text-lg lg:text-xl">
     An anonymous developer’s mission to make the world a better place.
   </p>
-
-  <form
-    name="subscribe"
-    method="POST"
-    netlify
-    netlify-honeypot="bot-field"
-    on:submit|preventDefault={handleSubmit}
-    bind:this={form}
-    class="space-y-3"
-  >
-    <input type="hidden" name="form-name" value="subscribe" />
-    <input name="bot-field" class="hidden" />
-    <input
-      type="email"
-      required
-      name="email"
-      class="placeholder:text-secondary px-8 text-secondary border border-[#2F3143] bg-transparent h-12 md:h-16 lg:h-18 ibm md:text-lg lg:text-xl w-full"
-      placeholder="Email"
-    />
-    <button
-      type="submit"
-      class="relative ibm w-full md:text-lg lg:text-xl h-12 md:h-16 lg:h-18 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white"
+  {#if !formComplete}
+    <form
+      name={subscribe ? "subscribe" : "unsubscribe"}
+      method="POST"
+      netlify
+      netlify-honeypot="bot-field"
+      on:submit|preventDefault={handleSubmit}
+      bind:this={form}
+      class="space-y-3"
     >
-      <span
-        class="opacity-0 hover:opacity-100 transition-opacity duration-500 absolute top-0 left-0 w-full h-full bg-gradient-to-l from-[#9068FE] to-[#FEB068] ibm md:text-lg lg:text-xl flex justify-center items-center text-white"
-        >Subscribe</span
+      <input
+        type="hidden"
+        name="form-name"
+        value={subscribe ? "subscribe" : "unsubscribe"}
+      />
+      <input name="bot-field" class="hidden" />
+      <input
+        type="email"
+        required
+        name="email"
+        class="placeholder:text-secondary px-8 text-secondary border border-[#2F3143] bg-transparent h-12 md:h-16 lg:h-18 ibm md:text-lg lg:text-xl w-full"
+        placeholder="Email"
+      />
+      <button
+        type="submit"
+        class="relative ibm w-full md:text-lg lg:text-xl h-12 md:h-16 lg:h-18 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white"
       >
-      Subscribe
-    </button>
-  </form>
+        <span
+          class="opacity-0 hover:opacity-100 transition-opacity duration-500 absolute top-0 left-0 w-full h-full bg-gradient-to-l from-[#9068FE] to-[#FEB068] ibm md:text-lg lg:text-xl flex justify-center items-center text-white"
+          >{subscribe ? "Subscribe" : "Unsubscribe"}</span
+        >
+        {subscribe ? "Subscribe" : "Unsubscribe"}
+      </button>
+    </form>
+  {:else}
+    <p class="ibm text-secondary !leading-normal md:text-lg lg:text-xl">
+      {subscribe ? "Thanks for subscribing!" : "You have been unsubscribed!"}
+    </p>
+  {/if}
 </div>
