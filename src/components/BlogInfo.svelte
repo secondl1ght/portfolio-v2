@@ -50,6 +50,7 @@
     method="POST"
     netlify
     netlify-honeypot="bot-field"
+    on:submit|preventDefault={handleSubmit}
     bind:this={form}
     class="space-y-3"
   >
