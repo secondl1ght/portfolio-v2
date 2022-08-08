@@ -3,6 +3,14 @@
   import { BlogPost } from "$comp";
 </script>
 
+<svelte:head>
+  <meta
+    name="description"
+    content="How to Teach Yourself to Code and Start a New Career (or at least how I did it)"
+  />
+  <meta property="og:image" content="/images/code.png" />
+</svelte:head>
+
 <BlogPost
   title="How to Teach Yourself to Code and Start a New Career (or at least how I did it)"
   image="code"

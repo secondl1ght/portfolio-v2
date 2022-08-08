@@ -3,6 +3,14 @@
   import { BlogPost } from "$comp";
 </script>
 
+<svelte:head>
+  <meta
+    name="description"
+    content="How to accept bitcoin lightning tips on your website ⚡"
+  />
+  <meta property="og:image" content="/images/tips.png" />
+</svelte:head>
+
 <BlogPost
   title="How to accept bitcoin lightning tips on your website ⚡"
   image="tips"
