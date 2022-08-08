@@ -25,6 +25,11 @@
   ];
 </script>
 
+<svelte:head>
+  <meta name="description" content="web developer blog" />
+  <meta property="og:image" content="/images/avatar.png" />
+</svelte:head>
+
 <div
   class="xl:flex justify-center space-y-32 xl:space-y-0 xl:space-x-16 my-10 md:my-20"
 >
