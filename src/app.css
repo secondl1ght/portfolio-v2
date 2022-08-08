@@ -4,18 +4,18 @@
 
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf") format("truetype");
+  src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "PlusJakartaSans";
-  src: url("/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf")
+  src: url("/fonts/PlusJakartaSans-Regular.ttf")
     format("truetype");
 }
 
 @font-face {
   font-family: "Inconsolata";
-  src: url("/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf")
+  src: url("/fonts/Inconsolata-Regular.ttf")
     format("truetype");
 }
 
