@@ -1,3 +1,8 @@
+<svelte:head>
+  <meta name="description" content="web developer portfolio" />
+  <meta property="og:image" content="/images/avatar.png" />
+</svelte:head>
+
 <div class="my-20 space-y-5">
   <svg
     class="text-hover w-10 h-10 mx-auto"

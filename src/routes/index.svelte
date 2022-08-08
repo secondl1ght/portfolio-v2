@@ -21,6 +21,11 @@
   }
 </script>
 
+<svelte:head>
+  <meta name="description" content="web developer portfolio" />
+  <meta property="og:image" content="/images/avatar.png" />
+</svelte:head>
+
 <Hero />
 <Contributions />
 <Background />
