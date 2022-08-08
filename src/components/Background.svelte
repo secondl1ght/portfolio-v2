@@ -59,5 +59,5 @@
       {/each}
     </div>
   </div>
-  <div bind:this={$contact} />
+  <div bind:this={$contact} id="contact" />
 </div>

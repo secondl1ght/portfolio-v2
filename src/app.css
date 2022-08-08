@@ -13,12 +13,22 @@
     format("truetype");
 }
 
+@font-face {
+  font-family: "Inconsolata";
+  src: url("/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf")
+    format("truetype");
+}
+
 .ibm {
   font-family: IBMPlexMono, sans-serif;
 }
 
 .jakarta {
   font-family: PlusJakartaSans, sans-serif;
+}
+
+.inc {
+  font-family: Inconsolata, sans-serif;
 }
 
 ::selection {

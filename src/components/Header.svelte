@@ -1,39 +1,62 @@
 <script>
+  import { page } from "$app/stores";
+  import { goto } from "$app/navigation";
   import { contributions, background, contact, support } from "../lib/store";
   import { scroll } from "../lib/utils";
 
   let showMenu = false;
+
+  const handleButtonClick = (section, store) => {
+    showMenu = false;
+    if ($page.url.pathname.includes("blog")) {
+      goto(`/#${section}`);
+    } else {
+      scroll(store);
+    }
+  };
 </script>
 
 <!-- desktop header -->
 <header
-  class="w-full jakarta hidden md:flex h-20 sticky top-0 z-10 bg-primary/90 justify-center lg:justify-start lg:pl-[16.65vw] xl:pl-[20.75vw] 2xl:pl-[24.9vw] items-center"
+  class="w-full jakarta hidden lg:flex h-20 sticky top-0 z-10 bg-primary/90 justify-center items-center"
 >
   <nav class="text-xl lg:text-2xl text-white space-x-16">
+    <button
+      class="hover:text-hover"
+      on:click={() => handleButtonClick("contributions", $contributions)}
+      >contributions</button
+    >
+    <button
+      class="hover:text-hover"
+      on:click={() => handleButtonClick("background", $background)}
+      >background</button
+    >
+    <button
+      class="hover:text-hover"
+      on:click={() => handleButtonClick("contact", $contact)}>contact</button
+    >
+    <button
+      class="hover:text-hover"
+      on:click={() => handleButtonClick("support", $support)}>support</button
+    >
+    <a
+      href="/blog"
+      class="hover:text-hover {$page.url.pathname.includes('blog')
+        ? 'text-hover'
+        : ''}">blog</a
+    >
     <a
       href="https://github.com/secondl1ght"
       target="_blank"
       rel="noreferrer"
       class="hover:text-hover">github</a
     >
-    <button class="hover:text-hover" on:click={() => scroll($contributions)}
-      >contributions</button
-    >
-    <button class="hover:text-hover" on:click={() => scroll($background)}
-      >background</button
-    >
-    <button class="hover:text-hover" on:click={() => scroll($contact)}
-      >contact</button
-    >
-    <button class="hover:text-hover" on:click={() => scroll($support)}
-      >support</button
-    >
   </nav>
 </header>
 
 <!-- mobile header -->
 <header
-  class="w-full jakarta block md:hidden h-20 sticky top-0 z-10 bg-primary/90"
+  class="w-full jakarta block lg:hidden h-20 sticky top-0 z-10 bg-primary/90"
 >
   <button
     ><img
@@ -49,40 +72,38 @@
       : 'left-[-100%]'}"
   >
     <div class="space-y-16 mt-28 mr-10">
+      <button
+        class="block hover:text-hover"
+        on:click={() => handleButtonClick("contributions", $contributions)}
+        >contributions</button
+      >
+      <button
+        class="block hover:text-hover"
+        on:click={() => handleButtonClick("background", $background)}
+        >background</button
+      >
+      <button
+        class="block hover:text-hover"
+        on:click={() => handleButtonClick("contact", $contact)}>contact</button
+      >
+      <button
+        class="block hover:text-hover"
+        on:click={() => handleButtonClick("support", $support)}>support</button
+      >
+
+      <a
+        href="/blog"
+        class="block hover:text-hover {$page.url.pathname.includes('blog')
+          ? 'text-hover'
+          : ''}"
+        on:click={() => (showMenu = false)}>blog</a
+      >
       <a
         href="https://github.com/secondl1ght"
         target="_blank"
         rel="noreferrer"
         class="block hover:text-hover"
         on:click={() => (showMenu = false)}>github</a
-      >
-      <button
-        class="block hover:text-hover"
-        on:click={() => {
-          scroll($contributions);
-          showMenu = false;
-        }}>contributions</button
-      >
-      <button
-        class="block hover:text-hover"
-        on:click={() => {
-          scroll($background);
-          showMenu = false;
-        }}>background</button
-      >
-      <button
-        class="block hover:text-hover"
-        on:click={() => {
-          scroll($contact);
-          showMenu = false;
-        }}>contact</button
-      >
-      <button
-        class="block hover:text-hover"
-        on:click={() => {
-          scroll($support);
-          showMenu = false;
-        }}>support</button
       >
     </div>
   </nav>
