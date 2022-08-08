@@ -1,8 +1,9 @@
 <script>
+  let form;
+
   const handleSubmit = () => {
-    let form = document.getElementById("subscribe");
     let formData = new FormData(form);
-    return fetch("/", {
+    fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
@@ -45,12 +46,11 @@
   </p>
 
   <form
-    id="subscribe"
     name="subscribe"
     method="POST"
     netlify
     netlify-honeypot="bot-field"
-    on:submit|preventDefault={handleSubmit}
+    bind:this={form}
     class="space-y-3"
   >
     <input type="hidden" name="form-name" value="subscribe" />
