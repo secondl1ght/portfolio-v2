@@ -34,7 +34,7 @@
       description:
         "global and user-friendly crowdfunding, grants, and other engaging use-cases on the bitcoin lightning network.",
       contribution:
-        "launch geyser grants feature, integrate gifs in messages, develop crowdfunding leaderboard to boost interactivity, help with lightning address embeds for campaigns, responsiveness improvements & more.",
+        "launch geyser grants feature, integrate gifs in messages, develop crowdfunding leaderboard to boost interactivity, help with lightning address embeds for campaigns, front-end for lnurl-auth, responsiveness improvements & more.",
       role: "web developer",
       duration: "mar 2022 - present",
       tech: [
@@ -55,7 +55,7 @@
       description:
         "a versatile lightning browser extension bringing bitcoin payments and authentication to the web.",
       contribution:
-        "add lightning node connection options, manage some dependency upgrades to ensure there are no breaking changes, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
+        "add lightning node connection options, refactor public lightning address donation page to match new design, manage some dependency upgrades to ensure there are no breaking changes, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
       role: "web developer",
       duration: "oct 2021 - present",
       tech: [
