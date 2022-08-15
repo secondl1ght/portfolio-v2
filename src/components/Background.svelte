@@ -42,11 +42,8 @@
     to thank everyone who has helped me along this incredible journey so far,
     i've met many kind and generous people along the way. for anyone interested
     in learning how to code, i wrote a blog
-    <a
-      href="https://dev.to/secondl1ght/how-to-teach-yourself-to-code-and-start-a-new-career-or-at-least-how-i-did-it-2cfn"
-      target="_blank"
-      rel="noreferrer"
-      class="text-white underline hover:text-hover">post</a
+    <a href="/blog/how-to-code" class="text-white underline hover:text-hover"
+      >post</a
     > detailing how i was able to accomplish this.
   </p>
   <div>

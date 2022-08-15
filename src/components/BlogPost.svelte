@@ -9,7 +9,7 @@
 
 <div class="my-10 md:my-20 w-3/4 mx-auto max-w-7xl">
   <p class="ibm !leading-normal text-secondary mb-8">
-    <a href="/blog" class='hover:text-hover'>Blog</a>
+    <a href="/blog" class="hover:text-hover">Blog</a>
     <span class="text-secondary/50 text-sm">/ {title}</span>
   </p>
   <img src="/images/{image}.png" alt={image} class="w-full" />
