@@ -9,6 +9,7 @@
     content="How to accept bitcoin lightning tips on your website ⚡"
   />
   <meta property="og:image" content="/images/tips.png" />
+  <title>secondl1ght - blog</title>
 </svelte:head>
 
 <BlogPost

@@ -16,6 +16,7 @@
 <svelte:head>
   <meta name="description" content="web developer portfolio" />
   <meta property="og:image" content="/images/avatar.png" />
+  <title>secondl1ght - portfolio</title>
 </svelte:head>
 
 <div class="my-20 space-y-5 w-3/4 md:w-96 mx-auto">

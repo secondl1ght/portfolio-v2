@@ -9,6 +9,7 @@
     content="The state of bitcoin (plug and play) nodes 2022 🌐"
   />
   <meta property="og:image" content="/images/nodes.png" />
+  <title>secondl1ght - blog</title>
 </svelte:head>
 
 <BlogPost

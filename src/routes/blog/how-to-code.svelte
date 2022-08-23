@@ -9,6 +9,7 @@
     content="How to Teach Yourself to Code and Start a New Career (or at least how I did it)"
   />
   <meta property="og:image" content="/images/code.png" />
+  <title>secondl1ght - blog</title>
 </svelte:head>
 
 <BlogPost
