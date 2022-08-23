@@ -139,8 +139,8 @@
         src="/images/blog/state-of-nodes/0.jpeg"
         alt="citadel"
         loading="lazy"
-        width="400"
-        height="400"
+        width="300"
+        height="300"
       />
     </p>
 
@@ -161,8 +161,8 @@
         src="/images/blog/state-of-nodes/1.jpeg"
         alt="mynode"
         loading="lazy"
-        width="400"
-        height="400"
+        width="300"
+        height="300"
       />
     </p>
 
@@ -182,8 +182,8 @@
         src="/images/blog/state-of-nodes/2.jpeg"
         alt="nodl"
         loading="lazy"
-        width="400"
-        height="400"
+        width="300"
+        height="300"
       />
     </p>
 
@@ -203,8 +203,8 @@
         src="/images/blog/state-of-nodes/3.jpeg"
         alt="ronindojo"
         loading="lazy"
-        width="400"
-        height="400"
+        width="300"
+        height="300"
       />
     </p>
 
@@ -225,8 +225,8 @@
         src="/images/blog/state-of-nodes/4.jpeg"
         alt="raspiblitz"
         loading="lazy"
-        width="400"
-        height="400"
+        width="300"
+        height="300"
       />
     </p>
 
@@ -246,8 +246,8 @@
         src="/images/blog/state-of-nodes/5.jpeg"
         alt="embassy"
         loading="lazy"
-        width="400"
-        height="400"
+        width="300"
+        height="300"
       />
     </p>
 
@@ -267,8 +267,8 @@
         src="/images/blog/state-of-nodes/6.jpeg"
         alt="umbrel"
         loading="lazy"
-        width="400"
-        height="400"
+        width="300"
+        height="300"
       />
     </p>
 
