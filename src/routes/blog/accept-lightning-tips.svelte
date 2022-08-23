@@ -15,7 +15,7 @@
   title="How to accept bitcoin lightning tips on your website ⚡"
   image="tips"
   description="Have you ever wondered how to accept bitcoin tips on your website? Well this is the guide for you!"
-  date="Aug 4, 2022"
+  date="Aug 5, 2022"
 >
   <div
     id="blog-content"
@@ -310,3 +310,9 @@
     <h2>₿</h2>
   </div>
 </BlogPost>
+
+<style>
+  #blog-content img {
+    margin: 20px auto;
+  }
+</style>

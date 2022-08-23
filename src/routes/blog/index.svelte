@@ -6,11 +6,18 @@
   import { BlogInfo, BlogCard, Footer } from "$comp";
   const posts = [
     {
+      image: "nodes",
+      title: "The state of bitcoin (plug and play) nodes 2022 🌐",
+      description: "Everyone can run a bitcoin full node, and you should too!",
+      date: "Aug 23, 2022",
+      url: "state-of-nodes",
+    },
+    {
       image: "tips",
       title: "How to accept bitcoin lightning tips on your website ⚡",
       description:
         "Have you ever wondered how to accept bitcoin tips on your website? Well this is the guide for you!",
-      date: "Aug 4, 2022",
+      date: "Aug 5, 2022",
       url: "accept-lightning-tips",
     },
     {

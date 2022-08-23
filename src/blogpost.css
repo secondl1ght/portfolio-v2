@@ -41,6 +41,13 @@
   overflow: auto;
 }
 
-#blog-content img {
+#blog-content blockquote {
+  border-left: 4px solid #9a6ff1;
+  padding-left: 20px;
+}
+
+#blog-content hr {
+  opacity: 0.25;
+  width: 25%;
   margin: 20px auto;
 }
