@@ -52,7 +52,7 @@
 
     <p>Other reasons for running your own node are:</p>
 
-    <ul>
+    <ul class="space-y-5">
       <li>
         <p>
           <strong>greatly improved privacy</strong> (if you use a public node
@@ -70,6 +70,31 @@
           you may agree or disagree with some of the proposed changes. by
           running a node <strong>you get to choose</strong> which version of bitcoin
           you want to support in these situations.)
+        </p>
+      </li>
+      <li>
+        <p>
+          <strong>become censorship resistant</strong> (<a
+            target="_blank"
+            rel="noreferrer"
+            href="https://nakamotoinstitute.org/trusted-third-parties/"
+            >trusted third parties are security holes</a
+          >. by running a full node you are
+          <strong>guaranteed to have access</strong>
+          to the <strong>bitcoin network anytime</strong> and
+          <strong>without asking for permission</strong>. you get to choose when
+          you want to <strong>broadcast a transaction</strong>.)
+        </p>
+      </li>
+      <li>
+        <p>
+          <strong>decentralize the network</strong> (<strong>help</strong> make
+          it <strong>impossible to shutdown</strong> bitcoin by adding a node to
+          the <strong>distributed network</strong> of peers that are
+          communicating <strong>across the globe</strong>. another
+          <strong>small beacon of freedom</strong>
+          will come online and <strong>discover</strong> others who speak the same
+          language.)
         </p>
       </li>
     </ul>
@@ -125,7 +150,10 @@
       Some of these projects offer more than just a bitcoin core node with
       additional services like a <strong>lightning node</strong>,
       <strong>coinjoin software</strong>, and other useful
-      <strong>bitcoin applications</strong>.
+      <strong>bitcoin applications</strong>. Also many of these projects
+      <strong>run over Tor</strong>
+      by default, so you will have <strong>good privacy</strong> features right out
+      of the box.
     </p>
 
     <p>
@@ -288,8 +316,11 @@
 
     <p>
       As you can see there are <strong>many great options</strong> to
-      <strong>easily run</strong> a bitcoin full node. If I missed any projects please
-      let me know.
+      <strong>easily run</strong> a bitcoin full node. If I missed any projects
+      please let me know. Once you have your node
+      <strong>up and running</strong>
+      don't forget to <strong>connect it</strong> to whichever
+      <strong>wallets</strong> you are using.
     </p>
 
     <p>
