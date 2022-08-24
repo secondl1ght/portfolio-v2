@@ -38,9 +38,9 @@
   <p
     class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
   >
-    i am always open to chatting with
-    interesting people who share my values and work on projects that align with
-    our mission. here are the best ways to get a hold of me:
+    i am always open to chatting with interesting people who share my values and
+    work on projects that align with our mission. here are the best ways to get
+    a hold of me:
   </p>
   <div class="block md:flex flex-wrap">
     {#each contactMethods as contact}
