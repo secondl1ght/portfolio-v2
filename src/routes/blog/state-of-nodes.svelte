@@ -34,7 +34,8 @@
     <p>
       You may be wondering why someone would want to run their own node. The
       main reason for doing this is to <strong>validate</strong> that the
-      bitcoin you hold in your wallet actually exist. This sounds alarming, but you cannot verify this fact unless you have a copy of the
+      bitcoin you hold in your wallet actually exist. This sounds alarming, but
+      you cannot verify this fact unless you have a copy of the
       <strong>blockchain history yourself</strong>. While it is unlikely that
       the bitcoin you hold is 'fake bitcoin', the reality is: if you are using a
       wallet that is connected to somebody else's node, then you are trusting
@@ -99,11 +100,10 @@
     </ul>
 
     <p>
-      Connecting to the bitcoin network of <strong
-        >distributed peers across the globe</strong
-      >
-      is an <strong>exciting</strong> and <strong>rewarding</strong> experience.
-      Even though it is all code - there is something <strong>magical</strong>
+      Connecting to the bitcoin network is an <strong>exciting</strong> and
+      <strong>rewarding</strong>
+      experience. Even though it is all code - there is something
+      <strong>magical</strong>
       about bringing a new node online and
       <strong>joining in the decentralized revolution</strong>. There are
       <strong>thousands</strong>
@@ -136,7 +136,7 @@
     <p>
       I have put together a list of <strong>easy to use</strong> bitcoin node
       options for anyone looking to <strong>get started</strong>. For each
-      option I have included some basic information but I have also provided
+      option I have included some basic information, but I have also provided
       links to the projects so that you can <strong>DYOR</strong> and decide for
       yourself which plug and play node you would like to
       <strong>use and support</strong>. Each node should have a
@@ -157,7 +157,8 @@
 
     <p>
       I have listed these in <strong>alphabetical order</strong>. Please note
-      that many of the options with prices also offer a <strong>DIY</strong>
+      that many of the options with prices also offer a free
+      <strong>DIY</strong>
       version. Lastly, many of these projects are <strong>open source</strong>
       and are open to <strong>contributors</strong>.
     </p>
@@ -222,7 +223,7 @@
         >www.nodl.it</a
       ><br />
       <strong>Price: $529 USD</strong><br />
-      Another project that has been around for a while, nodl has a extra focus on
+      Another project that has been around for a while, nodl has an extra focus on
       security with features like full disk encryption and a killswitch.
     </p>
 
