@@ -229,28 +229,6 @@
 
     <p>
       <img
-        src="/images/blog/state-of-nodes/3.jpeg"
-        alt="ronindojo"
-        loading="lazy"
-        width="300"
-        height="300"
-      />
-    </p>
-
-    <h2>RoninDojo</h2>
-
-    <p>
-      <a target="_blank" rel="noreferrer" href="https://ronindojo.io/"
-        >ronindojo.io</a
-      ><br />
-      <strong>Price: $599 USD</strong><br />
-      Privacy maximalists will love the folks building this software, they are connected
-      with the Samourai Wallet crew and take no shortcuts in creating this privacy-focused
-      offering.
-    </p>
-
-    <p>
-      <img
         src="/images/blog/state-of-nodes/4.jpeg"
         alt="raspiblitz"
         loading="lazy"
@@ -278,6 +256,28 @@
         width="300"
         height="300"
       />
+    </p>
+
+    <p>
+      <img
+        src="/images/blog/state-of-nodes/3.jpeg"
+        alt="ronindojo"
+        loading="lazy"
+        width="300"
+        height="300"
+      />
+    </p>
+
+    <h2>RoninDojo</h2>
+
+    <p>
+      <a target="_blank" rel="noreferrer" href="https://ronindojo.io/"
+        >ronindojo.io</a
+      ><br />
+      <strong>Price: $599 USD</strong><br />
+      Privacy maximalists will love the folks building this software, they are connected
+      with the Samourai Wallet crew and take no shortcuts in creating this privacy-focused
+      offering.
     </p>
 
     <h2>Start9 (Embassy)</h2>
