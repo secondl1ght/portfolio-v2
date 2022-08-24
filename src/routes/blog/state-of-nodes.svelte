@@ -34,8 +34,7 @@
     <p>
       You may be wondering why someone would want to run their own node. The
       main reason for doing this is to <strong>validate</strong> that the
-      bitcoin you hold in your wallet actually exist. This sounds alarming at
-      first, but you cannot verify this fact unless you have a copy of the
+      bitcoin you hold in your wallet actually exist. This sounds alarming, but you cannot verify this fact unless you have a copy of the
       <strong>blockchain history yourself</strong>. While it is unlikely that
       the bitcoin you hold is 'fake bitcoin', the reality is: if you are using a
       wallet that is connected to somebody else's node, then you are trusting
