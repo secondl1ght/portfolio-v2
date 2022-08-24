@@ -4,12 +4,19 @@
 </script>
 
 <svelte:head>
+  <title>secondl1ght - blog</title>
   <meta
     name="description"
     content="The state of bitcoin (plug and play) nodes 2022 🌐"
   />
   <meta property="og:image" content="/images/nodes.png" />
-  <title>secondl1ght - blog</title>
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="secondl1ght - blog" />
+  <meta
+    property="twitter:description"
+    content="The state of bitcoin (plug and play) nodes 2022 🌐"
+  />
+  <meta property="twitter:image" content="/images/nodes.png" />
 </svelte:head>
 
 <BlogPost

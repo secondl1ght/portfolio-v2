@@ -4,12 +4,19 @@
 </script>
 
 <svelte:head>
+  <title>secondl1ght - blog</title>
   <meta
     name="description"
     content="How to Teach Yourself to Code and Start a New Career (or at least how I did it)"
   />
   <meta property="og:image" content="/images/code.png" />
-  <title>secondl1ght - blog</title>
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="secondl1ght - blog" />
+  <meta
+    property="twitter:description"
+    content="How to Teach Yourself to Code and Start a New Career (or at least how I did it)"
+  />
+  <meta property="twitter:image" content="/images/code.png" />
 </svelte:head>
 
 <BlogPost

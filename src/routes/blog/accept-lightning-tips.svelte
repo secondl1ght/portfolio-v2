@@ -4,12 +4,19 @@
 </script>
 
 <svelte:head>
+  <title>secondl1ght - blog</title>
   <meta
     name="description"
     content="How to accept bitcoin lightning tips on your website ⚡"
   />
   <meta property="og:image" content="/images/tips.png" />
-  <title>secondl1ght - blog</title>
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="secondl1ght - blog" />
+  <meta
+    property="twitter:description"
+    content="How to accept bitcoin lightning tips on your website ⚡"
+  />
+  <meta property="twitter:image" content="/images/tips.png" />
 </svelte:head>
 
 <BlogPost
