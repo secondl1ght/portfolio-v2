@@ -38,7 +38,7 @@
   <p
     class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
   >
-    while i am not currently looking for work, i am always open to chatting with
+    i am always open to chatting with
     interesting people who share my values and work on projects that align with
     our mission. here are the best ways to get a hold of me:
   </p>
