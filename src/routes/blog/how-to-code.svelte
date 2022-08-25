@@ -16,7 +16,7 @@
     property="twitter:description"
     content="How to Teach Yourself to Code and Start a New Career (or at least how I did it)"
   />
-  <meta property="twitter:image" content="/images/code.png" />
+  <meta property="twitter:image" content="https://www.secondl1ght.site/images/code.png" />
 </svelte:head>
 
 <BlogPost

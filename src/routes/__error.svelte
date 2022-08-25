@@ -20,7 +20,7 @@
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:title" content="secondl1ght - portfolio" />
   <meta property="twitter:description" content="web developer portfolio" />
-  <meta property="twitter:image" content="/images/avatar.png" />
+  <meta property="twitter:image" content="https://www.secondl1ght.site/images/avatar.png" />
 </svelte:head>
 
 <div class="my-20 space-y-5 w-3/4 md:w-96 mx-auto">

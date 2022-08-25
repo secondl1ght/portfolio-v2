@@ -39,7 +39,7 @@
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:title" content="secondl1ght - blog" />
   <meta property="twitter:description" content="web developer blog" />
-  <meta property="twitter:image" content="/images/avatar.png" />
+  <meta property="twitter:image" content="https://www.secondl1ght.site/images/avatar.png" />
 </svelte:head>
 
 <div

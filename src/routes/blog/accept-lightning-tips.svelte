@@ -16,7 +16,7 @@
     property="twitter:description"
     content="How to accept bitcoin lightning tips on your website ⚡"
   />
-  <meta property="twitter:image" content="/images/tips.png" />
+  <meta property="twitter:image" content="https://www.secondl1ght.site/images/tips.png" />
 </svelte:head>
 
 <BlogPost

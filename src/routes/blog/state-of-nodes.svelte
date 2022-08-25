@@ -16,7 +16,7 @@
     property="twitter:description"
     content="The state of bitcoin (plug and play) nodes 2022 🌐"
   />
-  <meta property="twitter:image" content="/images/nodes.png" />
+  <meta property="twitter:image" content="https://www.secondl1ght.site/images/nodes.png" />
 </svelte:head>
 
 <BlogPost
