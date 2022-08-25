@@ -9,14 +9,20 @@
     name="description"
     content="How to Teach Yourself to Code and Start a New Career (or at least how I did it)"
   />
-  <meta property="og:image" content="https://www.secondl1ght.site/images/code.png" />
+  <meta
+    property="og:image"
+    content="https://www.secondl1ght.site/images/code.png"
+  />
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:title" content="secondl1ght - blog" />
   <meta
     property="twitter:description"
     content="How to Teach Yourself to Code and Start a New Career (or at least how I did it)"
   />
-  <meta property="twitter:image" content="https://www.secondl1ght.site/images/code.png" />
+  <meta
+    property="twitter:image"
+    content="https://www.secondl1ght.site/images/code.png"
+  />
 </svelte:head>
 
 <BlogPost
