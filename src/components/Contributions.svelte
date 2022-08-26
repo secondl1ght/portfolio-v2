@@ -103,13 +103,13 @@
       description:
         "jam is a web ui for joinmarket with focus on user-friendliness.",
     },
-    /* {
+    {
       project: "stratum v2 website",
       url: "https://github.com/stratum-mining/stratumprotocol.org",
       icon: "/icons/stratum.svg",
       description:
         "stratum v2 is the next generation protocol for pooled mining.",
-    }, */
+    },
     {
       project: "bitcoin beach wallet",
       url: "https://github.com/GaloyMoney/galoy-mobile",
@@ -123,14 +123,14 @@
       icon: "/icons/stacker.svg",
       description: "it's like hacker news, but for bitcoin.",
     },
-    {
+    /* {
       project: "zeus",
       url: "https://github.com/ZeusLN/zeus",
       icon: "/icons/zeus.svg",
       description:
         "zeus is a mobile bitcoin/lightning node manager and wallet app for lnd, core lightning, and eclair.",
     },
-    /* {
+     {
       project: "start9",
       url: "https://github.com/Start9Labs",
       icon: "/icons/s9.svg",
