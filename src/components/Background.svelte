@@ -40,11 +40,7 @@
     dev full-time! <br /><br /> all of my code is open source, please feel free
     to review my code on github. this is my proof of work. <br /><br /> i'd like
     to thank everyone who has helped me along this incredible journey so far,
-    i've met many kind and generous people along the way. for anyone interested
-    in learning how to code, i wrote a blog
-    <a href="/blog/how-to-code" class="text-white underline hover:text-hover"
-      >post</a
-    > detailing how i was able to accomplish this.
+    i've met many kind and generous people along the way.
   </p>
   <div>
     <h4 class="jakarta text-white text-lg md:text-xl lg:text-2xl mb-5">
