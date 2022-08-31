@@ -9,10 +9,10 @@
 <div
   class="w-3/4 md:w-[655px] lg:w-[755px] 2xl:w-[855px] space-y-5 mx-auto xl:mx-0"
 >
-  <a sveltekit:prefetch href="/blog/{url}" class="block">
+  <a data-sveltekit-prefetch href="/blog/{url}" class="block">
     <img src="/images/{image}.png" alt={image} class="w-full" />
   </a>
-  <a sveltekit:prefetch href="/blog/{url}" class="block">
+  <a data-sveltekit-prefetch href="/blog/{url}" class="block">
     <h2
       class="!leading-normal jakarta text-white hover:text-hover text-2xl md:text-3xl lg:text-4xl"
     >

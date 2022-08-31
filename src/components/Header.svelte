@@ -8,7 +8,7 @@
 
   const handleButtonClick = (section, store) => {
     showMenu = false;
-    if ($page.url.pathname.includes("blog")) {
+    if ($page.url.pathname.length > 1 || $page.error) {
       goto(`/#${section}`);
     } else {
       scroll(store);

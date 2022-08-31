@@ -1,16 +1,5 @@
-<script context="module">
-  /** @type {import('@sveltejs/kit').Load} */
-  export function load({ error, status }) {
-    return {
-      props: {
-        title: `${status}: ${error.message}`,
-      },
-    };
-  }
-</script>
-
 <script>
-  export let title;
+  import { page } from "$app/stores";
 </script>
 
 <svelte:head>
@@ -40,5 +29,7 @@
     /></svg
   >
   <h1 class="jakarta text-white text-7xl font-bold text-center">error</h1>
-  <h2 class="ibm text-secondary text-3xl text-center break-all">{title}</h2>
+  <h2 class="ibm text-secondary text-3xl text-center break-all">
+    {$page.status} : {$page.error.message}
+  </h2>
 </div>

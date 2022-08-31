@@ -1,7 +1,3 @@
-<script context="module">
-  export const prerender = true;
-</script>
-
 <script>
   import { BlogInfo, BlogCard, Footer } from "$comp";
   const posts = [

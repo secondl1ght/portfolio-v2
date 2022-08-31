@@ -1,5 +1,5 @@
 <script>
-  import "../../blogpost.css";
+  import "../../../blogpost.css";
   import { BlogPost } from "$comp";
 </script>
 
