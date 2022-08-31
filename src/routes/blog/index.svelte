@@ -7,7 +7,7 @@
   const posts = [
     {
       image: "nodes",
-      title: "The state of bitcoin (plug and play) nodes 2022 🌐",
+      title: "The state of bitcoin (plug and play) nodes 🌐",
       description: "Everyone can run a bitcoin full node, and you should too!",
       date: "Aug 23, 2022",
       url: "state-of-nodes",

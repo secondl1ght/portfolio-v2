@@ -7,7 +7,7 @@
   <title>secondl1ght - blog</title>
   <meta
     name="description"
-    content="The state of bitcoin (plug and play) nodes 2022 🌐"
+    content="The state of bitcoin (plug and play) nodes 🌐"
   />
   <meta
     property="og:image"
@@ -17,7 +17,7 @@
   <meta property="twitter:title" content="secondl1ght - blog" />
   <meta
     property="twitter:description"
-    content="The state of bitcoin (plug and play) nodes 2022 🌐"
+    content="The state of bitcoin (plug and play) nodes 🌐"
   />
   <meta
     property="twitter:image"
@@ -26,7 +26,7 @@
 </svelte:head>
 
 <BlogPost
-  title="The state of bitcoin (plug and play) nodes 2022 🌐"
+  title="The state of bitcoin (plug and play) nodes 🌐"
   image="nodes"
   description="Everyone can run a bitcoin full node, and you should too!"
   date="Aug 23, 2022"
