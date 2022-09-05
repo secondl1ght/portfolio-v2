@@ -97,18 +97,23 @@
 
   const miniProjects = [
     {
+      project: "btc map",
+      url: "https://github.com/teambtcmap/btcmap.org",
+      icon: "/icons/map.svg",
+      description:
+        "easily find places to spends sats wherever you are on the planet.",
+    },
+    {
       project: "jam",
       url: "https://github.com/joinmarket-webui/joinmarket-webui",
       icon: "/icons/jam.svg",
-      description:
-        "jam is a web ui for joinmarket with focus on user-friendliness.",
+      description: "a web ui for joinmarket with focus on user-friendliness.",
     },
     {
       project: "stratum v2 website",
       url: "https://github.com/stratum-mining/stratumprotocol.org",
       icon: "/icons/stratum.svg",
-      description:
-        "stratum v2 is the next generation protocol for pooled mining.",
+      description: "the next generation protocol for pooled mining.",
     },
     {
       project: "bitcoin beach wallet",
@@ -117,13 +122,13 @@
       description:
         "helping bring the vision of a sustainable bitcoin economy to fruition.",
     },
-    {
+    /* {
       project: "stacker.news",
       url: "https://github.com/stackernews/stacker.news",
       icon: "/icons/stacker.svg",
       description: "it's like hacker news, but for bitcoin.",
     },
-    /* {
+     {
       project: "zeus",
       url: "https://github.com/ZeusLN/zeus",
       icon: "/icons/zeus.svg",
