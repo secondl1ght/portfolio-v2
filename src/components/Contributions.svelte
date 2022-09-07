@@ -101,7 +101,7 @@
       url: "https://github.com/teambtcmap/btcmap.org",
       icon: "/icons/map.svg",
       description:
-        "easily find places to spends sats wherever you are on the planet.",
+        "easily find places to spend sats wherever you are on the planet.",
     },
     {
       project: "jam",
