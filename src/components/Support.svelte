@@ -16,7 +16,7 @@
     the bitcoin ecosystem is greatly appreciated!
   </p>
   <a
-    href="https://coinos.io/secondl1ght"
+    href="https://classic.coinos.io/secondl1ght"
     target="_blank"
     rel="noreferrer"
     class="relative ibm w-full md:w-1/2 md:text-lg lg:text-xl h-12 md:h-16 lg:h-20 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white"
