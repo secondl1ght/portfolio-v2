@@ -16,7 +16,6 @@
       contribution:
         "rewrite app from vue.js to sveltekit, refresh UI with new design and features focused on expanding POS, help implement a donation and fee system to monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
       role: "web developer",
-      duration: "nov 2021 - present",
       tech: [
         { tech: "vue.js", icon: "/icons/vue.svg" },
         { tech: "sveltekit", icon: "/icons/svelte.svg" },
@@ -36,7 +35,6 @@
       contribution:
         "launch geyser grants feature, integrate gifs in messages, develop crowdfunding leaderboard to boost interactivity, help with lightning address embeds for campaigns, front-end for lnurl-auth, responsiveness improvements & more.",
       role: "software engineer",
-      duration: "mar 2022 - present",
       tech: [
         { tech: "react", icon: "/icons/react.svg" },
         { tech: "typescript", icon: "/icons/ts.svg" },
@@ -57,7 +55,6 @@
       contribution:
         "add lightning node connection options, refactor public lightning address donation page to match new design, manage some dependency upgrades to ensure there are no breaking changes, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
       role: "open source contributor",
-      duration: "oct 2021 - present",
       tech: [
         { tech: "react", icon: "/icons/react.svg" },
         { tech: "rubyonrails", icon: "/icons/rails.svg" },
@@ -80,7 +77,6 @@
       contribution:
         "ship end to end encrypted messaging, add artist tipping, support sat unit conversion, add commenting on artworks to increase platform engagement, audio file format upload compatibility, wallet revamp & more.",
       role: "open source contributor",
-      duration: "nov 2021 - present",
       tech: [
         { tech: "sveltekit", icon: "/icons/svelte.svg" },
         { tech: "javascript", icon: "/icons/js.svg" },
@@ -175,7 +171,6 @@
       description={project.description}
       contribution={project.contribution}
       role={project.role}
-      duration={project.duration}
       tech={project.tech}
     />
   {/each}

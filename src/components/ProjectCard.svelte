@@ -8,7 +8,6 @@
   export let description;
   export let contribution;
   export let role;
-  export let duration;
   export let tech;
 </script>
 
@@ -48,10 +47,6 @@
   <div class="mt-10 lg:mt-0 w-full lg:w-1/3">
     <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">role</h4>
     <p class="ibm text-secondary mb-10 md:text-lg lg:text-xl">{role}</p>
-    <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
-      duration
-    </h4>
-    <p class="ibm text-secondary mb-10 md:text-lg lg:text-xl">{duration}</p>
     <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
       tech stack
     </h4>
