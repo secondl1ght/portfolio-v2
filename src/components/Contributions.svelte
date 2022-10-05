@@ -38,7 +38,7 @@
         { tech: "sveltekit", icon: "/icons/svelte.svg" },
         { tech: "javascript", icon: "/icons/js.svg" },
         { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
-        { tech: "leafletjs", icon: "/icons/leaflet.svg" },
+        { tech: "leafletjs", icon: "/icons/leaflet.png" },
         { tech: "openstreetmap", icon: "/icons/osm.svg" },
         { tech: "sqlite", icon: "/icons/sqlite.svg" },
         { tech: "node.js", icon: "/icons/node.svg" },
