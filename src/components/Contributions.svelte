@@ -26,6 +26,25 @@
       ],
     },
     {
+      gradients: "from-[#0B9072] to-[#144046]",
+      image: "/images/btcmap.png",
+      url: "https://btcmap.org/",
+      title: "btc map",
+      description: "easily find places to spend sats anywhere on the planet.",
+      contribution:
+        "code and architect front-end of the app including; utilize leafletjs to make a custom mapping solution, create easy to use forms for adding and updating data on openstreetmap, integrate the github api with form submissions, add statistics dashboard to monitor mapping activity in real time including a latest taggers feed, make the web app pwa so it can be installed on mobile devices, include an easy to embed iframe with url search param queries, allow for dynamic community routes to position map on local areas & much more to come!",
+      role: "open source maintainer",
+      tech: [
+        { tech: "sveltekit", icon: "/icons/svelte.svg" },
+        { tech: "javascript", icon: "/icons/js.svg" },
+        { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
+        { tech: "leafletjs", icon: "/icons/leaflet.svg" },
+        { tech: "openstreetmap", icon: "/icons/osm.svg" },
+        { tech: "sqlite", icon: "/icons/sqlite.svg" },
+        { tech: "node.js", icon: "/icons/node.svg" },
+      ],
+    },
+    {
       gradients: "from-[#B1F5EE] to-[#A6C1EE]",
       image: "/images/geyser.png",
       url: "https://geyser.fund/",
@@ -92,13 +111,6 @@
   ];
 
   const miniProjects = [
-    {
-      project: "btc map",
-      url: "https://github.com/teambtcmap/btcmap.org",
-      icon: "/icons/map.svg",
-      description:
-        "easily find places to spend sats wherever you are on the planet.",
-    },
     {
       project: "jam",
       url: "https://github.com/joinmarket-webui/joinmarket-webui",
