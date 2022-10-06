@@ -3,6 +3,7 @@
   import { goto } from "$app/navigation";
   import { tick } from "svelte";
   import {
+    Banner,
     Hero,
     Contributions,
     Background,
@@ -37,6 +38,7 @@
   />
 </svelte:head>
 
+<Banner />
 <Hero />
 <Contributions />
 <Background />

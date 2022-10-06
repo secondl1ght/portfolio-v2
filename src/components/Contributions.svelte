@@ -32,7 +32,7 @@
       title: "btc map",
       description: "easily find places to spend sats anywhere on the planet.",
       contribution:
-        "code and architect front-end of the app including; utilize leafletjs to make a custom mapping solution, create easy to use forms for adding and updating data on openstreetmap, integrate the github api with form submissions, add statistics dashboard to monitor mapping activity in real time including a latest taggers feed, make the web app pwa so it can be installed on mobile devices, include an easy to embed iframe with url search param queries, allow for dynamic community routes to position map on local areas & much more to come!",
+        "code and architect front-end of the app including; pull data from the osm api and filter based on bitcoin attributes, utilize leafletjs to make a custom mapping solution, create easy to use forms for adding and updating data on openstreetmap, integrate the github api with form submissions, add statistics dashboard to monitor mapping activity in real time including a latest taggers feed, make the web app pwa so it can be installed on mobile devices, include an easy to embed iframe with url search param queries, allow for dynamic community routes to position map on local areas & much more to come!",
       role: "open source maintainer",
       tech: [
         { tech: "sveltekit", icon: "/icons/svelte.svg" },
