@@ -7,4 +7,9 @@
       class="underline hover:text-hover">Adopting Bitcoin</a
     > conference in El Salvador!
   </p>
+  <img
+    src="/images/adopting.jpeg"
+    alt="Adopting Bitcoin"
+    class="md:w-96 mx-auto mt-4"
+  />
 </div>
