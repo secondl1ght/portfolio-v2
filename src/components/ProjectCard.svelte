@@ -50,10 +50,20 @@
     <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
       tech stack
     </h4>
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap {title === 'btc map' ? 'mb-10' : ''}">
       {#each tech as tech}
         <Tech tech={tech.tech} icon={tech.icon} iconOnly={true} />
       {/each}
     </div>
+    {#if title === "btc map"}
+      <a
+        href="https://stephanlivera.com/episode/420/"
+        target="_blank"
+        rel="noreferrer"
+        class="bg-shadow hover:shadow-lg p-4 max-w-lg block"
+      >
+        <img src="/images/slp.webp" alt="Stephan Livera Podcast" />
+      </a>
+    {/if}
   </div>
 </div>
