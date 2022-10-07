@@ -1,4 +1,4 @@
-<div class="shadow-lg w-full bg-shadow text-center p-4 ibm text-secondary">
+<div class="shadow-lg w-full bg-shadow text-center p-4 ibm text-secondary text-lg">
   <p>
     I will be speaking at the upcoming <a
       href="https://adoptingbitcoin.org/2022/speaker/secondl1ght"
