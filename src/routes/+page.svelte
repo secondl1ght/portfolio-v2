@@ -38,7 +38,7 @@
   />
 </svelte:head>
 
-<Banner />
+<!-- <Banner /> -->
 <Hero />
 <Contributions />
 <Background />

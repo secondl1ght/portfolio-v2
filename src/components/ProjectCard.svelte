@@ -9,6 +9,8 @@
   export let contribution;
   export let role;
   export let tech;
+
+  let showMore = false;
 </script>
 
 <div class="w-full {marginTop} bg-gradient-to-r {gradients}">
@@ -41,7 +43,16 @@
     <p
       class="ibm text-secondary w-full lg:w-3/4 md:text-lg lg:text-xl !leading-normal"
     >
-      {contribution}
+      {#if title === "btc map"}
+        {showMore ? contribution : contribution.slice(0, 865) + "..."}
+        <button
+          class="text-white hover:text-hover"
+          on:click={() => (showMore = !showMore)}
+          >{showMore ? "show less" : "show more"}</button
+        >
+      {:else}
+        {contribution}
+      {/if}
     </p>
   </div>
   <div class="mt-10 lg:mt-0 w-full lg:w-1/3">
@@ -60,9 +71,18 @@
         href="https://stephanlivera.com/episode/420/"
         target="_blank"
         rel="noreferrer"
-        class="bg-shadow hover:shadow-lg p-4 max-w-lg block"
+        class="bg-shadow hover:shadow-lg p-4 max-w-lg block mb-5"
       >
         <img src="/images/slp.webp" alt="Stephan Livera Podcast" />
+      </a>
+
+      <a
+        href="https://adoptingbitcoin.org/2022/speaker/secondl1ght"
+        target="_blank"
+        rel="noreferrer"
+        class="bg-shadow hover:shadow-lg p-4 max-w-lg block"
+      >
+        <img src="/images/adopting.jpeg" alt="Adopting Bitcoin" />
       </a>
     {/if}
   </div>
