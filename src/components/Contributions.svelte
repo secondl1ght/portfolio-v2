@@ -123,14 +123,14 @@
       icon: "/icons/stratum.svg",
       description: "the next generation protocol for pooled mining.",
     },
-    {
+    /* {
       project: "bitcoin beach wallet",
       url: "https://github.com/GaloyMoney/galoy-mobile",
       icon: "/icons/beach.svg",
       description:
         "helping bring the vision of a sustainable bitcoin economy to fruition.",
     },
-    /* {
+    {
       project: "stacker.news",
       url: "https://github.com/stackernews/stacker.news",
       icon: "/icons/stacker.svg",
