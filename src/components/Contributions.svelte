@@ -113,13 +113,13 @@
   const miniProjects = [
     {
       project: "jam",
-      url: "https://github.com/joinmarket-webui/joinmarket-webui",
+      url: "https://jamapp.org/",
       icon: "/icons/jam.svg",
       description: "a web ui for joinmarket with focus on user-friendliness.",
     },
     {
       project: "stratum v2 website",
-      url: "https://github.com/stratum-mining/stratumprotocol.org",
+      url: "https://stratumprotocol.org/",
       icon: "/icons/stratum.svg",
       description: "the next generation protocol for pooled mining.",
     },
