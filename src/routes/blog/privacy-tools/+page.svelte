@@ -458,7 +458,7 @@
 
     <p>
       Ad-free and open source Twitch mobile application available on F-Droid.
-      You can sign into an account or watch as anonymously.
+      You can sign into an account or watch anonymously.
     </p>
 
     <h2>Maps 🗺️</h2>
