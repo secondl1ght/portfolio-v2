@@ -2,6 +2,14 @@
   import { BlogInfo, BlogCard, Footer } from "$comp";
   const posts = [
     {
+      image: "lock",
+      title: "Privacy tools for the information age 🔐",
+      description:
+        "When I was first learning how to code I created a website called Privacy Tech Resource which was a curated list of privacy tools that I have found useful and recommend others to use. I have since taken down that site, but thought I would write a blog post containing the same information and some updated resources too.",
+      date: "Nov 23, 2022",
+      url: "privacy-tools",
+    },
+    {
       image: "nodes",
       title: "The state of bitcoin (plug and play) nodes 🌐",
       description: "Everyone can run a bitcoin full node, and you should too!",

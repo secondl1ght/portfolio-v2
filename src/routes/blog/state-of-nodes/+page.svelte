@@ -59,7 +59,7 @@
     <blockquote>
       <p>
         'If my bitcoin live on the blockchain, then I should probably have a
-        copy of that ledger to make sure they are there.' - a humble stacker 🤠
+        copy of that ledger to make sure they are there.' — a humble stacker 🤠
       </p>
     </blockquote>
 

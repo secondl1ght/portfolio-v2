@@ -33,6 +33,11 @@
   list-style-type: disc;
 }
 
+#blog-content ol {
+  padding-left: 2rem;
+  list-style-type: decimal;
+}
+
 #blog-content pre {
   color: white;
   background-color: #1e1f2b;
