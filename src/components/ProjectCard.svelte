@@ -77,7 +77,7 @@
       </a>
 
       <a
-        href="https://adoptingbitcoin.org/2022/speaker/secondl1ght"
+        href="https://youtu.be/BzdKSgT17pQ"
         target="_blank"
         rel="noreferrer"
         class="bg-shadow hover:shadow-lg p-4 max-w-lg block"
