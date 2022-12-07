@@ -3,14 +3,14 @@
   <meta name="description" content="web developer portfolio" />
   <meta
     property="og:image"
-    content="https://www.secondl1ght.site/images/og.png"
+    content="https://www.secondl1ght.site/images/og.jpg"
   />
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:title" content="secondl1ght - portfolio" />
   <meta property="twitter:description" content="web developer portfolio" />
   <meta
     property="twitter:image"
-    content="https://www.secondl1ght.site/images/og.png"
+    content="https://www.secondl1ght.site/images/og.jpg"
   />
 </svelte:head>
 
