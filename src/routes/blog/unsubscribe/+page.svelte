@@ -7,14 +7,14 @@
   <meta name="description" content="web developer blog" />
   <meta
     property="og:image"
-    content="https://www.secondl1ght.site/images/avatar.png"
+    content="https://www.secondl1ght.site/images/og.png"
   />
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:title" content="secondl1ght - blog" />
   <meta property="twitter:description" content="web developer blog" />
   <meta
     property="twitter:image"
-    content="https://www.secondl1ght.site/images/avatar.png"
+    content="https://www.secondl1ght.site/images/og.png"
   />
 </svelte:head>
 
