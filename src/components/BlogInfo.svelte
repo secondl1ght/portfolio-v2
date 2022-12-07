@@ -47,7 +47,7 @@
     </div>
   </div>
   <p class="ibm text-secondary !leading-normal md:text-lg lg:text-xl">
-    An anonymous developer’s mission to make the world a better place.
+    A web developer’s mission to make the world a better place through bitcoin.
   </p>
   {#if !formComplete}
     <form
