@@ -1,5 +1,7 @@
 <script>
   import Tech from "./Tech.svelte";
+  import AppearanceCard from "./AppearanceCard.svelte";
+
   export let marginTop = "mt-[8.75rem]";
   export let gradients;
   export let image;
@@ -10,6 +12,26 @@
   export let role;
   export let tech;
 
+  const appearanceCards = [
+    {
+      url: "https://youtu.be/BzdKSgT17pQ",
+      margin: "",
+      image: "adopting.jpeg",
+      alt: "Adopting Bitcoin",
+    },
+    {
+      url: "https://stephanlivera.com/episode/420/",
+      margin: "my-5",
+      image: "slp.webp",
+      alt: "Stephan Livera Podcast",
+    },
+    {
+      url: "https://youtu.be/fCPf7m8f_9U?t=1h41m4s",
+      margin: "",
+      image: "legends.jpeg",
+      alt: "Legends of Lightning",
+    },
+  ];
   let showMore = false;
 </script>
 
@@ -44,7 +66,7 @@
       class="ibm text-secondary w-full lg:w-3/4 md:text-lg lg:text-xl !leading-normal"
     >
       {#if title === "btc map"}
-        {showMore ? contribution : contribution.slice(0, 865) + "..."}
+        {showMore ? contribution : contribution.slice(0, 1175) + "..."}
         <button
           class="text-white hover:text-hover"
           on:click={() => (showMore = !showMore)}
@@ -67,23 +89,17 @@
       {/each}
     </div>
     {#if title === "btc map"}
-      <a
-        href="https://stephanlivera.com/episode/420/"
-        target="_blank"
-        rel="noreferrer"
-        class="bg-shadow hover:shadow-lg p-4 max-w-lg block mb-5"
-      >
-        <img src="/images/slp.webp" alt="Stephan Livera Podcast" />
-      </a>
-
-      <a
-        href="https://youtu.be/BzdKSgT17pQ"
-        target="_blank"
-        rel="noreferrer"
-        class="bg-shadow hover:shadow-lg p-4 max-w-lg block"
-      >
-        <img src="/images/adopting.jpeg" alt="Adopting Bitcoin" />
-      </a>
+      <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
+        appearances
+      </h4>
+      {#each appearanceCards as card}
+        <AppearanceCard
+          url={card.url}
+          margin={card.margin}
+          image={card.image}
+          alt={card.alt}
+        />
+      {/each}
     {/if}
   </div>
 </div>

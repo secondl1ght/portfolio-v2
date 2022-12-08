@@ -7,25 +7,6 @@
   const mainProjects = [
     {
       marginTop: "mt-0",
-      gradients: "from-[#DDD6F3] to-[#FAACA8]",
-      image: "/images/coinos.png",
-      url: "https://coinos.io/",
-      title: "coinos",
-      description:
-        "bitcoin web wallet since 2012 and point-of-sale application, supports both liquid and lightning integration.",
-      contribution:
-        "rewrite app from vue.js to sveltekit, refresh UI with new design and features focused on expanding POS, help implement a donation and fee system to monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
-      role: "web developer",
-      tech: [
-        { tech: "vue.js", icon: "/icons/vue.svg" },
-        { tech: "sveltekit", icon: "/icons/svelte.svg" },
-        { tech: "javascript", icon: "/icons/js.svg" },
-        { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
-        { tech: "mariadb", icon: "/icons/maria.svg" },
-        { tech: "node.js", icon: "/icons/node.svg" },
-      ],
-    },
-    {
       gradients: "from-[#0B9072] to-[#144046]",
       image: "/images/btcmap.png",
       url: "https://btcmap.org/",
@@ -41,6 +22,25 @@
         { tech: "leafletjs", icon: "/icons/leaflet.png" },
         { tech: "openstreetmap", icon: "/icons/osm.svg" },
         { tech: "sqlite", icon: "/icons/sqlite.svg" },
+        { tech: "node.js", icon: "/icons/node.svg" },
+      ],
+    },
+    {
+      gradients: "from-[#DDD6F3] to-[#FAACA8]",
+      image: "/images/coinos.png",
+      url: "https://coinos.io/",
+      title: "coinos",
+      description:
+        "bitcoin web wallet since 2012 and point-of-sale application, supports both liquid and lightning integration.",
+      contribution:
+        "rewrite app from vue.js to sveltekit, refresh UI with new design and features focused on expanding POS, help implement a donation and fee system to monetize the platform, add support functionality to improve user experience, maintain and refactor website & more.",
+      role: "web developer",
+      tech: [
+        { tech: "vue.js", icon: "/icons/vue.svg" },
+        { tech: "sveltekit", icon: "/icons/svelte.svg" },
+        { tech: "javascript", icon: "/icons/js.svg" },
+        { tech: "tailwindcss", icon: "/icons/tailwind.svg" },
+        { tech: "mariadb", icon: "/icons/maria.svg" },
         { tech: "node.js", icon: "/icons/node.svg" },
       ],
     },

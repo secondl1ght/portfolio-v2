@@ -5,7 +5,7 @@
 </script>
 
 {#if iconOnly}
-  <div class="mr-5 mb-5 p-4 bg-shadow hover:shadow-lg">
+  <div title={tech} class="mr-5 mb-5 p-4 bg-shadow hover:shadow-lg">
     <img
       src={icon}
       alt={tech}

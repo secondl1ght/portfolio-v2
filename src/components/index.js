@@ -9,3 +9,4 @@ export { default as Footer } from "./Footer.svelte";
 export { default as BlogInfo } from "./BlogInfo.svelte";
 export { default as BlogCard } from "./BlogCard.svelte";
 export { default as BlogPost } from "./BlogPost.svelte";
+export { default as AppearanceCard } from "./AppearanceCard.svelte";

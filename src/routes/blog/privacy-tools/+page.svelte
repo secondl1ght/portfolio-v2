@@ -534,13 +534,13 @@
       admitted to scanning users devices (plus it's closed source). If you use
       Android already then you should use a custom OS that is de-Googled. There
       are a few options out there including Graphene and Calyx but both of those
-      require using a Pixel device. So that is why I recommend LineageOS. It
-      has a large contributor community and is available for many different
-      mobile phones. You will need a bit of tech knowledge in order to follow
-      the guide and flash this to your phone. Having software that you control
-      on a device that you paid for is the way it should work. No more bloatware
-      or spyware. You can breathe a sigh of relief knowing that you have now
-      kicked surveillance tech to the curb.
+      require using a Pixel device. So that is why I recommend LineageOS. It has
+      a large contributor community and is available for many different mobile
+      phones. You will need a bit of tech knowledge in order to follow the guide
+      and flash this to your phone. Having software that you control on a device
+      that you paid for is the way it should work. No more bloatware or spyware.
+      You can breathe a sigh of relief knowing that you have now kicked
+      surveillance tech to the curb.
     </p>
 
     <h3>
