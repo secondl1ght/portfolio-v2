@@ -6,6 +6,7 @@
 </script>
 
 <a
+  title={alt}
   href={url}
   target="_blank"
   rel="noreferrer"
