@@ -14,7 +14,7 @@
 
   const clearHash = async () => {
     await tick();
-    goto("/", { replaceState: true, noscroll: true, keepfocus: true });
+    goto("/", { replaceState: true, noScroll: true, keepFocus: true });
   };
 
   if ($page.url.hash) {
