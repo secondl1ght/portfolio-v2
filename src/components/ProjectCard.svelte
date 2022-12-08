@@ -15,19 +15,16 @@
   const appearanceCards = [
     {
       url: "https://youtu.be/BzdKSgT17pQ",
-      margin: "",
       image: "adopting.jpeg",
       alt: "Adopting Bitcoin",
     },
     {
       url: "https://stephanlivera.com/episode/420/",
-      margin: "my-5",
       image: "slp.webp",
       alt: "Stephan Livera Podcast",
     },
     {
       url: "https://youtu.be/fCPf7m8f_9U?t=1h41m4s",
-      margin: "",
       image: "legends.jpeg",
       alt: "Legends of Lightning",
     },
@@ -93,12 +90,7 @@
         appearances
       </h4>
       {#each appearanceCards as card}
-        <AppearanceCard
-          url={card.url}
-          margin={card.margin}
-          image={card.image}
-          alt={card.alt}
-        />
+        <AppearanceCard url={card.url} image={card.image} alt={card.alt} />
       {/each}
     {/if}
   </div>
