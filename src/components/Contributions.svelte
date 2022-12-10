@@ -73,7 +73,7 @@
         "a versatile lightning browser extension bringing bitcoin payments and authentication to the web.",
       contribution:
         "add lightning node connection options, refactor public lightning address donation page to match new design, manage some dependency upgrades to ensure there are no breaking changes, create custom ghost blog and newsletter widget, dark mode, maintain and update landing pages & more.",
-      role: "open source contributor",
+      role: "front-end developer",
       tech: [
         { tech: "react", icon: "/icons/react.svg" },
         { tech: "rubyonrails", icon: "/icons/rails.svg" },
