@@ -9,7 +9,7 @@
     secondl1ght
   </h4>
   <span class="ibm text-secondary">
-    DE22 DF78 1024 0A80 75A3 56DA 3E7C 74A3 5CBC 05C5
+    PGP: DE22 DF78 1024 0A80 75A3 56DA 3E7C 74A3 5CBC 05C5
   </span>
   <div class="jakarta text-5xl md:text-7xl lg:text-8xl text-white relative">
     <div
