@@ -73,7 +73,7 @@
       class="ibm text-secondary w-full lg:w-3/4 md:text-lg lg:text-xl !leading-normal"
     >
       {#if title === "btc map"}
-        {showMore ? contribution : contribution.slice(0, 865) + "..."}
+        {showMore ? contribution : contribution.slice(0, 802) + "..."}
         <button
           class="text-white hover:text-hover"
           on:click={() => (showMore = !showMore)}
