@@ -22,12 +22,12 @@
       url: "https://stephanlivera.com/episode/420/",
       image: "slp.webp",
       alt: "Stephan Livera Podcast",
-    },
+    } /*,
     {
       url: "https://youtu.be/fCPf7m8f_9U?t=1h41m4s",
       image: "legends.jpeg",
       alt: "Legends of Lightning",
-    },
+    },*/,
   ];
   let showMore = false;
 </script>
@@ -55,6 +55,16 @@
       class="ibm text-secondary w-full md:text-lg lg:text-xl lg:w-3/4 mt-8 mb-10 !leading-normal"
     >
       {description}
+      {#if title === "btc map"}
+        <br />
+        <a
+          href="https://twitter.com/boltfun_btc/status/1597303111319982080"
+          target="_blank"
+          rel="noreferrer"
+          class="text-white hover:text-hover"
+          >legends of lightning ⚡️ finalist</a
+        >.
+      {/if}
     </p>
     <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
       contribution
@@ -63,7 +73,7 @@
       class="ibm text-secondary w-full lg:w-3/4 md:text-lg lg:text-xl !leading-normal"
     >
       {#if title === "btc map"}
-        {showMore ? contribution : contribution.slice(0, 1175) + "..."}
+        {showMore ? contribution : contribution.slice(0, 865) + "..."}
         <button
           class="text-white hover:text-hover"
           on:click={() => (showMore = !showMore)}
