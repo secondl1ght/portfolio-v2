@@ -51,20 +51,24 @@
         >{title}</a
       >
     </h3>
-    <p
-      class="ibm text-secondary w-full md:text-lg lg:text-xl lg:w-3/4 mt-8 mb-10 !leading-normal"
-    >
-      {description}
-      {#if title === "btc map"}
-        <br />
+    {#if title === "btc map"}
+      <h4>
         <a
           href="https://twitter.com/boltfun_btc/status/1597303111319982080"
           target="_blank"
           rel="noreferrer"
-          class="text-white hover:text-hover"
+          class="jakarta text-white hover:text-hover inline-block mt-8 md:text-xl lg:text-2xl"
           >legends of lightning ⚡️ finalist</a
-        >.
-      {/if}
+        >
+      </h4>
+    {/if}
+    <p
+      class="ibm text-secondary w-full md:text-lg lg:text-xl lg:w-3/4 {title ===
+      'btc map'
+        ? 'mt-5'
+        : 'mt-8'} mb-10 !leading-normal"
+    >
+      {description}
     </p>
     <h4 class="jakarta text-white text-lg mb-5 md:text-xl lg:text-2xl">
       contribution
