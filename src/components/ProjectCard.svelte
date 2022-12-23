@@ -14,20 +14,20 @@
 
   const appearanceCards = [
     {
+      url: "https://stephanlivera.com/episode/420/",
+      image: "slp.webp",
+      alt: "Stephan Livera Podcast",
+    },
+    {
       url: "https://youtu.be/BzdKSgT17pQ",
       image: "adopting.jpeg",
       alt: "Adopting Bitcoin",
     },
-    {
-      url: "https://stephanlivera.com/episode/420/",
-      image: "slp.webp",
-      alt: "Stephan Livera Podcast",
-    } /*,
-    {
+    /* {
       url: "https://youtu.be/fCPf7m8f_9U?t=1h41m4s",
       image: "legends.jpeg",
       alt: "Legends of Lightning",
-    },*/,
+    } */
   ];
   let showMore = false;
 </script>
