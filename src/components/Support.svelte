@@ -47,7 +47,7 @@
         target="_blank"
         rel="noreferrer"
         class="text-white underline hover:text-hover">amboss.space</a
-      > and below. if you would like to open up a channel with me to improve my connectivity
+      > and below. if you would like to open up a channel with me to improve connectivity
       on the network and provide some inbound liquidity that would be awesome!
     </p>
     <iframe
