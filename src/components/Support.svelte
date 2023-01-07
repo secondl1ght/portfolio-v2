@@ -48,7 +48,7 @@
         rel="noreferrer"
         class="text-white underline hover:text-hover">amboss.space</a
       > and below. if you would like to open up a channel with me to improve my connectivity
-      with the network and provide some inbound liquidity that would be awesome!
+      on the network and provide some inbound liquidity that would be awesome!
     </p>
     <iframe
       src="https://amboss.space/embed/node/info/021ef14c694456a3aae3471a2e8830da21a8130ccbead6794e3530430e2e074d63?theme=dark&noBackground=true"
