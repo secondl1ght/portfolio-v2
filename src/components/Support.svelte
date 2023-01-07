@@ -35,4 +35,25 @@
       class="text-white underline hover:text-hover">bitcoindevlist.com</a
     >
   </p>
+  <div class="space-y-5">
+    <h4 class="jakarta text-white text-lg md:text-xl lg:text-2xl">
+      connect with lightning 🌩️
+    </h4>
+    <p
+      class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
+    >
+      you can find my lightning node information on <a
+        href="https://amboss.space/c/secondl1ght"
+        target="_blank"
+        rel="noreferrer"
+        class="text-white underline hover:text-hover">amboss.space</a
+      > and below. if you would like to open up a channel with me to improve my connectivity
+      with the network and provide some inbound liquidity that would be awesome!
+    </p>
+    <iframe
+      src="https://amboss.space/embed/node/info/021ef14c694456a3aae3471a2e8830da21a8130ccbead6794e3530430e2e074d63?theme=dark&noBackground=true"
+      width="100%"
+      class="h-[300px] 2xl:h-[271.5px]"
+    />
+  </div>
 </div>
