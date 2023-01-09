@@ -2,6 +2,14 @@
   import { BlogInfo, BlogCard, Footer } from "$comp";
   const posts = [
     {
+      image: "amboss",
+      title: "Feature highlight AMBOSS SPACE",
+      description:
+        "Recently I have taken a bit of a deep dive into the features offered by Amboss Space. First off, I want to have full disclosure that I will be joining the team at Amboss next month as a Frontend Engineer, which I am super excited about!",
+      date: "Jan 10, 2023",
+      url: "amboss-space",
+    },
+    {
       image: "lock",
       title: "Privacy tools for the information age 🔐",
       description:
