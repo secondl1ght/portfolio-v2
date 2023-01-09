@@ -2,7 +2,6 @@
   import Tech from "./Tech.svelte";
   import AppearanceCard from "./AppearanceCard.svelte";
 
-  export let marginTop = "mt-[8.75rem]";
   export let gradients;
   export let image;
   export let url;
@@ -32,7 +31,7 @@
   let showMore = false;
 </script>
 
-<div class="w-full {marginTop} bg-gradient-to-r {gradients}">
+<div class="w-full mt-[8.75rem] bg-gradient-to-r {gradients}">
   <img
     src={image}
     alt={title}
@@ -42,15 +41,28 @@
 </div>
 <div class="mt-10 block lg:flex justify-between">
   <div class="w-full md:w-2/3">
-    <h3>
-      <a
-        href={url}
-        target="_blank"
-        rel="noreferrer"
-        class="jakarta text-white hover:text-hover text-4xl md:text-5xl lg:text-6xl"
-        >{title}</a
+    <div class="md:flex flex-wrap items-center md:space-x-5">
+      <h3>
+        <a
+          href={url}
+          target="_blank"
+          rel="noreferrer"
+          class="jakarta text-white hover:text-hover text-4xl md:text-5xl lg:text-6xl"
+          >{title}</a
+        >
+      </h3>
+      <div
+        class="mt-5 md:mt-0 inline-block md:block p-4 bg-shadow hover:shadow-lg"
       >
-    </h3>
+        <img
+          src="/images/{title.replace(' ', '')}{title === 'raretoshi'
+            ? '.png'
+            : '.jpg'}"
+          alt="avatar"
+          class="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded"
+        />
+      </div>
+    </div>
     {#if title === "btc map"}
       <h4>
         <a
