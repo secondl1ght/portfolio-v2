@@ -189,7 +189,7 @@
       >
       whenever your node state changes. The backup file is
       <strong>fully encrypted</strong>
-      by your nodes private key so <strong>only you</strong> have access to it. This
+      by your node's private key so <strong>only you</strong> have access to it. This
       is an extremely useful service that helps take the burden of this cumbersome
       task off the user.
     </p>
