@@ -101,10 +101,10 @@
     <p>
       One of the more difficult parts of running a lightning node is creating
       and maintaining inbound liquidity so that you can receive sats. Amboss
-      solves this problem by offering a <strong>P2P</strong> lightning marketplace called <a
-        target="_blank"
-        rel="noreferrer"
-        href="https://amboss.space/magma">Magma</a
+      solves this problem by offering a <strong>P2P</strong> lightning
+      marketplace called
+      <a target="_blank" rel="noreferrer" href="https://amboss.space/magma"
+        >Magma</a
       >, where users are matched to buy and sell channels. Buyers of channels
       can easily <strong>connect</strong> &amp; setup sizeable amounts of
       inbound liquidity within minutes. Sellers can put their sats to work and
@@ -155,13 +155,12 @@
 
     <p>
       There are many important events that can happen to your node and you will
-      want to be notified. Things like your node going offline, channels
-      being opened or closed, Magma marketplace events, and more. Amboss has 3
-      methods for <strong>instantly</strong> receiving these notifications so that you can take
-      action if necessary. You can setup notifications to be sent via Telegram,
-      Email, or Webhook. I personally have setup the Telegram notifications and
-      find it very useful to receive these updates either at my laptop or on
-      mobile.
+      want to be notified. Things like your node going offline, channels being
+      opened or closed, Magma marketplace events, and more. Amboss has 3 methods
+      for <strong>instantly</strong> receiving these notifications so that you can
+      take action if necessary. You can setup notifications to be sent via Telegram,
+      Email, or Webhook. I personally have setup the Telegram notifications and find
+      it very useful to receive these updates either at my laptop or on mobile.
     </p>
 
     <h3>Recovery</h3>
@@ -301,8 +300,8 @@
     </p>
 
     <p>
-      Adding on to the previous section's social features you can also create and
-      join lightning network node <a
+      Adding on to the previous section's social features you can also create
+      and join lightning network node <a
         target="_blank"
         rel="noreferrer"
         href="https://amboss.space/community">communities</a
