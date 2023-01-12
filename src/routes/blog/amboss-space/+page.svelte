@@ -194,7 +194,7 @@
       task off the user.
     </p>
 
-    <h2>API and Embed-able Widgets</h2>
+    <h2>API and Widgets</h2>
 
     <h3>API</h3>
 
