@@ -325,7 +325,7 @@
 
     <p>
       On the homepage and on each node's page there is a keysend billboard.
-      Anybody can post a message here which adds another social dynamic but it
+      Anybody can post a message here which adds another social dynamic, but it
       can also display important information to other users. Further to this
       idea, users can subscribe to announcements from other node's on the
       network who can broadcast a message to their subscribers. Messaging on the
