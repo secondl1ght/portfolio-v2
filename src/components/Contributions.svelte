@@ -177,7 +177,7 @@
   >
     <img src="/images/amboss.svg" alt="amboss" class="mb-8" />
     <p>
-      I am currently working full-time with the amazing team at <a
+      Starting in February I will be working full-time with the amazing team at <a
         href="https://amboss.space/"
         target="_blank"
         rel="noreferrer"
