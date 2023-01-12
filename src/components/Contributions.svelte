@@ -6,7 +6,6 @@
 
   const mainProjects = [
     {
-      marginTop: "mt-0",
       gradients: "from-[#0B9072] to-[#144046]",
       image: "/images/btcmap.png",
       url: "https://btcmap.org/",
@@ -173,9 +172,28 @@
   <h2 class="jakarta text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
     contributions
   </h2>
+  <div
+    class="w-full mt-0 mb-5 shadow-lg bg-shadow p-4 md:p-8 ibm text-secondary md:text-lg lg:text-xl !leading-normal hover:scale-105 transition-transform duration-500"
+  >
+    <img src="/images/amboss.svg" alt="amboss" class="mb-8" />
+    <p>
+      Starting in February I will be working full-time with the amazing team at <a
+        href="https://amboss.space/"
+        target="_blank"
+        rel="noreferrer"
+        class="jakarta text-white hover:text-hover">Amboss Technologies</a
+      > as a Frontend Engineer. We are helping bitcoin scale by building critical
+      tools for Lightning Network infrastructure including; a beautifully visualized
+      network explorer, channel liquidity marketplace, node communities and personalization,
+      enterprise data analytics to give routers an edge, monitoring and recovery
+      services, a robust API with access to deep insights into the exploding lightning
+      network and much more. I am very grateful to have this incredible opportunity
+      to work with such a high quality group of people on one of the most innovative
+      projects in the space.
+    </p>
+  </div>
   {#each mainProjects as project}
     <ProjectCard
-      marginTop={project.marginTop}
       gradients={project.gradients}
       image={project.image}
       url={project.url}
