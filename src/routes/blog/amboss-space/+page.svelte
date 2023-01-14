@@ -26,7 +26,7 @@
   title="Feature highlight AMBOSS SPACE"
   image="amboss"
   description="Recently I have taken a bit of a deep dive into the features offered by Amboss Space. First off, I want to have full disclosure that I will be joining the team at Amboss next month as a Frontend Engineer, which I am super excited about!"
-  date="Jan 12, 2023"
+  date="Jan 13, 2023"
 >
   <div
     id="blog-content"
