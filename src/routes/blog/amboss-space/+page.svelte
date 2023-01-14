@@ -83,7 +83,7 @@
       make informed decisions about interacting with it. You can find nodes by
       entering either a pubkey or alias into the search and you can view top
       nodes and aggregated network stats on the main page. When viewing a node
-      you can hop between the network by navigating to it's channel connections.
+      you can hop between the network by navigating to its channel connections.
     </p>
 
     <h2>Channel Liquidity Marketplace</h2>
@@ -134,9 +134,13 @@
         >stats</a
       >
       section of Amboss provides even deeper historical analysis into individual
-      node information and the network as a whole. When operating a node at a professional
-      level for profit, this data can be <strong>vital</strong> to the success of
-      your business in a highly competitive landscape.
+      node information and the network as a whole using multiple data sources. When
+      operating a node at a professional level for profit, this data can be
+      <strong>vital</strong> to the success of your business in a highly competitive
+      landscape. With the stats dashboard you can create custom charts by entering
+      node pubkeys. This advanced functionality gives you the ability to compare
+      incoming fee rates to identity lightning native arbitrage opportunities and
+      other actionable data points.
     </p>
 
     <h2>Monitoring and Recovery Services</h2>
@@ -189,8 +193,8 @@
       >
       whenever your node state changes. The backup file is
       <strong>fully encrypted</strong>
-      by your node's private key so <strong>only you</strong> have access to it. This
-      is an extremely useful service that helps take the burden of this cumbersome
+      by your node's private key so <strong>only you</strong> have access to it.
+      This is an extremely useful service that helps take the burden of this cumbersome
       task off the user.
     </p>
 
@@ -327,8 +331,8 @@
       On the homepage and on each node's page there is a keysend billboard.
       Anybody can post a message here which adds another social dynamic, but it
       can also display important information to other users. Further to this
-      idea, users can subscribe to announcements from other nodes on the
-      network who can broadcast a message to their subscribers. Messaging on the
+      idea, users can subscribe to announcements from other nodes on the network
+      who can broadcast a message to their subscribers. Messaging on the
       lightning network is possible and Amboss has utilized this feature and
       created some interesting use-cases.
     </p>
