@@ -8,10 +8,11 @@
   <h4 class="ibm text-xl text-secondary mb-4 md:text-2xl lg:text-3xl">
     secondl1ght
   </h4>
-  <span class="ibm text-secondary break-all">
+  <span class="ibm text-secondary">
     PGP: DE22 DF78 1024 0A80 75A3 56DA 3E7C 74A3 5CBC 05C5
-    <br />
-    NOSTR: npub19g5rsrj8ylq8lzl3qphhwmu2fnqeg8rtcermmh6j387faccaskusxgd33w
+    <span class="block mt-1 break-all"
+      >NOSTR: npub19g5rsrj8ylq8lzl3qphhwmu2fnqeg8rtcermmh6j387faccaskusxgd33w</span
+    >
   </span>
   <div class="jakarta text-5xl md:text-7xl lg:text-8xl text-white relative">
     <div
