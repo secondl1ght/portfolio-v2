@@ -9,7 +9,7 @@
   href={url}
   target="_blank"
   rel="noreferrer"
-  class="bg-shadow hover:shadow-lg p-4 max-w-lg block mb-5"
+  class="mb-5 block max-w-lg bg-shadow p-4 hover:shadow-lg"
 >
   <img src="/images/{image}" {alt} />
 </a>

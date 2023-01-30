@@ -2,7 +2,7 @@
   import { scrollTop } from "../lib/utils";
 </script>
 
-<div class="w-full flex justify-end items-center pb-10 pr-5 md:pr-20">
+<div class="flex w-full items-center justify-end pb-10 pr-5 md:pr-20">
   <button on:click={() => scrollTop()}>
     <img
       src="/icons/up.svg"

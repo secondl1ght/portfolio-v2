@@ -19,16 +19,16 @@
 </script>
 
 <div
-  class="w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2 mx-auto space-y-10 relative mt-[7.5rem]"
+  class="relative mx-auto mt-[7.5rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2"
 >
   <div
-    class="w-2 h-16 bg-[#C2E9FB] absolute -top-3 md:-top-1.5 lg:top-0 -left-6 md:-left-10"
+    class="absolute -top-3 -left-6 h-16 w-2 bg-[#C2E9FB] md:-top-1.5 md:-left-10 lg:top-0"
   />
-  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">
+  <h2 class="jakarta !mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
     background
   </h2>
   <p
-    class="ibm md:text-lg lg:text-xl !leading-normal text-secondary w-full md:w-3/4"
+    class="ibm w-full !leading-normal text-secondary md:w-3/4 md:text-lg lg:text-xl"
   >
     during the summer of 2020 i discovered bitcoin and it completely changed my
     life in so many ways. one of which is that it prompted me to give coding a
@@ -43,10 +43,10 @@
     met many kind and generous people along the way.
   </p>
   <div>
-    <h4 class="jakarta text-white text-lg md:text-xl lg:text-2xl mb-5">
+    <h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">
       favorite tech stack
     </h4>
-    <div class="block md:flex flex-wrap w-full">
+    <div class="block w-full flex-wrap md:flex">
       {#each favoriteTechStack as tech}
         <Tech tech={tech.tech} icon={tech.icon} />
       {/each}

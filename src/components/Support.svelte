@@ -1,14 +1,14 @@
 <div
-  class="w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2 mx-auto space-y-10 relative mt-[8.75rem] mb-[88px]"
+  class="relative mx-auto mt-[8.75rem] mb-[88px] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2"
 >
   <div
-    class="w-2 h-16 bg-[#CD90AC] absolute -top-2.5 md:-top-0.5 lg:top-1 -left-6 md:-left-10"
+    class="absolute -top-2.5 -left-6 h-16 w-2 bg-[#CD90AC] md:-top-0.5 md:-left-10 lg:top-1"
   />
-  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">
+  <h2 class="jakarta !mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
     support
   </h2>
   <p
-    class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
+    class="ibm w-full !leading-normal text-secondary md:w-3/4 md:text-lg lg:text-xl"
   >
     if you believe in the the potential for powerful positive change that
     bitcoin can bring to the world and would like to support development on the
@@ -19,15 +19,15 @@
     href="https://classic.coinos.io/secondl1ght"
     target="_blank"
     rel="noreferrer"
-    class="relative ibm w-full md:w-1/2 md:text-lg lg:text-xl h-12 md:h-16 lg:h-20 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white"
+    class="ibm relative flex h-12 w-full items-center justify-center bg-gradient-to-r from-[#9068FE] to-[#FEB068] text-white md:h-16 md:w-1/2 md:text-lg lg:h-20 lg:text-xl"
   >
     <span
-      class="opacity-0 hover:opacity-100 transition-opacity duration-500 absolute top-0 left-0 w-full h-full bg-gradient-to-l from-[#9068FE] to-[#FEB068] ibm md:text-lg lg:text-xl flex justify-center items-center text-white"
+      class="ibm absolute top-0 left-0 flex h-full w-full items-center justify-center bg-gradient-to-l from-[#9068FE] to-[#FEB068] text-white opacity-0 transition-opacity duration-500 hover:opacity-100 md:text-lg lg:text-xl"
       >support my work</span
     >
     support my work
   </a>
-  <p class="ibm text-secondary md:text-lg lg:text-xl !leading-normal">
+  <p class="ibm !leading-normal text-secondary md:text-lg lg:text-xl">
     support other bitcoin developers at <a
       href="https://bitcoindevlist.com/"
       target="_blank"
@@ -36,11 +36,11 @@
     >
   </p>
   <div class="space-y-5">
-    <h4 class="jakarta text-white text-lg md:text-xl lg:text-2xl">
+    <h4 class="jakarta text-lg text-white md:text-xl lg:text-2xl">
       connect with lightning 🌩️
     </h4>
     <p
-      class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
+      class="ibm w-full !leading-normal text-secondary md:w-3/4 md:text-lg lg:text-xl"
     >
       you can find my lightning node information on <a
         href="https://amboss.space/c/secondl1ght"

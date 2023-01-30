@@ -27,22 +27,22 @@
 </script>
 
 <div
-  class="w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2 mx-auto space-y-10 relative mt-[8.75rem]"
+  class="relative mx-auto mt-[8.75rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2"
 >
   <div
-    class="w-2 h-16 bg-[#956CF7] absolute -top-2.5 md:-top-1 lg:top-1 -left-6 md:-left-10"
+    class="absolute -top-2.5 -left-6 h-16 w-2 bg-[#956CF7] md:-top-1 md:-left-10 lg:top-1"
   />
-  <h2 class="jakarta text-white !mb-16 text-4xl md:text-5xl lg:text-6xl">
+  <h2 class="jakarta !mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
     contact
   </h2>
   <p
-    class="ibm text-secondary w-full md:w-3/4 md:text-lg lg:text-xl !leading-normal"
+    class="ibm w-full !leading-normal text-secondary md:w-3/4 md:text-lg lg:text-xl"
   >
     i am always open to chatting with interesting people who share my values and
     work on projects that align with our mission. here are the best ways to get
     a hold of me:
   </p>
-  <div class="block md:flex flex-wrap">
+  <div class="block flex-wrap md:flex">
     {#each contactMethods as contact}
       <ContactCard
         method={contact.method}

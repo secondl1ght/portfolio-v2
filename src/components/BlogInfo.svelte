@@ -18,17 +18,17 @@
   };
 </script>
 
-<div class="space-y-5 w-3/4 md:w-[350px] mx-auto xl:mx-0">
+<div class="mx-auto w-3/4 space-y-5 md:w-[350px] xl:mx-0">
   <img
     src="/images/avatar.png"
-    class="rounded-full bg-hover w-32 h-32"
+    class="h-32 w-32 rounded-full bg-hover"
     alt="avatar"
   />
   <div>
-    <p class="jakarta text-white text-sm md:text-base lg:text-lg">
+    <p class="jakarta text-sm text-white md:text-base lg:text-lg">
       secondl1ght
     </p>
-    <div class="flex items-center space-x-5 mt-4">
+    <div class="mt-4 flex items-center space-x-5">
       <a href="https://github.com/secondl1ght" target="_blank" rel="noreferrer"
         ><img src="/icons/github.svg" class="w-8" alt="github" />
       </a>
@@ -46,7 +46,7 @@
       </a>
     </div>
   </div>
-  <p class="ibm text-secondary !leading-normal md:text-lg lg:text-xl">
+  <p class="ibm !leading-normal text-secondary md:text-lg lg:text-xl">
     A web developer’s mission to make the world a better place through bitcoin.
   </p>
   {#if !formComplete}
@@ -69,22 +69,22 @@
         type="email"
         required
         name="email"
-        class="placeholder:text-secondary px-8 text-secondary border border-[#2F3143] bg-transparent h-12 md:h-16 lg:h-18 ibm md:text-lg lg:text-xl w-full"
+        class="lg:h-18 ibm h-12 w-full border border-[#2F3143] bg-transparent px-8 text-secondary placeholder:text-secondary md:h-16 md:text-lg lg:text-xl"
         placeholder="Email"
       />
       <button
         type="submit"
-        class="relative ibm w-full md:text-lg lg:text-xl h-12 md:h-16 lg:h-18 bg-gradient-to-r from-[#9068FE] to-[#FEB068] flex justify-center items-center text-white"
+        class="ibm lg:h-18 relative flex h-12 w-full items-center justify-center bg-gradient-to-r from-[#9068FE] to-[#FEB068] text-white md:h-16 md:text-lg lg:text-xl"
       >
         <span
-          class="opacity-0 hover:opacity-100 transition-opacity duration-500 absolute top-0 left-0 w-full h-full bg-gradient-to-l from-[#9068FE] to-[#FEB068] ibm md:text-lg lg:text-xl flex justify-center items-center text-white"
+          class="ibm absolute top-0 left-0 flex h-full w-full items-center justify-center bg-gradient-to-l from-[#9068FE] to-[#FEB068] text-white opacity-0 transition-opacity duration-500 hover:opacity-100 md:text-lg lg:text-xl"
           >{subscribe ? "Subscribe" : "Unsubscribe"}</span
         >
         {subscribe ? "Subscribe" : "Unsubscribe"}
       </button>
     </form>
   {:else}
-    <p class="ibm text-secondary !leading-normal md:text-lg lg:text-xl">
+    <p class="ibm !leading-normal text-secondary md:text-lg lg:text-xl">
       {subscribe ? "Thanks for subscribing!" : "You have been unsubscribed!"}
     </p>
   {/if}

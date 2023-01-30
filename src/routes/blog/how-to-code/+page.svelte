@@ -33,7 +33,7 @@
 >
   <div
     id="blog-content"
-    class="ibm text-lg space-y-5 text-secondary w-full md:w-10/12 lg:w-3/4 xl:w-2/3 2xl:w-1/2 mx-auto !leading-normal"
+    class="ibm mx-auto w-full space-y-5 text-lg !leading-normal text-secondary md:w-10/12 lg:w-3/4 xl:w-2/3 2xl:w-1/2"
   >
     <p>👨‍💻👩‍💻</p>
 

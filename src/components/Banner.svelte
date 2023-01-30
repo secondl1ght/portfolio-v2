@@ -1,5 +1,5 @@
 <div
-  class="shadow-lg w-full bg-shadow text-center p-4 ibm text-secondary text-lg"
+  class="ibm w-full bg-shadow p-4 text-center text-lg text-secondary shadow-lg"
 >
   <p>
     I will be speaking at the upcoming <a
@@ -12,6 +12,6 @@
   <img
     src="/images/adopting.jpeg"
     alt="Adopting Bitcoin"
-    class="md:w-96 mx-auto mt-4"
+    class="mx-auto mt-4 md:w-96"
   />
 </div>

@@ -165,15 +165,15 @@
   ];
 </script>
 
-<div class="w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2 mx-auto mt-40 relative">
+<div class="relative mx-auto mt-40 w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
   <div
-    class="w-2 h-16 bg-[#AF7CD5] absolute -top-2.5 md:-top-0.5 lg:top-1 -left-6 md:-left-10"
+    class="absolute -top-2.5 -left-6 h-16 w-2 bg-[#AF7CD5] md:-top-0.5 md:-left-10 lg:top-1"
   />
-  <h2 class="jakarta text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
+  <h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
     contributions
   </h2>
   <div
-    class="w-full mt-0 mb-5 shadow-lg bg-shadow p-4 md:p-8 ibm text-secondary md:text-lg lg:text-xl !leading-normal hover:scale-105 transition-transform duration-500"
+    class="ibm mt-0 mb-5 w-full bg-shadow p-4 !leading-normal text-secondary shadow-lg transition-transform duration-500 hover:scale-105 md:p-8 md:text-lg lg:text-xl"
   >
     <img src="/images/amboss.svg" alt="amboss" class="mb-8" />
     <p>
@@ -206,12 +206,12 @@
   {/each}
   <div class="relative mt-[8.75rem] w-auto w-full">
     <div
-      class="w-2 h-16 bg-[#A3C6FD] absolute top-3 md:top-6 lg:top-9 -left-6 md:-left-10"
+      class="absolute top-3 -left-6 h-16 w-2 bg-[#A3C6FD] md:top-6 md:-left-10 lg:top-9"
     />
-    <h2 class="jakarta text-white mb-16 text-4xl md:text-5xl lg:text-6xl">
+    <h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
       other<br /> contributions
     </h2>
-    <div class="flex justify-between flex-wrap">
+    <div class="flex flex-wrap justify-between">
       {#each miniProjects as project}
         <ProjectMiniCard
           project={project.project}

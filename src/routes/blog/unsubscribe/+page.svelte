@@ -18,6 +18,6 @@
   />
 </svelte:head>
 
-<div class="my-20 flex justify-center items-center">
+<div class="my-20 flex items-center justify-center">
   <BlogInfo />
 </div>

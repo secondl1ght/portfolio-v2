@@ -4,14 +4,14 @@
   export let url;
 </script>
 
-<div class="flex items-center md:w-[180px] lg:w-[195px] md:mr-10 mb-5">
+<div class="mb-5 flex items-center md:mr-10 md:w-[180px] lg:w-[195px]">
   <a href={url} target="_blank" rel="noreferrer">
-    <div class="p-4 bg-shadow mr-5 hover:shadow-lg">
+    <div class="mr-5 bg-shadow p-4 hover:shadow-lg">
       <img
         src={icon}
         alt={method}
         loading="lazy"
-        class="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12"
+        class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12"
       />
     </div>
   </a>

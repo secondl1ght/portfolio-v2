@@ -18,9 +18,9 @@
 
 <!-- desktop header -->
 <header
-  class="w-full jakarta hidden lg:flex h-20 sticky top-0 z-10 bg-primary/90 justify-center items-center"
+  class="jakarta sticky top-0 z-10 hidden h-20 w-full items-center justify-center bg-primary/90 lg:flex"
 >
-  <nav class="text-xl lg:text-2xl text-white space-x-16">
+  <nav class="space-x-16 text-xl text-white lg:text-2xl">
     <button
       class="hover:text-hover"
       on:click={() => handleButtonClick("contributions", $contributions)}
@@ -56,7 +56,7 @@
 
 <!-- mobile header -->
 <header
-  class="w-full jakarta block lg:hidden h-20 sticky top-0 z-10 bg-primary/90"
+  class="jakarta sticky top-0 z-10 block h-20 w-full bg-primary/90 lg:hidden"
 >
   <button
     ><img
@@ -67,11 +67,11 @@
     /></button
   >
   <nav
-    class="text-3xl text-white bg-primary flex justify-end w-full h-[100vh] absolute top-0 transition-all ease-in-out {showMenu
+    class="absolute top-0 flex h-[100vh] w-full justify-end bg-primary text-3xl text-white transition-all ease-in-out {showMenu
       ? 'left-0'
       : 'left-[-100%]'}"
   >
-    <div class="space-y-16 mt-28 mr-10">
+    <div class="mt-28 mr-10 space-y-16">
       <button
         class="block hover:text-hover"
         on:click={() => handleButtonClick("contributions", $contributions)}
