@@ -122,6 +122,13 @@
       icon: "/icons/stratum.svg",
       description: "the next generation protocol for pooled mining.",
     },
+    {
+      project: "thunderhub",
+      url: "https://thunderhub.io/",
+      icon: "/images/thunderhub.jpg",
+      description:
+        "monitor and manage your lightning node from any browser and any device.",
+    },
     /* {
       project: "bitcoin beach wallet",
       url: "https://github.com/GaloyMoney/galoy-mobile",
