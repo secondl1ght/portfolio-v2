@@ -77,7 +77,7 @@
         class="ibm lg:h-18 relative flex h-12 w-full items-center justify-center bg-gradient-to-r from-[#9068FE] to-[#FEB068] text-white md:h-16 md:text-lg lg:text-xl"
       >
         <span
-          class="ibm absolute top-0 left-0 flex h-full w-full items-center justify-center bg-gradient-to-l from-[#9068FE] to-[#FEB068] text-white opacity-0 transition-opacity duration-500 hover:opacity-100 md:text-lg lg:text-xl"
+          class="ibm absolute left-0 top-0 flex h-full w-full items-center justify-center bg-gradient-to-l from-[#9068FE] to-[#FEB068] text-white opacity-0 transition-opacity duration-500 hover:opacity-100 md:text-lg lg:text-xl"
           >{subscribe ? "Subscribe" : "Unsubscribe"}</span
         >
         {subscribe ? "Subscribe" : "Unsubscribe"}

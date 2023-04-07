@@ -7,7 +7,7 @@
   export let date;
 </script>
 
-<div class="my-10 mx-auto w-3/4 max-w-7xl md:my-20">
+<div class="mx-auto my-10 w-3/4 max-w-7xl md:my-20">
   <p class="ibm mb-8 !leading-normal text-secondary">
     <a href="/blog" class="hover:text-hover">Blog</a>
     <span class="text-sm text-secondary/50">/ {title}</span>
@@ -19,7 +19,7 @@
     {title}
   </h1>
   <p
-    class="ibm mx-auto mt-6 mb-6 w-full text-center text-xl !leading-normal text-secondary md:mt-8 md:w-2/3"
+    class="ibm mx-auto mb-6 mt-6 w-full text-center text-xl !leading-normal text-secondary md:mt-8 md:w-2/3"
   >
     {description}
   </p>

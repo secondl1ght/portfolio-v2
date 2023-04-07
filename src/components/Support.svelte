@@ -1,8 +1,8 @@
 <div
-  class="relative mx-auto mt-[8.75rem] mb-[88px] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2"
+  class="relative mx-auto mb-[88px] mt-[8.75rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2"
 >
   <div
-    class="absolute -top-2.5 -left-6 h-16 w-2 bg-[#CD90AC] md:-top-0.5 md:-left-10 lg:top-1"
+    class="absolute -left-6 -top-2.5 h-16 w-2 bg-[#CD90AC] md:-left-10 md:-top-0.5 lg:top-1"
   />
   <h2 class="jakarta !mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
     support
@@ -22,7 +22,7 @@
     class="ibm relative flex h-12 w-full items-center justify-center bg-gradient-to-r from-[#9068FE] to-[#FEB068] text-white md:h-16 md:w-1/2 md:text-lg lg:h-20 lg:text-xl"
   >
     <span
-      class="ibm absolute top-0 left-0 flex h-full w-full items-center justify-center bg-gradient-to-l from-[#9068FE] to-[#FEB068] text-white opacity-0 transition-opacity duration-500 hover:opacity-100 md:text-lg lg:text-xl"
+      class="ibm absolute left-0 top-0 flex h-full w-full items-center justify-center bg-gradient-to-l from-[#9068FE] to-[#FEB068] text-white opacity-0 transition-opacity duration-500 hover:opacity-100 md:text-lg lg:text-xl"
       >support my work</span
     >
     support my work

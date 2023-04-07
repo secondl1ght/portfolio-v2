@@ -22,7 +22,7 @@
   class="relative mx-auto mt-[7.5rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2"
 >
   <div
-    class="absolute -top-3 -left-6 h-16 w-2 bg-[#C2E9FB] md:-top-1.5 md:-left-10 lg:top-0"
+    class="absolute -left-6 -top-3 h-16 w-2 bg-[#C2E9FB] md:-left-10 md:-top-1.5 lg:top-0"
   />
   <h2 class="jakarta !mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
     background

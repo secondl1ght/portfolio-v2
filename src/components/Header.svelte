@@ -62,7 +62,7 @@
     ><img
       src={!showMenu ? "/icons/mobile-open.svg" : "/icons/mobile-close.svg"}
       alt="toggle-menu"
-      class="absolute top-4 right-5 z-20"
+      class="absolute right-5 top-4 z-20"
       on:click={() => (showMenu = !showMenu)}
     /></button
   >
@@ -71,7 +71,7 @@
       ? 'left-0'
       : 'left-[-100%]'}"
   >
-    <div class="mt-28 mr-10 space-y-16">
+    <div class="mr-10 mt-28 space-y-16">
       <button
         class="block hover:text-hover"
         on:click={() => handleButtonClick("contributions", $contributions)}

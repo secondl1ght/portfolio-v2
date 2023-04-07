@@ -61,7 +61,7 @@
 </svelte:head>
 
 <div
-  class="my-10 justify-center space-y-32 md:my-20 xl:flex xl:space-y-0 xl:space-x-16"
+  class="my-10 justify-center space-y-32 md:my-20 xl:flex xl:space-x-16 xl:space-y-0"
 >
   <BlogInfo />
   <div class="space-y-32">

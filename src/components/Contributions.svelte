@@ -174,13 +174,13 @@
 
 <div class="relative mx-auto mt-40 w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
   <div
-    class="absolute -top-2.5 -left-6 h-16 w-2 bg-[#AF7CD5] md:-top-0.5 md:-left-10 lg:top-1"
+    class="absolute -left-6 -top-2.5 h-16 w-2 bg-[#AF7CD5] md:-left-10 md:-top-0.5 lg:top-1"
   />
   <h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
     contributions
   </h2>
   <div
-    class="ibm mt-0 mb-5 w-full bg-shadow p-4 !leading-normal text-secondary shadow-lg transition-transform duration-500 hover:scale-105 md:p-8 md:text-lg lg:text-xl"
+    class="ibm mb-5 mt-0 w-full bg-shadow p-4 !leading-normal text-secondary shadow-lg transition-transform duration-500 hover:scale-105 md:p-8 md:text-lg lg:text-xl"
   >
     <img src="/images/amboss.svg" alt="amboss" class="mb-8" />
     <p>
@@ -213,7 +213,7 @@
   {/each}
   <div class="relative mt-[8.75rem] w-auto w-full">
     <div
-      class="absolute top-3 -left-6 h-16 w-2 bg-[#A3C6FD] md:top-6 md:-left-10 lg:top-9"
+      class="absolute -left-6 top-3 h-16 w-2 bg-[#A3C6FD] md:-left-10 md:top-6 lg:top-9"
     />
     <h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
       other<br /> contributions

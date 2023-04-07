@@ -16,7 +16,7 @@
   </span>
   <div class="jakarta relative text-5xl text-white md:text-7xl lg:text-8xl">
     <div
-      class="absolute top-1.5 -left-6 h-16 w-2 bg-[#9A6FF1] md:top-[30px] md:-left-10 lg:top-[51px]"
+      class="absolute -left-6 top-1.5 h-16 w-2 bg-[#9A6FF1] md:-left-10 md:top-[30px] lg:top-[51px]"
     />
     <h1 class="leading-tight">
       privacy. freedom. community. ideas. human spirit. innovation. kindness.

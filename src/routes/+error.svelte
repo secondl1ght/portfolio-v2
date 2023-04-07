@@ -18,7 +18,7 @@
   />
 </svelte:head>
 
-<div class="my-20 mx-auto w-3/4 space-y-5 md:w-96">
+<div class="mx-auto my-20 w-3/4 space-y-5 md:w-96">
   <svg
     class="mx-auto h-10 w-10 text-hover"
     fill="currentColor"

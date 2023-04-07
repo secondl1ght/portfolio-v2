@@ -30,7 +30,7 @@
   class="relative mx-auto mt-[8.75rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2"
 >
   <div
-    class="absolute -top-2.5 -left-6 h-16 w-2 bg-[#956CF7] md:-top-1 md:-left-10 lg:top-1"
+    class="absolute -left-6 -top-2.5 h-16 w-2 bg-[#956CF7] md:-left-10 md:-top-1 lg:top-1"
   />
   <h2 class="jakarta !mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
     contact
