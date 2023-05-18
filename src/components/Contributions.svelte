@@ -6,6 +6,30 @@
 
   const mainProjects = [
     {
+      gradients: "from-[#7928CA] to-[#FF0080]",
+      image: "/images/magma.png",
+      url: "https://amboss.space/",
+      title: "amboss",
+      description: "find your edge.",
+      contribution:
+        "i am currently working full-time with the amazing team at amboss technologies as a front-end engineer. we are helping bitcoin scale by building critical tools for lightning network infrastructure including; a beautifully visualized network explorer, channel liquidity marketplace, node communities and personalization, enterprise data analytics to give routers an edge, monitoring and recovery services, a robust api with access to deep insights into the exploding lightning network and much more. i am very grateful to have this incredible opportunity to work with such a high quality group of people on one of the most innovative projects in the space.",
+      role: "front-end engineer",
+      tech: [
+        { tech: "next.js", icon: "/icons/nextjs.svg" },
+        { tech: "react", icon: "/icons/react.svg" },
+        { tech: "typescript", icon: "/icons/ts.svg" },
+        { tech: "styled components", icon: "/icons/styled-components.svg" },
+        { tech: "graphql", icon: "/icons/graphql.svg" },
+        { tech: "apollo", icon: "/icons/apollo.svg" },
+        { tech: "nestjs", icon: "/icons/nest.svg" },
+        { tech: "prisma", icon: "/icons/prisma.svg" },
+        { tech: "postgresql", icon: "/icons/postgres.svg" },
+        { tech: "redis", icon: "/icons/redis.svg" },
+        { tech: "rabbitmq", icon: "/icons/rabbit.svg" },
+        { tech: "node.js", icon: "/icons/node.svg" },
+      ],
+    },
+    {
       gradients: "from-[#0B9072] to-[#144046]",
       image: "/images/btcmap.png",
       url: "https://btcmap.org/",
@@ -179,6 +203,7 @@
   <h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
     contributions
   </h2>
+  <!--
   <div
     class="ibm mb-5 mt-0 w-full bg-shadow p-4 !leading-normal text-secondary shadow-lg transition-transform duration-500 hover:scale-105 md:p-8 md:text-lg lg:text-xl"
   >
@@ -199,6 +224,7 @@
       projects in the space.
     </p>
   </div>
+-->
   {#each mainProjects as project}
     <ProjectCard
       gradients={project.gradients}
