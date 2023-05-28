@@ -10,7 +10,8 @@
       image: "/images/magma.png",
       url: "https://amboss.space/",
       title: "amboss",
-      description: "lightning network tools and insights that give node operators an edge.",
+      description:
+        "lightning network tools and insights that give node operators an edge.",
       contribution:
         "i am currently working full-time with the amazing team at amboss technologies as a front-end engineer. we are helping bitcoin scale by building critical tools for lightning network infrastructure including; a beautifully visualized network explorer, channel liquidity marketplace, node communities and personalization, enterprise data analytics to give routers an edge, monitoring and recovery services, a robust api with access to deep insights into the exploding lightning network and much more. i am very grateful to have this incredible opportunity to work with such a high quality group of people on one of the most innovative projects in the space.",
       role: "front-end engineer",
@@ -152,6 +153,13 @@
       icon: "/images/thunderhub.jpg",
       description:
         "monitor and manage your lightning node from any browser and any device.",
+    },
+    {
+      project: "bitbanana website",
+      url: "https://bitbanana.app/",
+      icon: "/images/bitbanana.png",
+      description:
+        "native android lightning node management focused on user experience and ease of use.",
     },
     /* {
       project: "bitcoin beach wallet",
