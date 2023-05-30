@@ -157,7 +157,7 @@
     {
       project: "bitbanana website",
       url: "https://bitbanana.app/",
-      icon: "/images/bitbanana.png",
+      icon: "/images/bitbanana.svg",
       description:
         "native android lightning node management focused on user experience and ease of use.",
     },
