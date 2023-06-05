@@ -1,58 +1,58 @@
 #blog-content a {
-  text-decoration: underline;
-  color: white;
+	text-decoration: underline;
+	color: white;
 }
 
 #blog-content a:hover {
-  color: #af7cd5;
+	color: #af7cd5;
 }
 
 #blog-content h2 {
-  font-size: 1.875rem; /* 30px */
-  line-height: 2.25rem; /* 36px */
-  color: white;
-  font-family: PlusJakartaSans;
+	font-size: 1.875rem; /* 30px */
+	line-height: 2.25rem; /* 36px */
+	color: white;
+	font-family: PlusJakartaSans;
 }
 
 #blog-content h3 {
-  font-size: 1.5rem; /* 24px */
-  line-height: 2rem; /* 32px */
-  color: white;
-  font-family: PlusJakartaSans;
+	font-size: 1.5rem; /* 24px */
+	line-height: 2rem; /* 32px */
+	color: white;
+	font-family: PlusJakartaSans;
 }
 
 #blog-content code {
-  color: white;
-  background-color: #1e1f2b;
-  font-family: Inconsolata;
-  padding: 0.25rem; /* 4px */
+	color: white;
+	background-color: #1e1f2b;
+	font-family: Inconsolata;
+	padding: 0.25rem; /* 4px */
 }
 
 #blog-content ul {
-  padding-left: 1.25rem; /* 20px */
-  list-style-type: disc;
+	padding-left: 1.25rem; /* 20px */
+	list-style-type: disc;
 }
 
 #blog-content ol {
-  padding-left: 2rem;
-  list-style-type: decimal;
+	padding-left: 2rem;
+	list-style-type: decimal;
 }
 
 #blog-content pre {
-  color: white;
-  background-color: #1e1f2b;
-  font-family: Inconsolata;
-  padding: 1.25rem; /* 20px */
-  overflow: auto;
+	color: white;
+	background-color: #1e1f2b;
+	font-family: Inconsolata;
+	padding: 1.25rem; /* 20px */
+	overflow: auto;
 }
 
 #blog-content blockquote {
-  border-left: 4px solid #9a6ff1;
-  padding-left: 20px;
+	border-left: 4px solid #9a6ff1;
+	padding-left: 20px;
 }
 
 #blog-content hr {
-  opacity: 0.25;
-  width: 25%;
-  margin: 20px auto;
+	opacity: 0.25;
+	width: 25%;
+	margin: 20px auto;
 }

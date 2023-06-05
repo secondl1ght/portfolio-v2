@@ -1,41 +1,27 @@
 <script>
-  import { page } from "$app/stores";
-  import { goto } from "$app/navigation";
-  import { tick } from "svelte";
-  import {
-    Banner,
-    Hero,
-    Contributions,
-    Background,
-    Contact,
-    Support,
-    Footer,
-  } from "$comp";
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
+	import { tick } from 'svelte';
+	import { Hero, Contributions, Background, Contact, Support, Footer } from '$comp';
 
-  const clearHash = async () => {
-    await tick();
-    goto("/", { replaceState: true, noScroll: true, keepFocus: true });
-  };
+	const clearHash = async () => {
+		await tick();
+		goto('/', { replaceState: true, noScroll: true, keepFocus: true });
+	};
 
-  if ($page.url.hash) {
-    setTimeout(() => clearHash(), 210);
-  }
+	if ($page.url.hash) {
+		setTimeout(() => clearHash(), 210);
+	}
 </script>
 
 <svelte:head>
-  <title>secondl1ght - portfolio</title>
-  <meta name="description" content="web developer portfolio" />
-  <meta
-    property="og:image"
-    content="https://www.secondl1ght.site/images/og.jpg"
-  />
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:title" content="secondl1ght - portfolio" />
-  <meta property="twitter:description" content="web developer portfolio" />
-  <meta
-    property="twitter:image"
-    content="https://www.secondl1ght.site/images/og.jpg"
-  />
+	<title>secondl1ght - portfolio</title>
+	<meta name="description" content="web developer portfolio" />
+	<meta property="og:image" content="https://www.secondl1ght.site/images/og.jpg" />
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:title" content="secondl1ght - portfolio" />
+	<meta property="twitter:description" content="web developer portfolio" />
+	<meta property="twitter:image" content="https://www.secondl1ght.site/images/og.jpg" />
 </svelte:head>
 
 <!-- <Banner /> -->

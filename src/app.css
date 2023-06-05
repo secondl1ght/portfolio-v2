@@ -3,37 +3,37 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "IBMPlexMono";
-  src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype");
+	font-family: 'IBMPlexMono';
+	src: url('/fonts/IBMPlexMono-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "PlusJakartaSans";
-  src: url("/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+	font-family: 'PlusJakartaSans';
+	src: url('/fonts/PlusJakartaSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Inconsolata";
-  src: url("/fonts/Inconsolata-Regular.ttf") format("truetype");
+	font-family: 'Inconsolata';
+	src: url('/fonts/Inconsolata-Regular.ttf') format('truetype');
 }
 
 .ibm {
-  font-family: IBMPlexMono, sans-serif;
+	font-family: IBMPlexMono, sans-serif;
 }
 
 .jakarta {
-  font-family: PlusJakartaSans, sans-serif;
+	font-family: PlusJakartaSans, sans-serif;
 }
 
 .inc {
-  font-family: Inconsolata, sans-serif;
+	font-family: Inconsolata, sans-serif;
 }
 
 ::selection {
-  color: white;
-  background: #af7cd5;
+	color: white;
+	background: #af7cd5;
 }
 
 html {
-  font-size: 16px;
+	font-size: 16px;
 }
