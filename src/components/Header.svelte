@@ -49,15 +49,13 @@
 
 <!-- mobile header -->
 <header class="jakarta sticky top-0 z-10 block h-20 w-full bg-primary/90 lg:hidden">
-	<button
-		><img
+	<button on:click={() => (showMenu = !showMenu)} on:keydown={() => (showMenu = !showMenu)}>
+		<img
 			src={!showMenu ? '/icons/mobile-open.svg' : '/icons/mobile-close.svg'}
 			alt="toggle-menu"
 			class="absolute right-5 top-4 z-20"
-			on:click={() => (showMenu = !showMenu)}
-			on:keydown={() => (showMenu = !showMenu)}
-		/></button
-	>
+		/>
+	</button>
 	<nav
 		class="absolute top-0 flex h-[100vh] w-full justify-end bg-primary text-3xl text-white transition-all ease-in-out {showMenu
 			? 'left-0'
