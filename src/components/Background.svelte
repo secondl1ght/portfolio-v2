@@ -4,7 +4,7 @@
 	const favoriteTechStack = [
 		{ tech: 'html5', icon: '/icons/html.svg' },
 		{ tech: 'css3', icon: '/icons/css.svg' },
-		{ tech: 'javascript', icon: '/icons/js.svg' },
+		{ tech: 'typescript', icon: '/icons/ts.svg' },
 		{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
 		{ tech: 'tailwindcss', icon: '/icons/tailwind.svg' },
 		{ tech: 'graphql', icon: '/icons/graphql.svg' },
