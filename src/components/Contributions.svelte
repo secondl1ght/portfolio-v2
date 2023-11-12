@@ -5,6 +5,23 @@
 
 	const mainProjects = [
 		{
+			gradients: 'from-[#F5F7FA] to-[#C3CFE2]',
+			image: '/images/cipherchat-screenshot.png',
+			url: 'https://cipherchat.app/',
+			title: 'cipherchat',
+			description: 'encrypted messaging over the bitcoin lightning network.',
+			contribution: '',
+			role: 'creator',
+			tech: [
+				{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
+				{ tech: 'typescript', icon: '/icons/ts.svg' },
+				{ tech: 'tailwindcss', icon: '/icons/tailwind.svg' },
+				{ tech: 'lnc-web', icon: '/icons/lnc.png' },
+				{ tech: 'dexie.js', icon: '/icons/dexie.png' },
+				{ tech: 'node.js', icon: '/icons/node.svg' }
+			]
+		},
+		{
 			gradients: 'from-[#7928CA] to-[#FF0080]',
 			image: '/images/magma.png',
 			url: 'https://amboss.space/',
@@ -238,7 +255,7 @@
 			tech={project.tech}
 		/>
 	{/each}
-	<div class="relative mt-[8.75rem] w-auto w-full">
+	<div class="relative mt-[8.75rem] w-full">
 		<div class="absolute -left-6 top-3 h-16 w-2 bg-[#A3C6FD] md:-left-10 md:top-6 lg:top-9" />
 		<h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
 			other<br /> contributions

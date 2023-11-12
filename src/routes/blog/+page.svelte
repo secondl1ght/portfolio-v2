@@ -2,6 +2,14 @@
 	import { BlogInfo, BlogCard, Footer } from '$comp';
 	const posts = [
 		{
+			image: 'cipherchat-blog',
+			title: 'Hello World, this is Cipherchat! 🐈‍⬛',
+			description:
+				'Today I am excited to open source and launch a new bitcoin lightning network application to the world called Cipherchat! It is an encrypted messaging app that leverages the power of lightning nodes to communicate privately.',
+			date: 'Nov 12, 2023',
+			url: 'cipherchat'
+		},
+		{
 			image: 'amboss',
 			title: 'Feature highlight AMBOSS SPACE',
 			description:
