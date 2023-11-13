@@ -86,10 +86,8 @@
 					>{showMore ? 'show less' : 'show more'}</button
 				>
 			{:else if title === 'cipherchat'}
-				build the entire app from concept to production. you can read my blog post announcement
-				about the product launch <a href="/blog/cipherchat" class="text-white hover:text-hover"
-					>here</a
-				>!
+				build the app from concept to production. you can read my blog post announcement about the
+				product launch <a href="/blog/cipherchat" class="text-white hover:text-hover">here</a>!
 			{:else}
 				{contribution}
 			{/if}
