@@ -41,7 +41,7 @@
 			title="Amboss"
 			src="https://amboss.space/embed/node/info/021ef14c694456a3aae3471a2e8830da21a8130ccbead6794e3530430e2e074d63?theme=dark&noBackground=true"
 			width="100%"
-			class="h-[300px] 2xl:h-[271.5px]"
+			height="100%"
 		/>
 	</div>
 </div>
