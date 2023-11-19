@@ -12,7 +12,7 @@
 		<a href="/blog" class="hover:text-hover">Blog</a>
 		<span class="text-sm text-secondary/50">/ {title}</span>
 	</p>
-	<img src="/images/{image}.png" alt={image} class="w-full" />
+	<img src="/images/{image}.webp" alt={image} class="w-full" />
 	<h1
 		class="jakarta mx-auto mt-5 w-full text-center text-3xl !leading-normal text-white md:mt-10 md:w-10/12 md:text-5xl lg:text-6xl"
 	>

@@ -8,7 +8,7 @@
 
 <div class="mx-auto w-3/4 space-y-5 md:w-[655px] lg:w-[755px] xl:mx-0 2xl:w-[855px]">
 	<a data-sveltekit-prefetch href="/blog/{url}" class="block">
-		<img src="/images/{image}.png" alt={image} class="w-full" />
+		<img src="/images/{image}.webp" alt={image} class="w-full" />
 	</a>
 	<a data-sveltekit-prefetch href="/blog/{url}" class="block">
 		<h2
