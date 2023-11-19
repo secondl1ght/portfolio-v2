@@ -175,7 +175,6 @@
 			url={project.url}
 			title={project.title}
 			description={project.description}
-			contribution={project.contribution}
 			role={project.role}
 			tech={project.tech}
 		/>
