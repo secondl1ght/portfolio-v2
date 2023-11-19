@@ -34,14 +34,15 @@
 				target="_blank"
 				rel="noreferrer"
 				class="text-white underline hover:text-hover">amboss.space</a
-			> and below. if you would like to open up a channel with me to improve connectivity on the network
-			and provide some inbound liquidity that would be awesome!
+			>
+			or
+			<a
+				href="https://mempool.space/lightning/node/021ef14c694456a3aae3471a2e8830da21a8130ccbead6794e3530430e2e074d63"
+				target="_blank"
+				rel="noreferrer"
+				class="text-white underline hover:text-hover">mempool.space</a
+			>. if you would like to open up a channel with me to improve connectivity on the network and
+			provide some inbound liquidity that would be awesome!
 		</p>
-		<iframe
-			title="Amboss"
-			src="https://amboss.space/embed/node/info/021ef14c694456a3aae3471a2e8830da21a8130ccbead6794e3530430e2e074d63?theme=dark&noBackground=true"
-			width="100%"
-			height="100%"
-		/>
 	</div>
 </div>
