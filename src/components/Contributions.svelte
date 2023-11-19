@@ -6,7 +6,7 @@
 	const mainProjects = [
 		{
 			gradients: 'from-[#F5F7FA] to-[#C3CFE2]',
-			image: '/images/cipherchat-screenshot.png',
+			image: '/images/cipherchat-screenshot.webp',
 			url: 'https://cipherchat.app/',
 			title: 'cipherchat',
 			description: 'encrypted messaging over the bitcoin lightning network.',
@@ -22,7 +22,7 @@
 		},
 		{
 			gradients: 'from-[#0B9072] to-[#144046]',
-			image: '/images/btcmap.png',
+			image: '/images/btcmap.webp',
 			url: 'https://btcmap.org/',
 			title: 'btc map',
 			description: 'easily find places to spend sats anywhere on the planet.',
@@ -39,7 +39,7 @@
 		},
 		{
 			gradients: 'from-[#7928CA] to-[#FF0080]',
-			image: '/images/magma.png',
+			image: '/images/magma.webp',
 			url: 'https://amboss.space/',
 			title: 'amboss',
 			description: 'lightning network tools and insights that give node operators an edge.',
@@ -61,7 +61,7 @@
 		},
 		{
 			gradients: 'from-[#DDD6F3] to-[#FAACA8]',
-			image: '/images/coinos.png',
+			image: '/images/coinos.webp',
 			url: 'https://coinos.io/',
 			title: 'coinos',
 			description:
@@ -78,7 +78,7 @@
 		},
 		{
 			gradients: 'from-[#B1F5EE] to-[#A6C1EE]',
-			image: '/images/geyser.png',
+			image: '/images/geyser.webp',
 			url: 'https://geyser.fund/',
 			title: 'geyser',
 			description:
@@ -96,7 +96,7 @@
 		},
 		{
 			gradients: 'from-[#F6D365] to-[#FDA085]',
-			image: '/images/alby.svg',
+			image: '/images/alby.webp',
 			url: 'https://getalby.com/',
 			title: 'alby',
 			description:
@@ -116,7 +116,7 @@
 		},
 		{
 			gradients: 'from-[#A1C4FD] to-[#C2E9FB]',
-			image: '/images/rare.png',
+			image: '/images/rare.webp',
 			url: 'https://raretoshi.com/',
 			title: 'raretoshi',
 			description:

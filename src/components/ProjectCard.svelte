@@ -18,7 +18,7 @@
 		},
 		{
 			url: 'https://youtu.be/BzdKSgT17pQ',
-			image: 'adopting.jpeg',
+			image: 'adopting.webp',
 			alt: 'Adopting Bitcoin'
 		}
 	];
