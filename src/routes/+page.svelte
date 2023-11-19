@@ -1,8 +1,8 @@
 <script>
-	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
+	import { page } from '$app/stores';
+	import { Background, Contact, Contributions, Footer, Hero, Support } from '$comp';
 	import { tick } from 'svelte';
-	import { Hero, Contributions, Background, Contact, Support, Footer } from '$comp';
 
 	const clearHash = async () => {
 		await tick();

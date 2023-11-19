@@ -1,6 +1,6 @@
 <script>
-	import Tech from './Tech.svelte';
 	import AppearanceCard from './AppearanceCard.svelte';
+	import Tech from './Tech.svelte';
 
 	export let gradients;
 	export let image;

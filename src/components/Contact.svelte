@@ -1,6 +1,6 @@
 <script>
-	import ContactCard from './ContactCard.svelte';
 	import { support } from '../lib/store';
+	import ContactCard from './ContactCard.svelte';
 
 	const contactMethods = [
 		{

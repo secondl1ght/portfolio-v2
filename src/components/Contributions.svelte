@@ -1,7 +1,7 @@
 <script>
-	import ProjectMiniCard from './ProjectMiniCard.svelte';
-	import ProjectCard from './ProjectCard.svelte';
 	import { background } from '../lib/store';
+	import ProjectCard from './ProjectCard.svelte';
+	import ProjectMiniCard from './ProjectMiniCard.svelte';
 
 	const mainProjects = [
 		{

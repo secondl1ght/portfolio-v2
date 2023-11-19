@@ -1,7 +1,7 @@
 <script>
-	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
-	import { contributions, background, contact, support } from '../lib/store';
+	import { page } from '$app/stores';
+	import { background, contact, contributions, support } from '../lib/store';
 	import { scroll } from '../lib/utils';
 
 	let showMenu = false;

@@ -1,6 +1,6 @@
 <script>
-	import '../app.css';
 	import { Header } from '$comp';
+	import '../app.css';
 
 	let fadeIn = false;
 	setTimeout(() => (fadeIn = true), 0);

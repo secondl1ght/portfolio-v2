@@ -1,6 +1,6 @@
 <script>
-	import Tech from './Tech.svelte';
 	import { contact } from '../lib/store';
+	import Tech from './Tech.svelte';
 	const favoriteTechStack = [
 		{ tech: 'html5', icon: '/icons/html.svg' },
 		{ tech: 'css3', icon: '/icons/css.svg' },
