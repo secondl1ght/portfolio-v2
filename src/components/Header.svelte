@@ -57,7 +57,7 @@
 		/>
 	</button>
 	<nav
-		class="absolute top-0 flex h-[100vh] w-full justify-end bg-primary text-3xl text-white transition-all ease-in-out {showMenu
+		class="hide-scroll absolute top-0 flex h-[100dvh] w-full justify-end overflow-y-auto bg-primary text-3xl text-white transition-all ease-in-out {showMenu
 			? 'left-0'
 			: 'left-[-100%]'}"
 	>
@@ -86,7 +86,7 @@
 				href="https://github.com/secondl1ght"
 				target="_blank"
 				rel="noreferrer"
-				class="block hover:text-hover"
+				class="block pb-16 hover:text-hover"
 				on:click={() => (showMenu = false)}>github</a
 			>
 		</div>
