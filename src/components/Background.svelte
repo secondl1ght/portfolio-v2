@@ -1,21 +1,5 @@
 <script>
 	import { contact } from '../lib/store';
-	import Tech from './Tech.svelte';
-	const favoriteTechStack = [
-		{ tech: 'html5', icon: '/icons/html.svg' },
-		{ tech: 'css3', icon: '/icons/css.svg' },
-		{ tech: 'typescript', icon: '/icons/ts.svg' },
-		{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
-		{ tech: 'tailwindcss', icon: '/icons/tailwind.svg' },
-		{ tech: 'graphql', icon: '/icons/graphql.svg' },
-		{ tech: 'yarn', icon: '/icons/yarn.svg' },
-		{ tech: 'docker', icon: '/icons/docker.svg' },
-		{ tech: 'node.js', icon: '/icons/node.svg' },
-		{ tech: 'linux', icon: '/icons/linux.svg' },
-		{ tech: 'bitcoin', icon: '/icons/bitcoin.svg' },
-		{ tech: 'lightning', icon: '/icons/cln.svg' },
-		{ tech: 'liquid', icon: '/icons/liquid.svg' }
-	];
 </script>
 
 <div class="relative mx-auto mt-[7.5rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
@@ -32,13 +16,5 @@
 		<br /><br /> i'd like to thank everyone who has helped me along this incredible journey so far, i've
 		met many kind and generous people along the way.
 	</p>
-	<div>
-		<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">favorite tech stack</h4>
-		<div class="block w-full flex-wrap md:flex">
-			{#each favoriteTechStack as tech}
-				<Tech tech={tech.tech} icon={tech.icon} />
-			{/each}
-		</div>
-	</div>
 	<div bind:this={$contact} id="contact" />
 </div>

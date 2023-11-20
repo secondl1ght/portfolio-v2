@@ -60,7 +60,7 @@
 	<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">tech stack</h4>
 	<div class="flex flex-wrap {title === 'btc map' ? 'mb-10' : ''}">
 		{#each tech as tech}
-			<Tech tech={tech.tech} icon={tech.icon} iconOnly={true} />
+			<Tech tech={tech.tech} icon={tech.icon} />
 		{/each}
 	</div>
 	{#if title === 'btc map'}
