@@ -52,7 +52,7 @@
 			/>
 		</div>
 	</div>
-	<p class="ibm mb-10 mt-8 !leading-normal text-secondary md:text-lg lg:text-xl">
+	<p class="ibm mb-10 mt-8 w-full !leading-normal text-secondary md:w-2/3 md:text-lg lg:text-xl">
 		{description}
 	</p>
 	<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">role</h4>
