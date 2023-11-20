@@ -140,27 +140,22 @@
 		{
 			project: 'jam',
 			url: 'https://jamapp.org/',
-			icon: '/icons/jam.svg',
-			description: 'a web ui for joinmarket with focus on user-friendliness.'
+			icon: '/icons/jam.svg'
 		},
 		{
 			project: 'stratum v2 website',
 			url: 'https://stratumprotocol.org/',
-			icon: '/icons/stratum.svg',
-			description: 'the next generation protocol for pooled mining.'
+			icon: '/icons/stratum.svg'
 		},
 		{
 			project: 'thunderhub',
 			url: 'https://thunderhub.io/',
-			icon: '/images/thunderhub.jpg',
-			description: 'monitor and manage your lightning node from any browser and any device.'
+			icon: '/images/thunderhub.jpg'
 		},
 		{
 			project: 'bitbanana website',
 			url: 'https://bitbanana.app/',
-			icon: '/images/bitbanana.svg',
-			description:
-				'native android lightning node management focused on user experience and ease of use.'
+			icon: '/images/bitbanana.svg'
 		}
 	];
 </script>
@@ -184,14 +179,9 @@
 		<h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
 			other<br /> contributions
 		</h2>
-		<div class="flex flex-wrap justify-between">
+		<div class="flex flex-wrap">
 			{#each miniProjects as project}
-				<ProjectMiniCard
-					project={project.project}
-					url={project.url}
-					icon={project.icon}
-					description={project.description}
-				/>
+				<ProjectMiniCard project={project.project} url={project.url} icon={project.icon} />
 			{/each}
 		</div>
 	</div>
