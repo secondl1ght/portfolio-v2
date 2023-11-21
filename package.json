@@ -1,6 +1,7 @@
 {
 	"name": "secondl1ght-portfolio",
 	"version": "0.2.1",
+	"license": "AGPL-3.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
