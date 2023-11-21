@@ -179,7 +179,7 @@
 		<h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
 			other<br /> contributions
 		</h2>
-		<div class="flex flex-wrap">
+		<div class="flex flex-wrap gap-5 sm:gap-10">
 			{#each miniProjects as project}
 				<ProjectMiniCard project={project.project} url={project.url} icon={project.icon} />
 			{/each}

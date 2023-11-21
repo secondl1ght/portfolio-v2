@@ -2,7 +2,7 @@
 	import { contact } from '../lib/store';
 </script>
 
-<div class="relative mx-auto mt-[7.5rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
+<div class="relative mx-auto mt-[8.75rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
 	<div class="absolute -left-6 -top-3 h-16 w-2 bg-[#C2E9FB] md:-left-10 md:-top-1.5 lg:top-0" />
 	<h2 class="jakarta !mb-16 text-4xl text-white md:text-5xl lg:text-6xl">background</h2>
 	<p class="ibm w-full !leading-normal text-secondary md:w-3/4 md:text-lg lg:text-xl">

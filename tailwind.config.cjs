@@ -24,6 +24,9 @@ module.exports = {
 				shadow: '#1C1D26',
 				hover: '#AF7CD5',
 				code: '#1E1F2B'
+			},
+			screens: {
+				'3xl': '1792px'
 			}
 		}
 	},

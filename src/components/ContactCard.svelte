@@ -4,7 +4,7 @@
 	export let url;
 </script>
 
-<div class="mb-5 flex items-center md:mr-10 md:w-[180px] lg:w-[195px]">
+<div class="flex items-center">
 	<a href={url} target="_blank" rel="noreferrer">
 		<div class="mr-5 bg-shadow p-4 hover:shadow-lg">
 			<img src={icon} alt={method} loading="lazy" class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12" />

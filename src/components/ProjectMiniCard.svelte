@@ -4,13 +4,13 @@
 	export let icon;
 </script>
 
-<a title={project} href={url} target="_blank" rel="noreferrer" class="mb-10 mr-10">
+<a title={project} href={url} target="_blank" rel="noreferrer">
 	<div class="bg-shadow p-5 hover:shadow-xl">
 		<img
 			src={icon}
 			alt={project}
 			loading="lazy"
-			class="mx-auto h-24 w-24 md:h-28 md:w-28 lg:h-32 lg:w-32"
+			class="h-16 w-16 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-32 lg:w-32"
 		/>
 	</div>
 </a>

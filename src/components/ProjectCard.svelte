@@ -58,14 +58,14 @@
 	<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">role</h4>
 	<p class="ibm mb-10 text-secondary md:text-lg lg:text-xl">{role}</p>
 	<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">tech stack</h4>
-	<div class="flex flex-wrap {title === 'btc map' ? 'mb-10' : ''}">
+	<div class="flex flex-wrap gap-5 {title === 'btc map' ? 'mb-10' : ''}">
 		{#each tech as tech}
 			<Tech tech={tech.tech} icon={tech.icon} />
 		{/each}
 	</div>
 	{#if title === 'btc map'}
 		<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">appearances</h4>
-		<div class="flex flex-wrap">
+		<div class="flex flex-wrap gap-5">
 			{#each appearanceCards as card}
 				<AppearanceCard url={card.url} image={card.image} alt={card.alt} />
 			{/each}

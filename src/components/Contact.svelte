@@ -33,7 +33,7 @@
 		i am always open to chatting with interesting people who share my values and work on projects
 		that align with our mission. here are the best ways to get a hold of me:
 	</p>
-	<div class="block flex-wrap md:flex">
+	<div class="grid gap-5 sm:grid-cols-2 sm:gap-10 3xl:grid-cols-4">
 		{#each contactMethods as contact}
 			<ContactCard method={contact.method} icon={contact.icon} url={contact.url} />
 		{/each}
