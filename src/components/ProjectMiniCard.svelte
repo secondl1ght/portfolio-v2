@@ -1,7 +1,7 @@
-<script>
-	export let project;
-	export let url;
-	export let icon;
+<script lang="ts">
+	export let project: string;
+	export let url: string;
+	export let icon: string;
 </script>
 
 <a title={project} href={url} target="_blank" rel="noreferrer">

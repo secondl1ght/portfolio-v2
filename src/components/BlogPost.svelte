@@ -1,10 +1,10 @@
-<script>
-	import { Footer } from '$comp';
+<script lang="ts">
+	import { Footer } from '$lib/comp';
 
-	export let title;
-	export let image;
-	export let description;
-	export let date;
+	export let title: string;
+	export let image: string;
+	export let description: string;
+	export let date: string;
 </script>
 
 <div class="mx-auto my-10 w-3/4 max-w-7xl md:my-20">

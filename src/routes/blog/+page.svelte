@@ -1,5 +1,6 @@
-<script>
-	import { BlogCard, BlogInfo, Footer } from '$comp';
+<script lang="ts">
+	import { BlogCard, BlogInfo, Footer } from '$lib/comp';
+
 	const posts = [
 		{
 			image: 'cipherchat-blog',

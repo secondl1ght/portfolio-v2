@@ -1,6 +1,6 @@
-<script>
-	import { BlogPost } from '$comp';
-	import '../../../blogpost.css';
+<script lang="ts">
+	import { BlogPost } from '$lib/comp';
+	import '../blogpost.css';
 </script>
 
 <svelte:head>

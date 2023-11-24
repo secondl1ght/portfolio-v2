@@ -1,7 +1,7 @@
-<script>
-	export let url;
-	export let image;
-	export let alt;
+<script lang="ts">
+	export let url: string;
+	export let image: string;
+	export let alt: string;
 </script>
 
 <a

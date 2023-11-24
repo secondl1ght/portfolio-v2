@@ -1,7 +1,7 @@
-<script>
-	export let method;
-	export let icon;
-	export let url;
+<script lang="ts">
+	export let method: string;
+	export let icon: string;
+	export let url: string;
 </script>
 
 <div class="flex items-center">

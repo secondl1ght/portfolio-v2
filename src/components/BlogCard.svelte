@@ -1,9 +1,9 @@
-<script>
-	export let image;
-	export let title;
-	export let description;
-	export let date;
-	export let url;
+<script lang="ts">
+	export let image: string;
+	export let title: string;
+	export let description: string;
+	export let date: string;
+	export let url: string;
 </script>
 
 <div class="mx-auto w-3/4 space-y-5 md:w-[655px] lg:w-[755px] xl:mx-0 2xl:w-[855px]">

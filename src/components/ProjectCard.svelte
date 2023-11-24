@@ -1,14 +1,13 @@
-<script>
-	import AppearanceCard from './AppearanceCard.svelte';
-	import Tech from './Tech.svelte';
+<script lang="ts">
+	import { AppearanceCard, Tech } from '$lib/comp';
 
-	export let gradients;
-	export let image;
-	export let url;
-	export let title;
-	export let description;
-	export let role;
-	export let tech;
+	export let gradients: string;
+	export let image: string;
+	export let url: string;
+	export let title: string;
+	export let description: string;
+	export let role: string;
+	export let tech: { tech: string; icon: string }[];
 
 	const appearanceCards = [
 		{

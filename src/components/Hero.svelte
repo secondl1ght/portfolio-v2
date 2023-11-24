@@ -1,5 +1,5 @@
-<script>
-	import { contributions } from '../lib/store';
+<script lang="ts">
+	import { contributions } from '$lib/store';
 </script>
 
 <div class="mx-auto mt-10 w-3/4 space-y-10 md:mt-20 lg:w-2/3 xl:w-7/12 2xl:w-1/2">

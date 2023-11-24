@@ -1,12 +1,12 @@
-<script>
+<script lang="ts">
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import { background, contact, contributions, support } from '../lib/store';
-	import { scroll } from '../lib/utils';
+	import { background, contact, contributions, support } from '$lib/store';
+	import { scroll } from '$lib/utils';
 
 	let showMenu = false;
 
-	const handleButtonClick = (section, store) => {
+	const handleButtonClick = (section: string, store: HTMLDivElement) => {
 		showMenu = false;
 		if ($page.url.pathname.length > 1 || $page.error) {
 			goto(`/#${section}`);

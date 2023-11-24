@@ -1,7 +1,9 @@
-<script>
+<script lang="ts">
+	// @ts-nocheck
 	import { page } from '$app/stores';
-	let form;
-	let formComplete;
+
+	let form: HTMLFormElement;
+	let formComplete = false;
 	$: subscribe = !$page.url.pathname.includes('unsubscribe');
 	const handleSubmit = () => {
 		let formData = new FormData(form);

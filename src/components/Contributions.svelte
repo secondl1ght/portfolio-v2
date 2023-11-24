@@ -1,7 +1,6 @@
-<script>
-	import { background } from '../lib/store';
-	import ProjectCard from './ProjectCard.svelte';
-	import ProjectMiniCard from './ProjectMiniCard.svelte';
+<script lang="ts">
+	import { ProjectCard, ProjectMiniCard } from '$lib/comp';
+	import { background } from '$lib/store';
 
 	const mainProjects = [
 		{

@@ -1,5 +1,5 @@
 <script>
-	import { BlogInfo } from '$comp';
+	import { BlogInfo } from '$lib/comp';
 </script>
 
 <svelte:head>

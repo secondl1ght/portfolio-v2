@@ -1,5 +1,5 @@
-<script>
-	import { scrollTop } from '../lib/utils';
+<script lang="ts">
+	import { scrollTop } from '$lib/utils';
 </script>
 
 <div class="flex w-full items-center justify-end pb-10 pr-5 md:pr-20">

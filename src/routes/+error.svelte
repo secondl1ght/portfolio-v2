@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
 </script>
 
@@ -24,6 +24,6 @@
 	>
 	<h1 class="jakarta text-center text-7xl font-bold text-white">error</h1>
 	<h2 class="ibm break-all text-center text-3xl text-secondary">
-		{$page.status} : {$page.error.message}
+		{$page.status} : {$page.error?.message}
 	</h2>
 </div>

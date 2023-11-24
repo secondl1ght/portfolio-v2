@@ -1,4 +1,4 @@
-export function scroll(section) {
+export function scroll(section: HTMLDivElement) {
 	section.scrollIntoView({ behavior: 'smooth' });
 }
 

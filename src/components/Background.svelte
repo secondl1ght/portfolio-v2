@@ -1,5 +1,5 @@
-<script>
-	import { contact } from '../lib/store';
+<script lang="ts">
+	import { contact } from '$lib/store';
 </script>
 
 <div class="relative mx-auto mt-[8.75rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2">

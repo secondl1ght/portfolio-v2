@@ -1,5 +1,5 @@
-<script>
-	import { Header } from '$comp';
+<script lang="ts">
+	import { Header } from '$lib/comp';
 	import '../app.css';
 
 	let fadeIn = false;

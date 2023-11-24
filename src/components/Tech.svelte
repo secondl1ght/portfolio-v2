@@ -1,6 +1,6 @@
-<script>
-	export let tech;
-	export let icon;
+<script lang="ts">
+	export let tech: string;
+	export let icon: string;
 </script>
 
 <div title={tech} class="bg-shadow p-4 hover:shadow-lg">
