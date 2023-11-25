@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { contact } from '$lib/store';
+
+	const years = new Date().getFullYear() - 2021;
 </script>
 
 <div class="relative mx-auto mt-[8.75rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
@@ -14,10 +16,10 @@
 		i believe is the most important project of our time. i am now happy to say that i contribute to open
 		source projects and work as a bitcoin dev full-time!
 		<br /><br />
-		for the past 3 years i have been mainly building applications using the lightning network. the projects
-		i have created and contributed to have had a meaningful impact on bitcoin adoption globally. this
-		has given me the opportunity to appear on podcasts and speak at conferences worldwide about my areas
-		of expertise.
+		for the past {years} years i have been mainly building applications using the lightning network.
+		the projects i have created and contributed to have had a meaningful impact on bitcoin adoption globally.
+		this has given me the opportunity to appear on podcasts and speak at conferences worldwide about
+		my areas of expertise.
 		<br /><br />
 		as a team member of many innovative startups i played a key role in taking features through the full
 		development cycle and shipping high-quality, pixel-perfect, user-facing products to production.
