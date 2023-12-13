@@ -8,19 +8,7 @@
 	export let description: string;
 	export let role: string;
 	export let tech: { tech: string; icon: string }[];
-
-	const appearanceCards = [
-		{
-			url: 'https://stephanlivera.com/episode/420/',
-			image: 'slp.webp',
-			alt: 'Stephan Livera Podcast'
-		},
-		{
-			url: 'https://youtu.be/BzdKSgT17pQ',
-			image: 'adopting.webp',
-			alt: 'Adopting Bitcoin'
-		}
-	];
+	export let appearances: { url: string; image: string; alt: string }[] | undefined = undefined;
 </script>
 
 <div class="mt-[8.75rem] w-full bg-gradient-to-r {gradients}">
@@ -57,15 +45,15 @@
 	<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">role</h4>
 	<p class="ibm mb-10 text-secondary md:text-lg lg:text-xl">{role}</p>
 	<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">tech stack</h4>
-	<div class="flex flex-wrap gap-5 {title === 'btc map' ? 'mb-10' : ''}">
+	<div class="flex flex-wrap gap-5">
 		{#each tech as tech}
 			<Tech tech={tech.tech} icon={tech.icon} />
 		{/each}
 	</div>
-	{#if title === 'btc map'}
-		<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">appearances</h4>
+	{#if appearances}
+		<h4 class="jakarta mb-5 mt-10 text-lg text-white md:text-xl lg:text-2xl">appearances</h4>
 		<div class="flex flex-wrap gap-5">
-			{#each appearanceCards as card}
+			{#each appearances as card}
 				<AppearanceCard url={card.url} image={card.image} alt={card.alt} />
 			{/each}
 		</div>

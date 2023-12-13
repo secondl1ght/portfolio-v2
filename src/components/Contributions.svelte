@@ -17,6 +17,13 @@
 				{ tech: 'lnc-web', icon: '/icons/lnc.png' },
 				{ tech: 'dexie.js', icon: '/icons/dexie.png' },
 				{ tech: 'node.js', icon: '/icons/node.svg' }
+			],
+			appearances: [
+				{
+					url: 'https://youtu.be/p5UuHwXH4kk',
+					image: 'ctw.webp',
+					alt: 'Connect The World'
+				}
 			]
 		},
 		{
@@ -34,6 +41,18 @@
 				{ tech: 'openstreetmap', icon: '/icons/osm.svg' },
 				{ tech: 'sqlite', icon: '/icons/sqlite.svg' },
 				{ tech: 'node.js', icon: '/icons/node.svg' }
+			],
+			appearances: [
+				{
+					url: 'https://stephanlivera.com/episode/420/',
+					image: 'slp.webp',
+					alt: 'Stephan Livera Podcast'
+				},
+				{
+					url: 'https://youtu.be/BzdKSgT17pQ',
+					image: 'adopting.webp',
+					alt: 'Adopting Bitcoin'
+				}
 			]
 		},
 		{
@@ -171,6 +190,7 @@
 			description={project.description}
 			role={project.role}
 			tech={project.tech}
+			appearances={project.appearances}
 		/>
 	{/each}
 	<div class="relative mt-[8.75rem] w-full">
