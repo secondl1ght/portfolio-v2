@@ -1,8 +1,0 @@
-[build]
-  command = "yarn build"
-  publish = "build"
-
-[[headers]]
-  for = "/.well-known/nostr.json"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
