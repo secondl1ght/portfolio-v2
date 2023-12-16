@@ -17,34 +17,37 @@
 	src: url('/fonts/Inconsolata-Regular.ttf') format('truetype');
 }
 
-.ibm {
-	font-family: IBMPlexMono, sans-serif;
+@layer base {
+	::selection {
+		@apply bg-hover text-white;
+	}
+
+	html {
+		@apply text-base;
+	}
 }
 
-.jakarta {
-	font-family: PlusJakartaSans, sans-serif;
-}
+@layer utilities {
+	.ibm {
+		font-family: IBMPlexMono, sans-serif;
+	}
 
-.inc {
-	font-family: Inconsolata, sans-serif;
-}
+	.jakarta {
+		font-family: PlusJakartaSans, sans-serif;
+	}
 
-::selection {
-	color: white;
-	background: #af7cd5;
-}
+	.inc {
+		font-family: Inconsolata, sans-serif;
+	}
 
-html {
-	font-size: 16px;
-}
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	.hide-scroll::-webkit-scrollbar {
+		@apply hidden;
+	}
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-.hide-scroll::-webkit-scrollbar {
-	display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.hide-scroll {
-	-ms-overflow-style: none; /* IE and Edge */
-	scrollbar-width: none; /* Firefox */
+	/* Hide scrollbar for IE, Edge and Firefox */
+	.hide-scroll {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
 }
