@@ -10,6 +10,7 @@
 			title: 'cipherchat',
 			description: 'encrypted messaging over the bitcoin lightning network.',
 			role: 'creator',
+			duration: '2023 - present',
 			tech: [
 				{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
 				{ tech: 'typescript', icon: '/icons/ts.svg' },
@@ -33,6 +34,7 @@
 			title: 'btc map',
 			description: 'easily find places to spend sats anywhere on the planet.',
 			role: 'open source maintainer',
+			duration: '2022 - present',
 			tech: [
 				{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
 				{ tech: 'javascript', icon: '/icons/js.svg' },
@@ -62,6 +64,7 @@
 			title: 'amboss',
 			description: 'lightning network tools and insights that give node operators an edge.',
 			role: 'front-end engineer',
+			duration: '2023 - present',
 			tech: [
 				{ tech: 'next.js', icon: '/icons/nextjs.svg' },
 				{ tech: 'react', icon: '/icons/react.svg' },
@@ -85,6 +88,7 @@
 			description:
 				'bitcoin web wallet since 2012 and point-of-sale application, supports both liquid and lightning integration.',
 			role: 'web developer',
+			duration: '2021 - 2023',
 			tech: [
 				{ tech: 'vue.js', icon: '/icons/vue.svg' },
 				{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
@@ -102,6 +106,7 @@
 			description:
 				'global and user-friendly crowdfunding, grants, and other engaging use-cases on the bitcoin lightning network.',
 			role: 'software engineer',
+			duration: '2022',
 			tech: [
 				{ tech: 'react', icon: '/icons/react.svg' },
 				{ tech: 'typescript', icon: '/icons/ts.svg' },
@@ -120,6 +125,7 @@
 			description:
 				'a versatile lightning browser extension bringing bitcoin payments and authentication to the web.',
 			role: 'front-end developer',
+			duration: '2021 - 2022',
 			tech: [
 				{ tech: 'react', icon: '/icons/react.svg' },
 				{ tech: 'rubyonrails', icon: '/icons/rails.svg' },
@@ -140,6 +146,7 @@
 			description:
 				'mint, collect, and transact rare digital & physical bitcoin art on the liquid network.',
 			role: 'open source contributor',
+			duration: '2021 - 2023',
 			tech: [
 				{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
 				{ tech: 'javascript', icon: '/icons/js.svg' },
@@ -189,6 +196,7 @@
 			title={project.title}
 			description={project.description}
 			role={project.role}
+			duration={project.duration}
 			tech={project.tech}
 			appearances={project.appearances}
 		/>
