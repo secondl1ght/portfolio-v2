@@ -137,27 +137,6 @@
 				{ tech: 'redis', icon: '/icons/redis.svg' },
 				{ tech: 'node.js', icon: '/icons/node.svg' }
 			]
-		},
-		{
-			gradients: 'from-[#A1C4FD] to-[#C2E9FB]',
-			image: '/images/rare.webp',
-			url: 'https://raretoshi.com/',
-			title: 'raretoshi',
-			description:
-				'mint, collect, and transact rare digital & physical bitcoin art on the liquid network.',
-			role: 'open source contributor',
-			duration: '2021 - 2023',
-			tech: [
-				{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
-				{ tech: 'javascript', icon: '/icons/js.svg' },
-				{ tech: 'tailwindcss', icon: '/icons/tailwind.svg' },
-				{ tech: 'graphql', icon: '/icons/graphql.svg' },
-				{ tech: 'hasura', icon: '/icons/hasura.svg' },
-				{ tech: 'postgresql', icon: '/icons/postgres.svg' },
-				{ tech: 'ipfs', icon: '/icons/ipfs.svg' },
-				{ tech: 'fastify', icon: '/icons/fast.svg' },
-				{ tech: 'node.js', icon: '/icons/node.svg' }
-			]
 		}
 	];
 </script>
