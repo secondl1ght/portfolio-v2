@@ -17,9 +17,9 @@
 		source projects and work as a bitcoin dev full-time!
 		<br /><br />
 		for the past {years} years i have been mainly building applications using the lightning network.
-		the projects i have co-created and contributed to have had a meaningful impact on bitcoin adoption
-		globally. this has given me the opportunity to appear on podcasts and speak at conferences worldwide
-		about my areas of expertise.
+		the projects i have created and contributed to have had a meaningful impact on bitcoin adoption globally.
+		this has given me the opportunity to appear on podcasts and speak at conferences worldwide about
+		my areas of expertise.
 		<br /><br />
 		as a team member of many innovative startups i played a key role in taking features through the full
 		development cycle and shipping high-quality, pixel-perfect, user-facing products to production.
