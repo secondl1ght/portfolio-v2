@@ -33,7 +33,7 @@
 			url: 'https://btcmap.org/',
 			title: 'btc map',
 			description: 'easily find places to spend sats anywhere on the planet.',
-			role: 'co-creator & open source maintainer',
+			role: 'co-creator',
 			duration: '2022 - present',
 			tech: [
 				{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
