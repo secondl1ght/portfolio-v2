@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ProjectCard, ProjectMiniCard } from '$lib/comp';
+	import { ProjectCard } from '$lib/comp';
 	import { background } from '$lib/store';
 
 	const mainProjects = [
