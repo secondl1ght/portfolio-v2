@@ -21,9 +21,8 @@
 	class="jakarta sticky top-0 z-10 hidden h-20 w-full items-center justify-center bg-primary/90 lg:flex"
 >
 	<nav class="space-x-16 text-xl text-white lg:text-2xl">
-		<button
-			class="hover:text-hover"
-			on:click={() => handleButtonClick('contributions', $contributions)}>contributions</button
+		<button class="hover:text-hover" on:click={() => handleButtonClick('work', $contributions)}
+			>work</button
 		>
 		<button class="hover:text-hover" on:click={() => handleButtonClick('background', $background)}
 			>background</button
@@ -64,7 +63,7 @@
 		<div class="mr-10 mt-28 space-y-16">
 			<button
 				class="block hover:text-hover"
-				on:click={() => handleButtonClick('contributions', $contributions)}>contributions</button
+				on:click={() => handleButtonClick('work', $contributions)}>work</button
 			>
 			<button
 				class="block hover:text-hover"

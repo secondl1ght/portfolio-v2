@@ -16,5 +16,5 @@
 	<h3 class="ibm w-full text-2xl !leading-normal text-secondary md:text-3xl lg:w-10/12 lg:text-4xl">
 		a web developer’s mission to make the world a better place through bitcoin.
 	</h3>
-	<div bind:this={$contributions} id="contributions" />
+	<div bind:this={$contributions} id="work" />
 </div>
