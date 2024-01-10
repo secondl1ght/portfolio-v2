@@ -160,29 +160,6 @@
 			]
 		}
 	];
-
-	const miniProjects = [
-		{
-			project: 'jam',
-			url: 'https://jamapp.org/',
-			icon: '/icons/jam.svg'
-		},
-		{
-			project: 'stratum v2 website',
-			url: 'https://stratumprotocol.org/',
-			icon: '/icons/stratum.svg'
-		},
-		{
-			project: 'thunderhub',
-			url: 'https://thunderhub.io/',
-			icon: '/images/thunderhub.jpg'
-		},
-		{
-			project: 'bitbanana website',
-			url: 'https://bitbanana.app/',
-			icon: '/images/bitbanana.svg'
-		}
-	];
 </script>
 
 <div class="relative mx-auto mt-40 w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
@@ -201,16 +178,5 @@
 			appearances={project.appearances}
 		/>
 	{/each}
-	<div class="relative mt-[8.75rem] w-full">
-		<div class="absolute -left-6 top-3 h-16 w-2 bg-[#A3C6FD] md:-left-10 md:top-6 lg:top-9" />
-		<h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">
-			other<br /> contributions
-		</h2>
-		<div class="flex flex-wrap gap-5 sm:gap-10">
-			{#each miniProjects as project}
-				<ProjectMiniCard project={project.project} url={project.url} icon={project.icon} />
-			{/each}
-		</div>
-	</div>
 	<div bind:this={$background} id="background" />
 </div>
