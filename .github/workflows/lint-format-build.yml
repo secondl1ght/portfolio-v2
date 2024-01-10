@@ -9,6 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: clear yarn cache
+        run: yarn cache clean
+
       - name: install modules
         run: yarn
 
