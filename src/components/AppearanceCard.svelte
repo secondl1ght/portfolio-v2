@@ -11,5 +11,5 @@
 	rel="noreferrer"
 	class="block max-w-xs bg-shadow p-4 hover:shadow-lg 2xl:max-w-sm"
 >
-	<img src="/images/{image}" {alt} />
+	<img src="/images/{image}" {alt} class="w-full" />
 </a>

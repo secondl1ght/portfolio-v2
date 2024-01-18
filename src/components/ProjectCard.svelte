@@ -54,14 +54,6 @@
 				<Tech tech={tech.tech} icon={tech.icon} />
 			{/each}
 		</div>
-		{#if appearances}
-			<h4 class="jakarta mb-5 mt-10 text-lg text-white md:text-xl lg:text-2xl">appearances</h4>
-			<div class="flex flex-wrap gap-5">
-				{#each appearances as card}
-					<AppearanceCard url={card.url} image={card.image} alt={card.alt} />
-				{/each}
-			</div>
-		{/if}
 	</div>
 
 	<div class="hidden w-1/3 lg:block">
@@ -71,3 +63,12 @@
 		<p class="ibm mb-10 text-secondary md:text-lg lg:text-xl">{duration}</p>
 	</div>
 </div>
+
+{#if appearances}
+	<h4 class="jakarta mb-5 mt-10 text-lg text-white md:text-xl lg:text-2xl">appearances</h4>
+	<div class="flex flex-wrap gap-5">
+		{#each appearances as card}
+			<AppearanceCard url={card.url} image={card.image} alt={card.alt} />
+		{/each}
+	</div>
+{/if}
