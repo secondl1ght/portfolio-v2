@@ -150,6 +150,9 @@
 			alt="github contributions - 1yr"
 			title="github contributions - 1yr"
 			class="w-full min-w-96"
+			fetchpriority="high"
+			loading="eager"
+			decoding="sync"
 		/>
 	</div>
 	{#each mainProjects as project}
