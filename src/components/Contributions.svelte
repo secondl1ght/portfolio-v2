@@ -144,7 +144,7 @@
 <div class="relative mx-auto mt-40 w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
 	<div class="absolute -left-6 -top-2.5 h-16 w-2 bg-[#AF7CD5] md:-left-10 md:-top-0.5 lg:top-1" />
 	<h2 class="jakarta mb-16 text-4xl text-white md:text-5xl lg:text-6xl">proof of work</h2>
-	<div class="w-full overflow-x-auto transition-all hover:saturate-200">
+	<div class="w-full overflow-x-auto transition-all duration-500 ease-in-out hover:saturate-200">
 		<img
 			src="https://gh-contributions-7debee29ca94.herokuapp.com/9A6FF1/secondl1ght"
 			alt="github contributions - 1yr"
