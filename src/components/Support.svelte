@@ -7,7 +7,7 @@
 		my work. your contribution to the bitcoin ecosystem is greatly appreciated!
 	</p>
 	<a
-		href="https://classic.coinos.io/secondl1ght"
+		href="https://getalby.com/p/secondl1ght"
 		target="_blank"
 		rel="noreferrer"
 		class="ibm relative flex h-12 w-full items-center justify-center bg-gradient-to-r from-[#9068FE] to-[#FEB068] text-white md:h-16 md:w-1/2 md:text-lg lg:h-20 lg:text-xl"
