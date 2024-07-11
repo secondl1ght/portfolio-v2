@@ -77,7 +77,8 @@
 				{ tech: 'postgresql', icon: '/icons/postgres.svg' },
 				{ tech: 'redis', icon: '/icons/redis.svg' },
 				{ tech: 'rabbitmq', icon: '/icons/rabbit.svg' },
-				{ tech: 'node.js', icon: '/icons/node.svg' }
+				{ tech: 'node.js', icon: '/icons/node.svg' },
+				{ tech: 'docker', icon: '/icons/docker.svg' }
 			]
 		},
 		{
@@ -95,7 +96,8 @@
 				{ tech: 'javascript', icon: '/icons/js.svg' },
 				{ tech: 'tailwindcss', icon: '/icons/tailwind.svg' },
 				{ tech: 'mariadb', icon: '/icons/maria.svg' },
-				{ tech: 'node.js', icon: '/icons/node.svg' }
+				{ tech: 'node.js', icon: '/icons/node.svg' },
+				{ tech: 'docker', icon: '/icons/docker.svg' }
 			]
 		},
 		{
