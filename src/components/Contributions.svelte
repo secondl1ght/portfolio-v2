@@ -63,7 +63,7 @@
 			url: 'https://amboss.space/',
 			title: 'amboss',
 			description: 'lightning network tools and insights that give node operators an edge.',
-			role: 'front-end & quality-assurance engineer',
+			role: 'senior front-end & quality-assurance engineer',
 			duration: '2023 - present',
 			tech: [
 				{ tech: 'next.js', icon: '/icons/nextjs.svg' },
