@@ -26,9 +26,12 @@
 	];
 </script>
 
-<div class="relative mx-auto mt-[8.75rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
-	<div class="absolute -left-6 -top-2.5 h-16 w-2 bg-[#956CF7] md:-left-10 md:-top-1 lg:top-1" />
-	<h2 class="jakarta !mb-16 text-4xl text-white md:text-5xl lg:text-6xl">contact</h2>
+<div class="mx-auto mt-[8.75rem] w-3/4 space-y-10 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
+	<h2
+		class="jakarta !mb-16 text-4xl text-white underline decoration-[#956CF7] decoration-dashed decoration-8 underline-offset-8 md:text-5xl lg:text-6xl"
+	>
+		contact
+	</h2>
 	<p class="ibm w-full !leading-normal text-secondary md:w-3/4 md:text-lg lg:text-xl">
 		i am always open to chatting with interesting people who share my values and work on projects
 		that align with our mission. here are the best ways to get a hold of me:
