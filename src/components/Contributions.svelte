@@ -4,6 +4,30 @@
 
 	const mainProjects = [
 		{
+			gradients: 'from-[#7928CA] to-[#FF0080]',
+			image: '/images/magma.webp',
+			url: 'https://amboss.space/',
+			title: 'amboss',
+			description: 'lightning network tools and insights that give node operators an edge.',
+			role: 'senior front-end & quality-assurance engineer',
+			duration: '2023 - present',
+			tech: [
+				{ tech: 'next.js', icon: '/icons/nextjs.svg' },
+				{ tech: 'react', icon: '/icons/react.svg' },
+				{ tech: 'typescript', icon: '/icons/ts.svg' },
+				{ tech: 'styled components', icon: '/icons/styled-components.svg' },
+				{ tech: 'graphql', icon: '/icons/graphql.svg' },
+				{ tech: 'apollo', icon: '/icons/apollo.svg' },
+				{ tech: 'nestjs', icon: '/icons/nest.svg' },
+				{ tech: 'prisma', icon: '/icons/prisma.svg' },
+				{ tech: 'postgresql', icon: '/icons/postgres.svg' },
+				{ tech: 'redis', icon: '/icons/redis.svg' },
+				{ tech: 'rabbitmq', icon: '/icons/rabbit.svg' },
+				{ tech: 'node.js', icon: '/icons/node.svg' },
+				{ tech: 'docker', icon: '/icons/docker.svg' }
+			]
+		},
+		{
 			gradients: 'from-[#F5F7FA] to-[#C3CFE2]',
 			image: '/images/cipherchat-screenshot.webp',
 			url: 'https://cipherchat.app/',
@@ -55,30 +79,6 @@
 					image: 'adopting.webp',
 					alt: 'Adopting Bitcoin'
 				}
-			]
-		},
-		{
-			gradients: 'from-[#7928CA] to-[#FF0080]',
-			image: '/images/magma.webp',
-			url: 'https://amboss.space/',
-			title: 'amboss',
-			description: 'lightning network tools and insights that give node operators an edge.',
-			role: 'senior front-end & quality-assurance engineer',
-			duration: '2023 - present',
-			tech: [
-				{ tech: 'next.js', icon: '/icons/nextjs.svg' },
-				{ tech: 'react', icon: '/icons/react.svg' },
-				{ tech: 'typescript', icon: '/icons/ts.svg' },
-				{ tech: 'styled components', icon: '/icons/styled-components.svg' },
-				{ tech: 'graphql', icon: '/icons/graphql.svg' },
-				{ tech: 'apollo', icon: '/icons/apollo.svg' },
-				{ tech: 'nestjs', icon: '/icons/nest.svg' },
-				{ tech: 'prisma', icon: '/icons/prisma.svg' },
-				{ tech: 'postgresql', icon: '/icons/postgres.svg' },
-				{ tech: 'redis', icon: '/icons/redis.svg' },
-				{ tech: 'rabbitmq', icon: '/icons/rabbit.svg' },
-				{ tech: 'node.js', icon: '/icons/node.svg' },
-				{ tech: 'docker', icon: '/icons/docker.svg' }
 			]
 		},
 		{
