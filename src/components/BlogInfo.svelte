@@ -31,9 +31,6 @@
 			<a href="https://twitter.com/secondl1ght" target="_blank" rel="noreferrer"
 				><img src="/icons/twitter-white.svg" class="w-8" alt="twitter" />
 			</a>
-			<a href="https://makers.bolt.fun/profile/34/secondl1ght" target="_blank" rel="noreferrer"
-				><img src="/icons/makers.svg" class="w-8" alt="bolt.fun" />
-			</a>
 			<a href="https://dev.to/secondl1ght" target="_blank" rel="noreferrer"
 				><img src="/icons/dev.svg" class="w-8" alt="dev" />
 			</a>

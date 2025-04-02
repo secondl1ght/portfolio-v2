@@ -34,10 +34,6 @@
 			>support</button
 		>
 		<a
-			href="/blog"
-			class="hover:text-hover {$page.url.pathname.includes('blog') ? 'text-hover' : ''}">blog</a
-		>
-		<a
 			href="https://github.com/secondl1ght"
 			target="_blank"
 			rel="noreferrer"
@@ -76,11 +72,6 @@
 				>support</button
 			>
 
-			<a
-				href="/blog"
-				class="block hover:text-hover {$page.url.pathname.includes('blog') ? 'text-hover' : ''}"
-				on:click={() => (showMenu = false)}>blog</a
-			>
 			<a
 				href="https://github.com/secondl1ght"
 				target="_blank"
