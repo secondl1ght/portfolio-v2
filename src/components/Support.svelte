@@ -33,14 +33,14 @@
 		<h4 class="jakarta text-lg text-white md:text-xl lg:text-2xl">connect with lightning 🌩️</h4>
 		<p class="ibm w-full !leading-normal text-secondary md:w-3/4 md:text-lg lg:text-xl">
 			you can find my lightning node information on <a
-				href="https://amboss.space/c/secondl1ght"
+				href="https://amboss.space/node/02b47ea13d4ecec4ff4ce608dce4a0833289509f6966ca6bd0c3af07b414b317e4"
 				target="_blank"
 				rel="noreferrer"
 				class="text-white underline hover:text-hover">amboss.space</a
 			>
 			or
 			<a
-				href="https://mempool.space/lightning/node/021ef14c694456a3aae3471a2e8830da21a8130ccbead6794e3530430e2e074d63"
+				href="https://mempool.space/lightning/node/02b47ea13d4ecec4ff4ce608dce4a0833289509f6966ca6bd0c3af07b414b317e4"
 				target="_blank"
 				rel="noreferrer"
 				class="text-white underline hover:text-hover">mempool.space</a
