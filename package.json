@@ -35,7 +35,7 @@
 		"vite": "^5.2.11"
 	},
 	"type": "module",
-	"description": "Web Developer portfolio website",
+	"description": "Software Engineer portfolio website",
 	"repository": "https://github.com/secondl1ght/portfolio-v2",
 	"author": "secondl1ght <secondl1ght@protonmail.com>",
 	"dependencies": {}

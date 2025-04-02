@@ -54,11 +54,11 @@
 
 <svelte:head>
 	<title>secondl1ght - blog</title>
-	<meta name="description" content="web developer blog" />
+	<meta name="description" content="software engineer blog" />
 	<meta property="og:image" content="https://www.secondl1ght.site/images/og.jpg" />
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:title" content="secondl1ght - blog" />
-	<meta property="twitter:description" content="web developer blog" />
+	<meta property="twitter:description" content="software engineer blog" />
 	<meta property="twitter:image" content="https://www.secondl1ght.site/images/og.jpg" />
 </svelte:head>
 
