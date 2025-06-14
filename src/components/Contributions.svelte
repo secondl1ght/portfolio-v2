@@ -61,7 +61,7 @@
 			duration: '2022 - present',
 			tech: [
 				{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
-				{ tech: 'javascript', icon: '/icons/js.svg' },
+				{ tech: 'typescript', icon: '/icons/ts.svg' },
 				{ tech: 'tailwindcss', icon: '/icons/tailwind.svg' },
 				{ tech: 'leafletjs', icon: '/icons/leaflet.png' },
 				{ tech: 'openstreetmap', icon: '/icons/osm.svg' },
@@ -95,7 +95,11 @@
 				{ tech: 'sveltekit', icon: '/icons/svelte.svg' },
 				{ tech: 'javascript', icon: '/icons/js.svg' },
 				{ tech: 'tailwindcss', icon: '/icons/tailwind.svg' },
+				{ tech: 'hasura', icon: '/icons/hasura.svg' },
+				{ tech: 'fastify', icon: '/icons/fast.svg' },
 				{ tech: 'mariadb', icon: '/icons/maria.svg' },
+				{ tech: 'keydb', icon: '/icons/keydb.svg' },
+				{ tech: 'ipfs', icon: '/icons/ipfs.svg' },
 				{ tech: 'node.js', icon: '/icons/node.svg' },
 				{ tech: 'docker', icon: '/icons/docker.svg' }
 			]
@@ -129,11 +133,10 @@
 			role: 'front-end developer',
 			duration: '2021 - 2022',
 			tech: [
-				{ tech: 'react', icon: '/icons/react.svg' },
 				{ tech: 'rubyonrails', icon: '/icons/rails.svg' },
-				{ tech: 'typescript', icon: '/icons/ts.svg' },
-				{ tech: 'javascript', icon: '/icons/js.svg' },
 				{ tech: 'ruby', icon: '/icons/ruby.svg' },
+				{ tech: 'react', icon: '/icons/react.svg' },
+				{ tech: 'typescript', icon: '/icons/ts.svg' },
 				{ tech: 'tailwindcss', icon: '/icons/tailwind.svg' },
 				{ tech: 'postgresql', icon: '/icons/postgres.svg' },
 				{ tech: 'redis', icon: '/icons/redis.svg' },
