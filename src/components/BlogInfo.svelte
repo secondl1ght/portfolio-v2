@@ -37,7 +37,7 @@
 		</div>
 	</div>
 	<p class="ibm !leading-normal text-secondary md:text-lg lg:text-xl">
-		A software engineer’s mission to make the world a better place.
+		A software engineer’s mission to make the world a better place through bitcoin.
 	</p>
 	{#if !formComplete}
 		<form
