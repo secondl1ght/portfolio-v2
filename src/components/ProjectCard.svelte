@@ -14,7 +14,7 @@
 	const durationTitle = ['cipherchat', 'btc map'].includes(title) ? 'release' : 'duration';
 </script>
 
-<div class="mt-[8.75rem] w-full bg-gradient-to-r {gradients}">
+<div class="{title === 'cipherchat' ? '' : 'mt-[8.75rem]'} w-full bg-gradient-to-r {gradients}">
 	<img
 		src={image}
 		alt={title}
