@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { contributions } from '$lib/store';
+	import { work } from '$lib/store';
 </script>
 
 <div class="mx-auto mt-10 w-3/4 space-y-10 md:mt-20 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
@@ -17,5 +17,5 @@
 	<h3 class="ibm w-full text-2xl !leading-normal text-secondary md:text-3xl lg:w-10/12 lg:text-4xl">
 		a software engineer’s mission to make the world a better place through bitcoin.
 	</h3>
-	<div bind:this={$contributions} id="work" />
+	<div bind:this={$work} id="work" />
 </div>

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import { background, contact, contributions, support } from '$lib/store';
+	import { background, contact, contributions, support, work } from '$lib/store';
 	import { scroll } from '$lib/utils';
 
 	let showMenu = false;
@@ -21,8 +21,10 @@
 	class="jakarta sticky top-0 z-10 hidden h-20 w-full items-center justify-center bg-primary/90 lg:flex"
 >
 	<nav class="space-x-16 text-xl text-white lg:text-2xl">
-		<button class="hover:text-hover" on:click={() => handleButtonClick('work', $contributions)}
-			>work</button
+		<button class="hover:text-hover" on:click={() => handleButtonClick('work', $work)}>work</button>
+		<button
+			class="hover:text-hover"
+			on:click={() => handleButtonClick('contributions', $contributions)}>contributions</button
 		>
 		<button class="hover:text-hover" on:click={() => handleButtonClick('background', $background)}
 			>background</button
@@ -52,14 +54,17 @@
 		/>
 	</button>
 	<nav
-		class="hide-scroll absolute top-0 flex h-[100dvh] w-full justify-end overflow-y-auto bg-primary text-3xl text-white transition-all ease-in-out {showMenu
+		class="absolute top-0 flex h-[100dvh] w-full justify-end overflow-y-auto bg-primary text-3xl text-white transition-all ease-in-out {showMenu
 			? 'left-0'
 			: 'left-[-100%]'}"
 	>
 		<div class="mr-10 mt-28 space-y-16">
+			<button class="block hover:text-hover" on:click={() => handleButtonClick('work', $work)}
+				>work</button
+			>
 			<button
 				class="block hover:text-hover"
-				on:click={() => handleButtonClick('work', $contributions)}>work</button
+				on:click={() => handleButtonClick('contributions', $contributions)}>contributions</button
 			>
 			<button
 				class="block hover:text-hover"

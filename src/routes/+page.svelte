@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import { Background, Contact, Contributions, Footer, Hero, Support } from '$lib/comp';
+	import { Background, Contact, Contributions, Footer, Hero, Support, Work } from '$lib/comp';
 	import { tick } from 'svelte';
 
 	const clearHash = async () => {
@@ -26,6 +26,7 @@
 
 <!-- <Banner /> -->
 <Hero />
+<Work />
 <Contributions />
 <Background />
 <Contact />

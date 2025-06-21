@@ -10,6 +10,8 @@
 	export let duration: string;
 	export let tech: { tech: string; icon: string }[];
 	export let appearances: { url: string; image: string; alt: string }[] | undefined = undefined;
+
+	const durationTitle = ['cipherchat', 'btc map'].includes(title) ? 'release' : 'duration';
 </script>
 
 <div class="mt-[8.75rem] w-full bg-gradient-to-r {gradients}">
@@ -45,7 +47,7 @@
 		<div class="block lg:hidden">
 			<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">role</h4>
 			<p class="ibm mb-10 text-secondary md:text-lg lg:text-xl">{role}</p>
-			<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">duration</h4>
+			<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">{durationTitle}</h4>
 			<p class="ibm mb-10 text-secondary md:text-lg lg:text-xl">{duration}</p>
 		</div>
 		<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">tech stack</h4>
@@ -59,7 +61,7 @@
 	<div class="hidden w-1/3 lg:block">
 		<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">role</h4>
 		<p class="ibm mb-10 text-secondary md:text-lg lg:text-xl">{role}</p>
-		<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">duration</h4>
+		<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">{durationTitle}</h4>
 		<p class="ibm mb-10 text-secondary md:text-lg lg:text-xl">{duration}</p>
 	</div>
 </div>

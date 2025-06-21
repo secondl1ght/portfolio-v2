@@ -27,7 +27,8 @@
 		as a team member of many innovative startups i played a key role in taking features through the full
 		development cycle and shipping high-quality, pixel-perfect, user-facing products to production.
 		<br /><br />
-		all of my code is open source and can be verified on github. this is my proof of work.
+		as much of my code as possible is open source and can be verified on github — this is my proof of
+		work.
 		<br /><br />
 		i'd like to thank everyone who has helped me along this incredible journey so far, i've met many
 		kind and generous people along the way.

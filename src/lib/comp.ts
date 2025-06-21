@@ -14,3 +14,4 @@ export { default as Hero } from '../components/Hero.svelte';
 export { default as ProjectCard } from '../components/ProjectCard.svelte';
 export { default as Support } from '../components/Support.svelte';
 export { default as Tech } from '../components/Tech.svelte';
+export { default as Work } from '../components/Work.svelte';
