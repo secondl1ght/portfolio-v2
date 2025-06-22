@@ -62,7 +62,7 @@
 
 <div class="mx-auto mt-[8.75rem] w-3/4 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
 	<h2
-		class="jakarta mb-16 text-4xl text-white underline decoration-[#F6D365] decoration-dashed decoration-8 underline-offset-8 md:text-5xl lg:text-6xl"
+		class="jakarta mb-16 text-4xl text-white underline decoration-[#A3C6FD] decoration-dashed decoration-8 underline-offset-8 md:text-5xl lg:text-6xl"
 	>
 		contributions
 	</h2>

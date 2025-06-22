@@ -33,13 +33,18 @@
 					class="jakarta text-4xl text-white hover:text-hover md:text-5xl lg:text-6xl">{title}</a
 				>
 			</h3>
-			<div class="mt-5 inline-block bg-shadow p-4 hover:shadow-lg md:mt-0 md:block">
+			<a
+				href={url}
+				target="_blank"
+				rel="noreferrer"
+				class="mt-5 inline-block bg-shadow p-4 hover:shadow-lg md:mt-0 md:block"
+			>
 				<img
 					src="/images/{title.replace(' ', '')}{title === 'cipherchat' ? '.png' : '.jpg'}"
 					alt="avatar"
 					class="h-8 w-8 rounded md:h-10 md:w-10 lg:h-12 lg:w-12"
 				/>
-			</div>
+			</a>
 		</div>
 		<p class="ibm mb-10 mt-8 w-full !leading-normal text-secondary md:w-2/3 md:text-lg lg:text-xl">
 			{description}
