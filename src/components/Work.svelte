@@ -63,17 +63,15 @@
 		<div class="w-full overflow-x-auto transition-all duration-500 ease-in-out hover:saturate-200">
 			<img
 				src="https://gh-contributions-7debee29ca94.herokuapp.com/9A6FF1/secondl1ght"
-				alt="github contributions - 1yr"
-				title="github contributions - 1yr"
+				alt="github activity - 1yr"
+				title="github activity - 1yr"
 				class="w-full min-w-96"
 				fetchpriority="high"
 				loading="eager"
 				decoding="sync"
 			/>
 		</div>
-		<figcaption class="ibm text-right text-xs text-secondary">
-			github contributions - 1yr
-		</figcaption>
+		<figcaption class="ibm text-right text-xs text-secondary">github activity - 1yr</figcaption>
 	</figure>
 	{#each mainProjects as project}
 		<ProjectCard
