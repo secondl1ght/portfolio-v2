@@ -40,7 +40,9 @@
 				class="mt-5 inline-block bg-shadow p-4 hover:shadow-lg md:mt-0 md:block"
 			>
 				<img
-					src="/images/{title.replace(' ', '')}{title === 'cipherchat' ? '.png' : '.jpg'}"
+					src="/images/{title.replace(' ', '')}{['cipherchat', 'synonym'].includes(title)
+						? '.png'
+						: '.jpg'}"
 					alt="avatar"
 					class="h-8 w-8 rounded md:h-10 md:w-10 lg:h-12 lg:w-12"
 				/>
@@ -55,7 +57,9 @@
 			<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">{durationTitle}</h4>
 			<p class="ibm mb-10 text-secondary md:text-lg lg:text-xl">{duration}</p>
 		</div>
-		<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">tech stack</h4>
+		<h4 class="jakarta mb-5 text-lg text-white md:text-xl lg:text-2xl">
+			tech stack {#if title === 'synonym'}<span class="ibm text-secondary">(pubky)</span>{/if}
+		</h4>
 		<div class="flex flex-wrap gap-5">
 			{#each tech as tech}
 				<Tech tech={tech.tech} icon={tech.icon} />

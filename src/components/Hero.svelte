@@ -3,8 +3,16 @@
 </script>
 
 <div class="mx-auto mt-10 w-3/4 space-y-10 md:mt-20 lg:w-2/3 xl:w-7/12 2xl:w-1/2">
+	<img
+		src="/images/avatar.png"
+		class="h-32 w-32 rounded-full bg-[#9A6FF1]"
+		alt="avatar"
+		fetchpriority="high"
+		loading="eager"
+		decoding="sync"
+	/>
 	<h4
-		class="ibm mb-4 text-xl text-secondary underline decoration-[#9A6FF1] decoration-dashed decoration-4 underline-offset-4 md:text-2xl lg:text-3xl"
+		class="ibm !my-4 text-xl text-secondary underline decoration-[#9A6FF1] decoration-dashed decoration-4 underline-offset-4 md:text-2xl lg:text-3xl"
 	>
 		secondl1ght
 	</h4>

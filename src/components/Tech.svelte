@@ -11,10 +11,18 @@
 	>
 		{tech}
 	</p>
-	<img
-		src={icon}
-		alt={tech}
-		loading="lazy"
-		class="z-0 h-8 w-8 transition-all group-hover:blur-sm md:h-10 md:w-10 lg:h-12 lg:w-12"
-	/>
+	{#if tech === 'zustand'}
+		<p
+			class="z-0 flex h-8 w-8 items-center justify-center transition-all group-hover:blur-sm md:h-10 md:w-10 lg:h-12 lg:w-12"
+		>
+			<span class="text-[24px] md:text-[32px] lg:text-[40px]">{icon}</span>
+		</p>
+	{:else}
+		<img
+			src={icon}
+			alt={tech}
+			loading="lazy"
+			class="z-0 h-8 w-8 transition-all group-hover:blur-sm md:h-10 md:w-10 lg:h-12 lg:w-12"
+		/>
+	{/if}
 </div>

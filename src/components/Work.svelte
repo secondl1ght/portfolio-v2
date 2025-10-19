@@ -4,13 +4,32 @@
 
 	const mainProjects = [
 		{
+			gradients: 'from-[#FF6600] via-[#C93250] to-[#CA488C]',
+			image: '/images/the-atomic-economy.webp',
+			url: 'https://synonym.to/',
+			title: 'synonym',
+			description: "building the atomic economy, the world's first free-market society.",
+			role: 'react/next.js engineer',
+			duration: 'nov 2025 – present',
+			tech: [
+				{ tech: 'react', icon: '/icons/react.svg' },
+				{ tech: 'next.js', icon: '/icons/nextjs.svg' },
+				{ tech: 'typescript', icon: '/icons/ts.svg' },
+				{ tech: 'tailwindcss', icon: '/icons/tailwind.svg' },
+				{ tech: 'pubky core', icon: '/icons/pubky.svg' },
+				{ tech: 'dexie.js', icon: '/icons/dexie.png' },
+				{ tech: 'zustand', icon: '🐻' },
+				{ tech: 'node.js', icon: '/icons/node.svg' }
+			]
+		},
+		{
 			gradients: 'from-[#7928CA] to-[#FF0080]',
 			image: '/images/magma.webp',
 			url: 'https://amboss.tech/',
 			title: 'amboss',
 			description: 'lightning network tools and insights that give node operators an edge.',
 			role: 'senior front-end & quality-assurance engineer',
-			duration: 'feb 2023 – present',
+			duration: 'feb 2023 – oct 2025',
 			tech: [
 				{ tech: 'next.js', icon: '/icons/nextjs.svg' },
 				{ tech: 'react', icon: '/icons/react.svg' },
