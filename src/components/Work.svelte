@@ -19,7 +19,8 @@
 				{ tech: 'pubky core', icon: '/icons/pubky.svg' },
 				{ tech: 'dexie.js', icon: '/icons/dexie.png' },
 				{ tech: 'zustand', icon: '🐻' },
-				{ tech: 'node.js', icon: '/icons/node.svg' }
+				{ tech: 'node.js', icon: '/icons/node.svg' },
+				{ tech: 'vitest', icon: '/icons/vitest.png' }
 			]
 		},
 		{
